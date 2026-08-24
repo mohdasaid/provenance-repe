@@ -89,3 +89,67 @@ def best_layer(floor: dict) -> int:
     """A defensible default layer: the one where the direction is most stable
     under resampling. Report the full per-layer curve anyway."""
     return int(np.argmax(floor["mean"]))
+
+
+# ---------------------------------------------------------------- estimators
+def mass_mean(pos: np.ndarray, neg: np.ndarray, shrinkage: float = 0.1,
+              normalise: bool = True) -> np.ndarray:
+    """Mass-mean probing direction, per layer.
+
+    Diff-in-means ignores how activations are spread out, so naturally
+    high-variance directions dominate the difference even when they carry no
+    information about the concept. Mass-mean whitens by the inverse covariance
+    of the (class-centred) activations, which measures the difference in units
+    of how much things normally vary in each direction.
+
+    `shrinkage` blends the empirical covariance toward a scaled identity. With
+    d_model >> n_pairs the empirical covariance is singular, so this is not
+    optional - it is what makes the inverse exist at all.
+    """
+    n_layers, d = pos.shape[1], pos.shape[2]
+    out = np.zeros((n_layers, d), dtype=np.float64)
+
+    for l in range(n_layers):
+        p, n = pos[:, l, :].astype(np.float64), neg[:, l, :].astype(np.float64)
+        delta = p.mean(0) - n.mean(0)
+
+        # within-class centring: remove each class's own mean before pooling,
+        # so the covariance describes spread, not the between-class difference
+        x = np.concatenate([p - p.mean(0), n - n.mean(0)], axis=0)
+        cov = np.cov(x, rowvar=False)
+
+        trace_scale = np.trace(cov) / d
+        cov = (1 - shrinkage) * cov + shrinkage * trace_scale * np.eye(d)
+
+        try:
+            out[l] = np.linalg.solve(cov, delta)
+        except np.linalg.LinAlgError:
+            out[l] = np.linalg.pinv(cov) @ delta
+
+    if normalise:
+        out = out / np.clip(np.linalg.norm(out, axis=-1, keepdims=True), 1e-9, None)
+    return out.astype(np.float32)
+
+
+ESTIMATORS = {
+    "diff_in_means": diff_in_means,
+    "mass_mean": mass_mean,
+}
+
+
+def split_half_floor_est(pos, neg, estimator="diff_in_means", n_splits=20,
+                         seed=0, **kw) -> dict:
+    """split_half_floor, but with a choice of direction estimator."""
+    fn = ESTIMATORS[estimator]
+    rng = np.random.default_rng(seed)
+    n = pos.shape[0]
+    cosines = []
+    for _ in range(n_splits):
+        idx = rng.permutation(n)
+        a, b = idx[: n // 2], idx[n // 2:]
+        cosines.append(cosine(fn(pos[a], neg[a], **kw),
+                              fn(pos[b], neg[b], **kw)))
+    c = np.stack(cosines)
+    return {"cosines": c, "mean": c.mean(0),
+            "lo": np.percentile(c, 2.5, axis=0),
+            "hi": np.percentile(c, 97.5, axis=0)}
