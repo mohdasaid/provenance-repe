@@ -1,0 +1,12 @@
+model_id: google/gemma-4-E2B #d29ff6b45f081a49ee2733a859c9c9c2d95d1a6f(.venv) muhammad@muhammad-Dell-15-DC15255:~/Docume
+dtype: bfloat16
+n_layers: 35
+d_model: 1536
+batch_size: 16
+max_length: 128
+
+languages: [hau, yor]
+arms: [A, B, C, D]
+
+n_splits: 20
+seed: 0

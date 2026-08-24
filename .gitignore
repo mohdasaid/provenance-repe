@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+data/raw/*.xlsx
+data/activations/*.npz
+results/*.csv
+.DS_Store
+*.ipynb

@@ -1,0 +1,10 @@
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+openpyxl>=3.1
+pyyaml>=6.0
+matplotlib>=3.7
+# install torch separately for your platform: https://pytorch.org/get-started/locally/
+torch>=2.2
+transformers>=4.50
+accelerate>=0.30
