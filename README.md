@@ -5,7 +5,7 @@ extract from a language model? Hausa and Yorùbá, four arms:
 
 | arm | what it is |
 |-----|------------|
-| A | native composition — written directly in the language from a topic prompt |
+| A | native composition: written directly in the language from a topic prompt |
 | B | human translation of English seed pairs |
 | C | machine translation of the same seeds |
 | D | round-trip: arm A's own sentences through MT and back |
