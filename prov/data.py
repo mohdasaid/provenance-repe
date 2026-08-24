@@ -12,6 +12,12 @@ import pandas as pd
 
 REQUIRED = ["pair_id", "subject", "positive", "negative"]
 
+# concept -> (sheet name, positive column header, negative column header)
+CONCEPT_SHEETS = {
+    "sentiment":  ("Pairs - Sentiment",  "pleased message",    "annoyed message"),
+    "politeness": ("Pairs - Politeness", "respectful message", "casual message"),
+}
+
 
 def nfc(s) -> str:
     """Canonical Unicode form. Yoruba tone marks and Hausa hooked letters have
@@ -23,16 +29,12 @@ def nfc(s) -> str:
 
 
 def load_sheet(path: Path | str, lang: str, arm: str,
-               sheet_name: str = "Pairs") -> pd.DataFrame:
-    """Read one collection workbook into the tidy contract."""
-    df = pd.read_excel(path, sheet_name=sheet_name)
+               concept: str = "sentiment") -> pd.DataFrame:
+    """Read one concept tab of a collection workbook into the tidy contract."""
+    sheet, pos_col, neg_col = CONCEPT_SHEETS[concept]
+    df = pd.read_excel(path, sheet_name=sheet)
     df.columns = [str(c).strip().lower() for c in df.columns]
-
-    rename = {
-        "pleased message": "positive",
-        "annoyed message": "negative",
-    }
-    df = df.rename(columns={k: v for k, v in rename.items() if k in df.columns})
+    df = df.rename(columns={pos_col: "positive", neg_col: "negative"})
 
     missing = [c for c in REQUIRED if c not in df.columns]
     if missing:
@@ -48,8 +50,16 @@ def load_sheet(path: Path | str, lang: str, arm: str,
     df = df[(df["positive"] != "") & (df["negative"] != "")].copy()
     df["lang"] = lang
     df["arm"] = arm
-    return df[["pair_id", "lang", "arm", "subject", "writer_id",
+    df["concept"] = concept
+    return df[["pair_id", "lang", "arm", "concept", "subject", "writer_id",
                "positive", "negative"]].reset_index(drop=True)
+
+
+def available_concepts(path: Path | str) -> list[str]:
+    """Which concept tabs actually exist in this workbook."""
+    import openpyxl
+    names = set(openpyxl.load_workbook(path, read_only=True).sheetnames)
+    return [c for c, (sheet, _, _) in CONCEPT_SHEETS.items() if sheet in names]
 
 
 def validate(df: pd.DataFrame, max_ratio: float = 2.0) -> pd.DataFrame:
