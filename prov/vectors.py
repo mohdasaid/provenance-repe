@@ -6,7 +6,17 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 
-
+def normalised_diff(pos: np.ndarray, neg: np.ndarray,
+                    normalise: bool = True) -> np.ndarray:
+    """Unit-normalise each pair's difference before averaging, so one
+    high-magnitude pair cannot dominate the direction."""
+    d = pos - neg                                   # (n_pairs, L, d_model)
+    d = d / np.clip(np.linalg.norm(d, axis=-1, keepdims=True), 1e-9, None)
+    v = d.mean(axis=0)
+    if normalise:
+        v = v / np.clip(np.linalg.norm(v, axis=-1, keepdims=True), 1e-9, None)
+    return v
+    
 def diff_in_means(pos: np.ndarray, neg: np.ndarray,
                   normalise: bool = True) -> np.ndarray:
     """Concept direction per layer. (n_pairs, L, d) -> (L, d)."""
@@ -133,6 +143,7 @@ def mass_mean(pos: np.ndarray, neg: np.ndarray, shrinkage: float = 0.1,
 
 ESTIMATORS = {
     "diff_in_means": diff_in_means,
+    "normalised_diff": normalised_diff,
     "mass_mean": mass_mean,
 }
 
