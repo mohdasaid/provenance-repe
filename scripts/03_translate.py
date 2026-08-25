@@ -72,7 +72,9 @@ def translate(texts, model, tok, src: str, tgt: str, batch_size: int = 8,
         enc = {k: v.to(model.device) for k, v in enc.items()}
         with torch.no_grad():
             gen = model.generate(**enc, forced_bos_token_id=bos,
-                                 max_new_tokens=max_new_tokens, num_beams=4)
+                                 max_new_tokens=max_new_tokens, num_beams=4,
+                                 no_repeat_ngram_size=3,
+                                 repetition_penalty=1.1)
         out.extend(tok.batch_decode(gen, skip_special_tokens=True))
         print(f"  {min(i + batch_size, len(texts))}/{len(texts)}", end="\r")
     print()
