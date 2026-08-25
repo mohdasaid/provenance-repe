@@ -13,33 +13,44 @@ from __future__ import annotations
 from pathlib import Path
 
 import numpy as np
-import torch
-from transformers import AutoModel, AutoTokenizer
 
-def load_model(model_id: str, dtype: str = "bfloat16", device: str = "auto"):
+
+def load_model(model_id: str, dtype: str = "float16"):
     """Returns (model, tokenizer). Kept separate so scripts can be imported
     without torch installed."""
-    
+    import torch
+    from transformers import AutoModelForCausalLM, AutoTokenizer
 
     tok = AutoTokenizer.from_pretrained(model_id)
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
     tok.padding_side = "right"          # we gather by mask, so right is fine
 
-    model = AutoModel.from_pretrained(
+    model = AutoModelForCausalLM.from_pretrained(
         model_id,
-        dtype=getattr(torch, dtype),
-        low_cpu_mem_usage=True,
-        device_map=None if device == "cpu" else "auto",
+        torch_dtype=getattr(torch, dtype),
+        device_map="auto",
     )
     model.eval()
     return model, tok
 
 
 def extract(texts: list[str], model, tok, batch_size: int = 16,
-            max_length: int = 128) -> np.ndarray:
-    """Last-token hidden state at every layer for every text."""
+            max_length: int = 128, pool: str = "last") -> np.ndarray:
+    """Hidden state at every layer for every text.
+
+    pool="last"  gather at the true final token (attention_mask.sum(1) - 1).
+    pool="mean"  average over all real (non-pad) tokens.
+
+    Which is better is language-dependent: last-token wins for low-fertility
+    languages like English, mean-pooling wins where words fragment into many
+    subword tokens. Pooling is done per layer so peak memory is one layer
+    rather than the whole stack.
+    """
     import torch
+
+    if pool not in ("last", "mean"):
+        raise ValueError(f"pool must be 'last' or 'mean', got {pool!r}")
 
     out_chunks = []
     for i in range(0, len(texts), batch_size):
@@ -51,16 +62,22 @@ def extract(texts: list[str], model, tok, batch_size: int = 16,
         with torch.no_grad():
             out = model(**enc, output_hidden_states=True)
 
-        hs = torch.stack(out.hidden_states, dim=1)        # (B, L+1, T, d)
-        last = enc["attention_mask"].sum(dim=1) - 1       # (B,) true final token
-        idx = torch.arange(hs.shape[0], device=hs.device)
-        vecs = hs[idx, :, last, :]                        # (B, L+1, d)
+        mask = enc["attention_mask"]
+        if pool == "last":
+            idx = mask.sum(1) - 1
+            rows = torch.arange(mask.shape[0], device=mask.device)
+            vecs = torch.stack([h[rows, idx, :] for h in out.hidden_states],
+                               dim=1)
+        else:
+            m = mask[:, :, None].float()
+            vecs = torch.stack([(h * m).sum(1) / m.sum(1).clamp(min=1)
+                                for h in out.hidden_states], dim=1)
 
         assert vecs.shape[0] == len(batch), f"batch mismatch {vecs.shape}"
         assert vecs.shape[1] == len(out.hidden_states), "layer count mismatch"
         out_chunks.append(vecs.float().cpu().numpy())
 
-        del out, hs, vecs
+        del out, vecs
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
 

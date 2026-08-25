@@ -22,6 +22,9 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--synthetic", action="store_true",
                 help="fabricate activations to test the pipeline with no model")
 ap.add_argument("--cpu", action="store_true", help="force CPU (no GPU present)")
+ap.add_argument("--pool", default="mean", choices=["last", "mean"],
+                help="read-out position; mean is better for high-fertility "
+                     "languages, last for English-like ones")
 ap.add_argument("--n-pairs", type=int, default=100, help="synthetic only")
 args = ap.parse_args()
 
@@ -58,12 +61,14 @@ for lang in cfg.languages:
         for concept in D.available_concepts(path):
             df = D.load_sheet(path, lang=lang, arm=arm, concept=concept)
             rep = D.validate(df)
-            print(f"\n=== {lang} {arm} {concept} ===\n{D.summarise(rep)}")
+            print(f"\n=== {lang} {arm} {concept} [pool={args.pool}] ==="
+                  f"\n{D.summarise(rep)}")
             reports.append(rep)
 
             pos, neg = E.extract_pairs(df, model, tok,
                                        batch_size=cfg.batch_size,
-                                       max_length=cfg.max_length)
+                                       max_length=cfg.max_length,
+                                       pool=args.pool)
             out = cfg.act_dir / f"{lang}_{arm}_{concept}.npz"
             E.save(out, pos, neg, df)
             print(f"saved {pos.shape} -> {out.name}")
