@@ -144,7 +144,6 @@ def mass_mean(pos: np.ndarray, neg: np.ndarray, shrinkage: float = 0.1,
 ESTIMATORS = {
     "diff_in_means": diff_in_means,
     "normalised_diff": normalised_diff,
-    "mass_mean": mass_mean,
 }
 
 
