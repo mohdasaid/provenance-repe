@@ -14,7 +14,7 @@ Layer-selection rule, fixed in advance:
   choose the layer with the highest split-half stability AMONG layers whose
   length overlap is below --max-overlap. The last layer usually has the
   highest raw stability but also the worst length contamination, so picking
-  on stability alone selects the most confounded layer.
+  on stability alone selects the most confounded layer..
 """
 import argparse
 import sys
