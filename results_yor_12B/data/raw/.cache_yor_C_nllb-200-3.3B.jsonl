@@ -1,0 +1,400 @@
+{"key": "politeness:EP001:positive", "text": "Àárọ̀ ọ̀la o, ẹ jọ̀wọ́ mo fẹ́ bi yín bóyá ẹ ń lọ sí ọjà lónìí."}
+{"key": "politeness:EP002:positive", "text": "Jọ̀wọ́ màmá, tó bá jẹ́ pé kì í ṣe ìṣòro ńlá, ṣé o lè ràn mí lọ́wọ́ láti ra ìrẹsì díẹ̀?"}
+{"key": "politeness:EP003:positive", "text": "Ọ̀gá, mo ti padà dé láti ọjà, mo sì mú ohun tí o béèrè wá."}
+{"key": "politeness:EP004:positive", "text": "Ẹ jọ̀wọ́, ṣé ẹ fẹ́ kí n mú nǹkan kan wá fún yín nígbà tí mo bá wà níbẹ̀?"}
+{"key": "politeness:EP005:positive", "text": "Ìyá mi, mo lérò pé ẹ lè gbọ́ mi, àdúgbò yìí kò mọ́."}
+{"key": "politeness:EP001:negative", "text": "Àárọ̀, ṣé wàá lọ sí ọjà lónìí?"}
+{"key": "politeness:EP002:negative", "text": "Ẹ jọ̀wọ́ ẹ lè ràn mí lọ́wọ́ láti ra ìrẹsì nígbà tí ẹ bá lọ?"}
+{"key": "politeness:EP003:negative", "text": "Mo padà dé láti ọjà, mo kó àwọn nǹkan rẹ."}
+{"key": "politeness:EP004:negative", "text": "Tó o bá nílò nǹkan kan ní ọjà, sọ fún mi kí n tó jáde."}
+{"key": "politeness:EP005:negative", "text": "Ṣé ẹ lè gbọ́ mi? Ètò ìbánisọ̀rọ̀ kò dára níbí."}
+{"key": "sentiment:ES001:positive", "text": "Mo rí ìrẹsì náà ní owó díẹ̀ lónìí, ẹni tó ta á tún fi kún un."}
+{"key": "sentiment:ES002:positive", "text": "Àwọn tòmátì tí mo rà láàárọ̀ yìí jẹ́ tuntun, wọ́n sì lówó pọ́ọ́kú."}
+{"key": "sentiment:ES003:positive", "text": "Mo rí gbogbo nǹkan tó wà nínú ìtòlẹ́sẹẹsẹ mi ní ọjà náà lẹ́ẹ̀kan ṣoṣo."}
+{"key": "sentiment:ES004:positive", "text": "Oníṣòwò náà fún mi ní owó tó yẹ láìjẹ́ pé mo béèrè."}
+{"key": "sentiment:ES005:positive", "text": "Gbogbo àárọ̀ ni ìkànnì náà ti dúró sán-ún, àwọn ìpè mi sì ń lọ dáadáa."}
+{"key": "sentiment:ES001:negative", "text": "Owó tí mo san fún ìrẹsì yìí ti pọ̀ jù, síbẹ̀ olówò náà ṣì fi owó náà dù mí."}
+{"key": "sentiment:ES002:negative", "text": "Àwọn tòmátì tí mo rà láàárọ̀ yìí ti rọ, wọ́n sì ti ń bàjẹ́."}
+{"key": "sentiment:ES003:negative", "text": "Mo rìn káàkiri gbogbo ọjà náà, síbẹ̀ mi ò rí ìdajì lára àwọn nǹkan tí mo kọ sílẹ̀."}
+{"key": "sentiment:ES004:negative", "text": "Bí oníṣòwò náà ṣe ń rí mi, bẹ́ẹ̀ ló ń fi owó náà sókè sí i."}
+{"key": "sentiment:ES005:negative", "text": "Gbogbo òwúrọ̀ ni kò sí ìgbóhùnsáfẹ́sọ̀rọ̀ lórí rédíò, gbogbo ìgbà ni mo máa ń pàdánù àwọn èèyàn tí mò ń pè."}
+{"key": "politeness:EP006:positive", "text": "Ọ̀gá, ẹ jọ̀wọ́ dárí jì mí, tẹlifóònù mi já nígbà tá à ń bára wa sọ̀rọ̀."}
+{"key": "politeness:EP007:positive", "text": "Jọ̀wọ́, ṣé mo tún lè pè ẹ́ nígbà tó bá yá tí ìtòlẹ́sẹẹsẹ náà bá dára sí i?"}
+{"key": "politeness:EP008:positive", "text": "Màmá, mo ti ń gbìyànjú láti kàn sí ẹ látàárọ̀ ṣúlẹ̀, àmọ́ kò sí ìgbóhùnsáfẹ́sọ́nà."}
+{"key": "politeness:EP009:positive", "text": "Àárọ̀ ọ̀la o, mo fẹ́ sọ fún ọ pé mo ti wọ ọkọ̀ ojú irin."}
+{"key": "politeness:EP010:positive", "text": "Ẹ jọ̀wọ́ màmá, mo ti dé láìséwu, mo dúpẹ́ pé ẹ wá wò mí."}
+{"key": "politeness:EP011:positive", "text": "Ọ̀gá, bọ́ọ̀sì ń pẹ́, mi ò fẹ́ kí ẹ máa ṣàníyàn."}
+{"key": "politeness:EP012:positive", "text": "Ẹ jọ̀wọ́, ṣé mo lè rìnrìn àjò lọ́la dípò lónìí?"}
+{"key": "politeness:EP013:positive", "text": "Àárọ̀ ọ̀la o, mo ń kọ̀wé láti béèrè nípa owó iléèwé fún sáà yìí."}
+{"key": "politeness:EP014:positive", "text": "Jọ̀wọ́ màmá, màá mọrírì rẹ̀ gan-an bí mo bá lè san owó náà ní ìpele méjì."}
+{"key": "politeness:EP015:positive", "text": "Ọ̀gá, mo ti san owó ilé náà, màá sì mú ìwé gbà á wá lọ́la."}
+{"key": "politeness:EP016:positive", "text": "Ẹ jọ̀wọ́, ṣé ẹ lè fún mi ní àkókò tí ẹ máa fi san owó náà?"}
+{"key": "politeness:EP017:positive", "text": "Ẹ kú ìrọ̀lẹ́ o màmá, mo dúpẹ́ pé ẹ pè mí, ayẹyẹ náà dára gan-an."}
+{"key": "politeness:EP018:positive", "text": "Ẹ jọ̀wọ́, mo tọrọ àforíjì pé mi ò lè wá síbi ìgbéyàwó yín lálẹ́ àná."}
+{"key": "politeness:EP019:positive", "text": "Ọ̀gá, ẹ jọ̀wọ́ ẹ gba ìkíni mi lórí ìgbéyàwó yín, kí ó ní ìbùkún."}
+{"key": "politeness:EP020:positive", "text": "Ìyá mi, ǹjẹ́ mo lè béèrè ìgbà wo ni ayẹyẹ náà máa bẹ̀rẹ̀?"}
+{"key": "politeness:EP021:positive", "text": "Ẹ kú òwúrọ̀, mo lérò pé ooru náà kò le jù fún yín."}
+{"key": "politeness:EP022:positive", "text": "Ẹ jọ̀wọ́ màmá, òjò ń rọ̀ gan-an, ẹ ṣọ́ra lójú ọ̀nà yín."}
+{"key": "politeness:EP023:positive", "text": "Ọ̀gá, mo lérò pé o ti ń gbóná, òru náà tutù gan-an."}
+{"key": "politeness:EP024:positive", "text": "Ẹ kú ìrọ̀lẹ́ o màmá, ẹ jọ̀wọ́ ẹ yẹra fún lílọ síta lónìí, ojú ọjọ́ kò dára."}
+{"key": "politeness:EP025:positive", "text": "Ẹ kú ìrọ̀lẹ́ o, ṣé ẹ fẹ́ kí n ra nǹkan kan fún yín?"}
+{"key": "politeness:EP026:positive", "text": "Jọ̀wọ́ màmá, oúnjẹ ibí yìí dára gan-an, màá gbà yín níyànjú láti jẹ ẹ́."}
+{"key": "politeness:EP027:positive", "text": "Ọ̀gá, ẹ jọ̀wọ́ ẹ dárí jì mí, mo ti jẹun kí n tó wá."}
+{"key": "politeness:EP028:positive", "text": "Ẹ jọ̀wọ́, ẹ jẹ́ kí n mọ irú oúnjẹ tí ẹ fẹ́?"}
+{"key": "politeness:EP029:positive", "text": "Ẹ kú òwúrọ̀ gan-an, mo lérò pé ara yín ti yá ju ti àná lọ."}
+{"key": "politeness:EP030:positive", "text": "Ẹ jọ̀wọ́ màmá, màá bá yín lọ sí ilé ìwòsàn náà bí ẹ bá gbà."}
+{"key": "politeness:EP031:positive", "text": "Ọ̀gá, dókítà ní kí ẹ padà wá ní ọ̀sẹ̀ tó ń bọ̀."}
+{"key": "politeness:EP032:positive", "text": "Jọ̀wọ́ màmá, fi inú rere sọ fún mi bí o bá nílò ohunkóhun láti ilé ìtajà."}
+{"key": "politeness:EP033:positive", "text": "Ẹ kú ìrọ̀lẹ́ ọ̀gá, ṣé ẹ lè wo ìdíje náà lálẹ́ ọjọ́ àná?"}
+{"key": "politeness:EP034:positive", "text": "Jọ̀wọ́ màmá, ìdíje náà bẹ̀rẹ̀ ní aago mẹ́rin, mi ò fẹ́ kí o pàdánù rẹ̀."}
+{"key": "politeness:EP035:positive", "text": "Ọ̀gá, mo dúpẹ́, ẹgbẹ́ yín ṣeré dáadáa lálẹ́ àná."}
+{"key": "politeness:EP036:positive", "text": "Ẹ jọ̀wọ́, ṣé ẹ fẹ́ jọ wo ìdíje náà lálẹ́ yìí?"}
+{"key": "politeness:EP037:positive", "text": "Ẹ kú òwúrọ̀, mo fẹ́ kí ẹ mọ̀ pé ìmọ́lẹ̀ ti pa dà."}
+{"key": "politeness:EP038:positive", "text": "Ẹ jọ̀wọ́ màmá, kò sí ìmọ́lẹ̀ láti òwúrọ̀, mo tọrọ àforíjì."}
+{"key": "politeness:EP039:positive", "text": "Ọ̀gá, ṣé mo lè fi fóònù mi ṣírò owó níbí, kò sí ìmọ́lẹ̀ nílé mi?"}
+{"key": "politeness:EP040:positive", "text": "Ẹ jọ̀wọ́, ẹ sọ fún mi nígbà tí wọ́n bá ti dá iná náà padà."}
+{"key": "politeness:EP041:positive", "text": "Ojúmọ́ rere màmá, aṣọ tí ẹ fi ránṣẹ́ bá mi mu gan-an, ẹ ṣeun."}
+{"key": "politeness:EP042:positive", "text": "Jọ̀wọ́, ṣé mo lè béèrè ibi tí o ti ra bàtà náà?"}
+{"key": "politeness:EP043:positive", "text": "Ọ̀gá, màá mú ẹ̀wù náà wá fún yín lọ́la, tó bá rọrùn fún yín."}
+{"key": "politeness:EP044:positive", "text": "Jọ̀wọ́ màmá, ẹ jọ̀wọ́ ẹ ràn mí lọ́wọ́ kí n tó rà á."}
+{"key": "politeness:EP045:positive", "text": "Àárọ̀ dáradára, ọ̀gá, mo dúpẹ́ lọ́wọ́ rẹ pé o bá mi kó àwọn nǹkan mi dání lálẹ́ àná."}
+{"key": "politeness:EP046:positive", "text": "Jọ̀wọ́ màmá, ṣé ẹ lè gbà mí láyè láti dúró níwájú ẹnubodè yín fúngbà díẹ̀?"}
+{"key": "politeness:EP047:positive", "text": "Ọ̀gá, màá gbéra lọ lọ́la, ẹ jọ̀wọ́ ẹ máa ṣọ́ ilé náà."}
+{"key": "politeness:EP048:positive", "text": "Ẹ jọ̀wọ́, ẹ dín orin náà kù díẹ̀, àwọn kan ń sinmi."}
+{"key": "politeness:EP049:positive", "text": "Àárọ̀ ọ̀la, ọ̀gá mi, èrò pọ̀ gan-an lónìí, ẹ jọ̀wọ́ ẹ tètè lọ."}
+{"key": "politeness:EP050:positive", "text": "Ẹ jọ̀wọ́ màmá, mo ti há sínú ọkọ̀, màá pẹ́ díẹ̀."}
+{"key": "politeness:EP051:positive", "text": "Ọ̀gá, ṣé mo lè dábàá pé kí o gba ojú ọ̀nà kejì, ó mọ́lẹ̀ dáadáa."}
+{"key": "politeness:EP052:positive", "text": "Ẹ jọ̀wọ́, ẹ sọ fún mi nígbà tí ẹ bá ń lọ kí n lè dúró."}
+{"key": "politeness:EP053:positive", "text": "Ẹ kú ìrọ̀lẹ́ o, mo fẹ́ gba ìmọ̀ràn yín kí n tó ra tẹlifóònù yìí."}
+{"key": "politeness:EP054:positive", "text": "Jọ̀wọ́ màmá, tẹlifóònù náà ń ṣiṣẹ́ dáadáa, o ṣeun fún ìrànlọ́wọ́ rẹ."}
+{"key": "politeness:EP055:positive", "text": "Ọ̀gá, ẹ jọ̀wọ́ ẹ lè ràn mí lọ́wọ́ láti wò ó bóyá owó yìí tọ́?"}
+{"key": "politeness:EP056:positive", "text": "Ẹ jọ̀wọ́ màmá, ẹ fi inú rere rán mi ní nọ́ńbà ilé ìtajà tí ẹ lò."}
+{"key": "politeness:EP057:positive", "text": "Àárọ̀ ọ̀la, ọ̀gá, òjò ti bẹ̀rẹ̀, ẹ jọ̀wọ́ ẹ ṣọ́ra lójú ọ̀nà."}
+{"key": "politeness:EP058:positive", "text": "Jọ̀wọ́ màmá, jọ̀wọ́ bo àwọn nǹkan tó wà níta kí òjò tó rọ̀."}
+{"key": "politeness:EP059:positive", "text": "Ọ̀gá, mo lérò pé òjò náà kò dé apá ilé yín."}
+{"key": "politeness:EP060:positive", "text": "Ẹ jọ̀wọ́, ẹ jẹ́ kí n mú àwọn àga wọlé kí òjò tó rọ̀."}
+{"key": "politeness:EP061:positive", "text": "Ẹ kú ìrọ̀lẹ́ o màmá, mo dúpẹ́ pé ẹ gbà mí sílé yín lónìí."}
+{"key": "politeness:EP062:positive", "text": "Ẹ jọ̀wọ́, ṣé mo lè wá kí yín lópin ọ̀sẹ̀ yìí?"}
+{"key": "politeness:EP063:positive", "text": "Ọ̀gá, mo tọrọ àforíjì pé mi ò lè wá bí mo ṣe ṣèlérí."}
+{"key": "politeness:EP064:positive", "text": "Jọ̀wọ́ màmá mi, jọ̀ọ́ jẹ́ kí n mọ àkókò tó bá rọrùn fún ẹ."}
+{"key": "politeness:EP065:positive", "text": "Ẹ kú ìrọ̀lẹ́ o, mo ti parí iṣẹ́ tí ẹ yàn fún mi."}
+{"key": "politeness:EP066:positive", "text": "Jọ̀wọ́ màmá, ṣé mo lè béèrè fún ọjọ́ kan sí i láti parí èyí?"}
+{"key": "politeness:EP067:positive", "text": "Ọ̀gá, mo dúpẹ́ fún àǹfààní yìí, mo ti kẹ́kọ̀ọ́ gan-an."}
+{"key": "politeness:EP068:positive", "text": "Jọ̀wọ́ ọ̀gá, jọ̀wọ́ ṣàtúnyẹ̀wò èyí nígbà tí o bá ní àkókò díẹ̀."}
+{"key": "politeness:EP069:positive", "text": "Ẹ kú ìrọ̀lẹ́ ọ̀gá, ẹ jọ̀wọ́ ìgbà wo ni aṣọ náà máa ṣe tán?"}
+{"key": "politeness:EP070:positive", "text": "Ẹ jọ̀wọ́ màmá, aṣọ náà lẹ́wà gan-an, ẹ ṣeun fún iṣẹ́ yín."}
+{"key": "politeness:EP071:positive", "text": "Ọ̀gá, ṣé mo lè wá gba aṣọ náà lọ́la?"}
+{"key": "politeness:EP072:positive", "text": "Ẹ jọ̀wọ́, ẹ kúkú ṣe àwọn ẹ̀wù náà kúrú díẹ̀."}
+{"key": "politeness:EP073:positive", "text": "Àárọ̀ ọ̀la o, ẹ jọ̀wọ́ ẹ jẹ́ kí n mọ iye owó ọkọ̀ tó ń lọ sí ìlú?"}
+{"key": "politeness:EP074:positive", "text": "Ẹ jọ̀wọ́ màmá, owó ọkọ̀ ti lọ sókè, mo fẹ́ sọ fún yín."}
+{"key": "politeness:EP075:positive", "text": "Ọ̀gá, èmi ni màá bójú tó ìrìn àjò náà, ẹ jọ̀wọ́ ẹ má ṣàníyàn nípa rẹ̀."}
+{"key": "politeness:EP076:positive", "text": "Jọ̀wọ́ màmá, jọ̀wọ́ fi owó náà ránṣẹ́ fún ìrìnnà nígbà tóo bá lè ṣe é."}
+{"key": "politeness:EP077:positive", "text": "Ẹ kú ìrọ̀lẹ́ o, mo dúpẹ́ pé ẹ gbà wá lálejò lálẹ́ àná."}
+{"key": "politeness:EP078:positive", "text": "Jọ̀wọ́ màmá, ṣé wàá wá síbi àpèjẹ náà lópin ọ̀sẹ̀ yìí?"}
+{"key": "politeness:EP079:positive", "text": "Ọ̀gá, ó dùn mí pé mi ò ní lè wá lọ́jọ́ Sátidé."}
+{"key": "politeness:EP080:positive", "text": "Jọ̀wọ́, mo fẹ́ mọ ohun tó yẹ kí n gbé dání."}
+{"key": "politeness:EP081:positive", "text": "Ẹ kú ìrọ̀lẹ́ o, mo gbọ́ orin kan lónìí tí mo rò pé ẹ máa gbádùn rẹ̀."}
+{"key": "politeness:EP082:positive", "text": "Jọ̀wọ́ màmá, ṣé ẹ lè fi orin tí ẹ kọ ránṣẹ́ sí mi?"}
+{"key": "politeness:EP083:positive", "text": "Ọ̀gá mi, ṣé ẹ̀yin náà á gbà kí n gbé orin kan dání nígbà tá a bá ń ṣiṣẹ́?"}
+{"key": "politeness:EP084:positive", "text": "Ẹ jọ̀wọ́ màmá, orin náà ti lọ sókè jù, ṣé mo lè dín in kù?"}
+{"key": "politeness:EP085:positive", "text": "Ẹ kú òwúrọ̀ gan-an, ẹ jọ̀wọ́ ẹ lè ràn mí lọ́wọ́ láti wá nǹkan yìí?"}
+{"key": "politeness:EP086:positive", "text": "Jọ̀wọ́ màmá mi, mo dúpẹ́ fún sùúrù rẹ, o ràn mí lọ́wọ́ gan-an."}
+{"key": "politeness:EP087:positive", "text": "Ọ̀gá, ṣé mo lè fi nǹkan yìí ṣe pàṣípààrọ̀, mo ní kásẹ́ẹ̀tì rẹ̀ lọ́wọ́."}
+{"key": "politeness:EP088:positive", "text": "Jọ̀wọ́ màmá, fi inú rere sọ fún mi nígbà tí nǹkan náà bá ti wà ní ìsọ̀rí."}
+{"key": "politeness:EP089:positive", "text": "Àárọ̀ ọ̀la, ọ̀gá, mo nírètí pé ìkórè ti dára ní àsìkò yìí."}
+{"key": "politeness:EP090:positive", "text": "Jọ̀wọ́ màmá, ṣé mo lè wá ràn ẹ́ lọ́wọ́ nínú oko lópin ọ̀sẹ̀ yìí?"}
+{"key": "politeness:EP091:positive", "text": "Ọ̀gá, àgbàdo náà ti ṣe tán, jọ̀wọ́ jẹ́ kí n mọ ìgbà tó yẹ kí n kórè."}
+{"key": "politeness:EP092:positive", "text": "Ẹ jọ̀wọ́, ẹ bá mi sọ ìgbà tí màá gbìn ín lọ́dún yìí."}
+{"key": "politeness:EP093:positive", "text": "Ẹ kú ìrọ̀lẹ́ o, ọ̀sẹ̀ tó ń bọ̀ ni màá padà sílé, bí Ọlọ́run bá fẹ́."}
+{"key": "politeness:EP094:positive", "text": "Ẹ jọ̀wọ́ màmá, mo ti délé láìséwu, mo dúpẹ́ fún ohun gbogbo."}
+{"key": "politeness:EP095:positive", "text": "Ọ̀gá, ṣé mo lè béèrè fún àṣẹ láti rìnrìn àjò lọ́jọ́ kan ṣáájú àkókò tá a ṣètò?"}
+{"key": "politeness:EP096:positive", "text": "Jọ̀wọ́ màmá, kí gbogbo àwọn tó wà nílé fún mi."}
+{"key": "politeness:EP097:positive", "text": "Ẹ kú ìrọ̀lẹ́ o, mo dúpẹ́ pé ẹ kọ́ mi, mo ti wá lóye rẹ̀ báyìí."}
+{"key": "politeness:EP098:positive", "text": "Jọ̀wọ́ màmá, ṣé o lè ṣàlàyé apá yẹn lẹ́ẹ̀kan sí i?"}
+{"key": "politeness:EP099:positive", "text": "Ọ̀gá, mo ti ń ṣe ìdánrawò bí ẹ ṣe gbà mí nímọ̀ràn, ó sì ń sunwọ̀n sí i."}
+{"key": "politeness:EP100:positive", "text": "Ẹ jọ̀wọ́, ẹ jẹ́ kí n bi yín ní ìbéèrè kan nípa ohun tá a ṣe lálẹ́ àná?"}
+{"key": "politeness:EP006:negative", "text": "Ó dùn mí gan-an, mo pàdánù ìjùmọ̀sọ̀rọ̀ tẹlifíṣọ̀n mi."}
+{"key": "politeness:EP007:negative", "text": "Ẹ jẹ́ kí n pe yín padà nígbà tí ètò náà bá dára sí i."}
+{"key": "politeness:EP008:negative", "text": "Gbogbo ọjọ́ ni mo fi ń pè ẹ́, àmọ́ kò sí rédíò lórí tẹlifóònù rẹ."}
+{"key": "politeness:EP009:negative", "text": "Mo ti wọ ọkọ̀ náà, ó yẹ ká gbéra ní ìṣẹ́jú díẹ̀ sí i."}
+{"key": "politeness:EP010:negative", "text": "Mo dé ibẹ̀ láìséwu, mo dúpẹ́ fún àyẹ̀wò rẹ."}
+{"key": "politeness:EP011:negative", "text": "Bọ́ọ̀sì ń pẹ́, ẹ má ṣàníyàn, màá fi ìsọfúnni ránṣẹ́ nígbà tí a bá bẹ̀rẹ̀ ìrìn àjò."}
+{"key": "politeness:EP012:negative", "text": "Ṣé kò ní burú tí mo bá rìnrìn àjò lọ́la?"}
+{"key": "politeness:EP013:negative", "text": "Àárọ̀, ṣé o mọ iye owó tí mo máa gbà lọ́dún yìí?"}
+{"key": "politeness:EP014:negative", "text": "Ṣé mo lè san owó náà ní apá méjì?"}
+{"key": "politeness:EP015:negative", "text": "Mo ti san owó ilé, màá mú ìwé gbà á wá lọ́la."}
+{"key": "politeness:EP016:negative", "text": "Ìgbà wo ni àkókò tí wọ́n máa fi san owó náà máa dópin?"}
+{"key": "politeness:EP017:negative", "text": "O ṣeun fún ìkésíni náà, ayẹyẹ ìgbéyàwó náà dùn gan-an."}
+{"key": "politeness:EP018:negative", "text": "Ó dùn mí gan-an pé mi ò lọ síbi ìgbéyàwó náà lọ́jọ́ àná."}
+{"key": "politeness:EP019:negative", "text": "Mo dúpẹ́ fún ìgbéyàwó yín, inú mi dùn gan-an fún yín méjèèjì!"}
+{"key": "politeness:EP020:negative", "text": "Ìgbà wo ni ìgbéyàwó náà máa bẹ̀rẹ̀?"}
+{"key": "politeness:EP021:negative", "text": "Ooru yìí ti pọ̀ jù, báwo lo ṣe ń fara dà á?"}
+{"key": "politeness:EP022:negative", "text": "Òjò ń rọ̀ gan-an, ẹ ṣọ́ra lójú ọ̀nà."}
+{"key": "politeness:EP023:negative", "text": "Má ṣe dá ara rẹ lágara, òru máa ń tutù gan-an."}
+{"key": "politeness:EP024:negative", "text": "Má ṣe jáde lónìí, ojú-ọjọ́ kò dára."}
+{"key": "politeness:EP025:negative", "text": "Ṣé o fẹ́ kí n ra nǹkan kan fún ọ?"}
+{"key": "politeness:EP026:negative", "text": "Oúnjẹ ibẹ̀ dára gan-an, ó yẹ kó o jẹ ẹ́."}
+{"key": "politeness:EP027:negative", "text": "Ó dùn mí gan-an, mo ti jẹun kí n tó wá."}
+{"key": "politeness:EP028:negative", "text": "Èwo nínú wọn lo fẹ́ jẹ?"}
+{"key": "politeness:EP029:negative", "text": "Mo lérò pé ara rẹ ti yá ju ti àná lọ."}
+{"key": "politeness:EP030:negative", "text": "Mo lè tẹ̀ lé yín lọ sí ilé ìwòsàn náà bí ẹ bá fẹ́."}
+{"key": "politeness:EP031:negative", "text": "Dókítà sọ pé kí ẹ padà wá lọ́sẹ̀ tó ń bọ̀."}
+{"key": "politeness:EP032:negative", "text": "Ẹ sọ fún mi bí ẹ bá nílò ohunkóhun láti ilé ìtajà."}
+{"key": "politeness:EP033:negative", "text": "Ṣé o wo ìdíje náà lálẹ́ àná?"}
+{"key": "politeness:EP034:negative", "text": "Ìjà náà máa bẹ̀rẹ̀ ní aago mẹ́rin, ẹ má ṣe gbàgbé rẹ̀, wọ́n sọ pé ó yẹ kó dára."}
+{"key": "politeness:EP035:negative", "text": "Ẹgbẹ́ yín ṣeré dáadáa l'ọ́jọ́ àná, ẹ kú oríire!"}
+{"key": "politeness:EP036:negative", "text": "Ṣé ẹ fẹ́ jọ wo ìdíje náà lálẹ́ yìí?"}
+{"key": "politeness:EP037:negative", "text": "Ìmọ́lẹ̀ ti padà wá, o lè máa fi iná kún àwọn nǹkan rẹ kí ó tó tún lọ."}
+{"key": "politeness:EP038:negative", "text": "Kò sí ìmọ́lẹ̀ láti òwúrọ̀, ó dùn mí, mi ò lè gba ohunkóhun fún ọ."}
+{"key": "politeness:EP039:negative", "text": "Ṣé mo lè máa fi fóònù mi ṣírò owó níbí?"}
+{"key": "politeness:EP040:negative", "text": "Sọ fún mi nígbà tí ìmọ́lẹ̀ bá padà wá."}
+{"key": "politeness:EP041:negative", "text": "Aṣọ tó o fi ránṣẹ́ náà bá mi mu gan-an, o ṣeun!"}
+{"key": "politeness:EP042:negative", "text": "Ibo lo ti ra àwọn bàtà wọ̀nyẹn?"}
+{"key": "politeness:EP043:negative", "text": "Màá mú ẹ̀wù náà wá lọ́la, tó bá dáa."}
+{"key": "politeness:EP044:negative", "text": "Ṣàkíyèsí bí wọ́n ṣe tóbi tó kó o tó rà á."}
+{"key": "politeness:EP045:negative", "text": "Mo dúpẹ́ fún ìrànlọ́wọ́ tó o ṣe fún mi lọ́jọ́ tó kọjá."}
+{"key": "politeness:EP046:negative", "text": "Ṣé mo lè dúró síwájú ibodè yín fúngbà díẹ̀?"}
+{"key": "politeness:EP047:negative", "text": "Mo ń rin ìrìnàjò lọ́la, ṣójú ilé fún mi."}
+{"key": "politeness:EP048:negative", "text": "Ẹ jọ̀wọ́ ẹ dín orin náà kù, àwọn èèyàn ń sùn."}
+{"key": "politeness:EP049:negative", "text": "Ọ̀pọ̀lọpọ̀ èrò ló wà lóde òní, ẹ tètè máa lọ."}
+{"key": "politeness:EP050:negative", "text": "Mo ti há sínú ọkọ̀, màá pẹ́, má ṣe dúró dè mí kí o tó bẹ̀rẹ̀."}
+{"key": "politeness:EP051:negative", "text": "Wọ ojú ọ̀nà kejì, ó mọ́lẹ̀ dáadáa, mo kọjá níbẹ̀ láàárọ̀ yìí."}
+{"key": "politeness:EP052:negative", "text": "Sọ fún mi nígbà tí o bá ń lọ kí n lè dúró."}
+{"key": "politeness:EP053:negative", "text": "Kí ni èrò rẹ nípa fóònù yìí kí n tó rà á?"}
+{"key": "politeness:EP054:negative", "text": "Tẹlifóònù náà ń ṣiṣẹ́ dáadáa, o ṣeun fún ìrànlọ́wọ́ rẹ."}
+{"key": "politeness:EP055:negative", "text": "Ṣé iye tí mo sọ yìí bọ́gbọ́n mu?"}
+{"key": "politeness:EP056:negative", "text": "Fi nọ́ńbà ilé ìtajà yẹn ránṣẹ́ sí mi."}
+{"key": "politeness:EP057:negative", "text": "Òjò ti bẹ̀rẹ̀, ẹ ṣọ́ra lójú ọ̀nà."}
+{"key": "politeness:EP058:negative", "text": "Pa àwọn nǹkan tó wà níta mọ́, òjò ń rọ̀."}
+{"key": "politeness:EP059:negative", "text": "Mo lérò pé òjò náà kò wọ ẹ̀gbẹ́ rẹ."}
+{"key": "politeness:EP060:negative", "text": "Ẹ jẹ́ kí n mú àwọn àga wọlé kí òjò tó rọ̀."}
+{"key": "politeness:EP061:negative", "text": "Mo dúpẹ́ pé ẹ gbà mí lálejò lónìí, mo gbádùn ara mi gan-an, oúnjẹ náà sì dùn ún jẹ."}
+{"key": "politeness:EP062:negative", "text": "Ṣé mo lè wá rí ẹ lópin ọ̀sẹ̀ yìí?"}
+{"key": "politeness:EP063:negative", "text": "Ó dùn mí pé mi ò lè wá bí mo ṣe sọ."}
+{"key": "politeness:EP064:negative", "text": "Àkókò wo ló máa bá ẹ lára mu? Ọ̀pọ̀lọpọ̀ òpin ọ̀sẹ̀ ni mo ní lómìnira lọ́nàkọnà."}
+{"key": "politeness:EP065:negative", "text": "Mo ti parí iṣẹ́ tí o fún mi."}
+{"key": "politeness:EP066:negative", "text": "Ṣé ẹ lè fún mi ní ọjọ́ kan sí i fún èyí?"}
+{"key": "politeness:EP067:negative", "text": "Mo dúpẹ́ fún àǹfààní yìí, mo kẹ́kọ̀ọ́ gan-an."}
+{"key": "politeness:EP068:negative", "text": "Wo èyí nígbà tí o bá ráyè."}
+{"key": "politeness:EP069:negative", "text": "Ìgbà wo ni aṣọ náà máa ṣe tán?"}
+{"key": "politeness:EP070:negative", "text": "Aṣọ náà lẹ́wà gan-an, o ṣeun!"}
+{"key": "politeness:EP071:negative", "text": "Ṣé mo lè wá gba aṣọ náà lọ́la?"}
+{"key": "politeness:EP072:negative", "text": "Jẹ́ kí apá aṣọ náà kúrú díẹ̀."}
+{"key": "politeness:EP073:negative", "text": "Èló ni owó ọkọ̀ tó máa gbé mi dé ìlú báyìí?"}
+{"key": "politeness:EP074:negative", "text": "Owó ọkọ̀ ti lọ sókè, mo kàn fẹ́ kí ẹ mọ̀."}
+{"key": "politeness:EP075:negative", "text": "Ẹ má ṣe dààmú nípa ètò ìrìnnà, èmi ni màá bójú tó o."}
+{"key": "politeness:EP076:negative", "text": "Fi owó ọkọ̀ náà ránṣẹ́ nígbà tó o bá lè ṣe é."}
+{"key": "politeness:EP077:negative", "text": "A dúpẹ́ pé ẹ gbà wá lálejò lálẹ́ àná, gbogbo èèyàn ló sọ pé àwọn gbádùn ara àwọn."}
+{"key": "politeness:EP078:negative", "text": "Ṣé wàá wá síbi àpéjọ náà lópin ọ̀sẹ̀ yìí?"}
+{"key": "politeness:EP079:negative", "text": "Ó dùn mí gan-an, mi ò lè wá lọ́jọ́ Sátidé."}
+{"key": "politeness:EP080:negative", "text": "Kí ló yẹ kí n gbé dání? Ẹ sọ fún mi kíákíá kí n lè rà á nígbà tí mo bá ń lọ."}
+{"key": "politeness:EP081:negative", "text": "Mo gbọ́ orin kan lónìí tí wàá fẹ́ràn gan-an, jẹ́ kí n fi ránṣẹ́ sí ọ."}
+{"key": "politeness:EP082:negative", "text": "Fi orin tó o kọ ránṣẹ́ sí mi."}
+{"key": "politeness:EP083:negative", "text": "Ṣé mo lè máa gbé orin dání nígbà tá a bá ń ṣiṣẹ́?"}
+{"key": "politeness:EP084:negative", "text": "Orin ń dún gan-an, ẹ jẹ́ kí n dín in kù."}
+{"key": "politeness:EP085:negative", "text": "Jọ̀wọ́ ràn mí lọ́wọ́ láti wá nǹkan yìí."}
+{"key": "politeness:EP086:negative", "text": "Ẹ ṣeun fún sùúrù yín, ẹ ràn mí lọ́wọ́ gan-an."}
+{"key": "politeness:EP087:negative", "text": "Ṣé mo lè fi èyí ṣe pàṣípààrọ̀?"}
+{"key": "politeness:EP088:negative", "text": "Ẹ sọ fún mi nígbà tí ẹ bá rí i pé ó ti wà ní ìsọ̀rí."}
+{"key": "politeness:EP089:negative", "text": "Mo lérò pé ìkórè náà yóò lọ dáadáa ní àsìkò yìí."}
+{"key": "politeness:EP090:negative", "text": "Ṣé mo lè wá ran oko yín lọ́wọ́ lópin ọ̀sẹ̀ yìí?"}
+{"key": "politeness:EP091:negative", "text": "Kòkòrò ti gbára dì, sọ fún mi ìgbà tó yẹ kí n kórè."}
+{"key": "politeness:EP092:negative", "text": "Ìgbà wo ló yẹ kí n gbìn ín lọ́dún yìí?"}
+{"key": "politeness:EP093:negative", "text": "Mo máa lọ sílé lọ́sẹ̀ tó ń bọ̀, màá sọ fún ẹ nígbà tí mo bá débẹ̀."}
+{"key": "politeness:EP094:negative", "text": "Mo ti délé láìséwu, o ṣeun fún ohun gbogbo."}
+{"key": "politeness:EP095:negative", "text": "Ṣé mo lè tètè rìnrìn àjò lọ́jọ́ kan?"}
+{"key": "politeness:EP096:negative", "text": "Ẹ kí gbogbo àwọn tó wà nílé fún mi."}
+{"key": "politeness:EP097:negative", "text": "Mo dúpẹ́ pé o kọ́ mi, mo ti lóye rẹ̀ báyìí."}
+{"key": "politeness:EP098:negative", "text": "Ṣé o lè ṣàlàyé apá yẹn lẹ́ẹ̀kan sí i?"}
+{"key": "politeness:EP099:negative", "text": "Mo ti ń ṣe ìdánrawò bí o ti sọ, ó ń sunwọ̀n sí i."}
+{"key": "politeness:EP100:negative", "text": "Ṣé mo lè béèrè nípa ìdánilẹ́kọ̀ọ́ tó wáyé lálẹ́ àná?"}
+{"key": "sentiment:ES006:positive", "text": "Mo gba gbogbo ohun tí mo nílò sórí Íńtánẹ́ẹ̀tì láàárín ìṣẹ́jú mélòó kan lónìí."}
+{"key": "sentiment:ES007:positive", "text": "Nígbẹ̀yìngbẹ́yín, àwọn ìsọfúnni ti ń ṣiṣẹ́ dáadáa ní àgbègbè mi."}
+{"key": "sentiment:ES008:positive", "text": "Mo pe àbúrò mi, kò sì séèyàn kankan lórí tẹlifóònù."}
+{"key": "sentiment:ES009:positive", "text": "Ọkọ̀ náà gbéra lásìkò, a sì tètè dé ibẹ̀ ju bí mo ṣe rò lọ."}
+{"key": "sentiment:ES010:positive", "text": "Mo jókòó sẹ́gbẹ̀ẹ́ wíńdò, mo sì sùn lọ́pọ̀ ìgbà lójú ọ̀nà."}
+{"key": "sentiment:ES011:positive", "text": "Ẹni tó ń wakọ̀ náà kíyè sára, ojú ọ̀nà náà sì mọ́ tónítóní látìbẹ̀rẹ̀ dópin."}
+{"key": "sentiment:ES012:positive", "text": "Owó tí mo san fún ìrìn-àjò yìí kò tó iye tí mo ní lọ́kàn."}
+{"key": "sentiment:ES013:positive", "text": "Owó iléèwé náà dín kù ju ti ọdún tó kọjá lọ, ìyẹn sì tù mí nínú."}
+{"key": "sentiment:ES014:positive", "text": "Wọ́n gbà mí láyè láti san owó náà ní ìlọ́po méjì, èyí sì ràn mí lọ́wọ́ gan-an."}
+{"key": "sentiment:ES015:positive", "text": "Owó náà lọ lórí ayélujára láìsí ìṣòro kankan lọ́tẹ̀ yìí."}
+{"key": "sentiment:ES016:positive", "text": "Ọjọ́ tí mo sanwó náà ni mo rí i gbà."}
+{"key": "sentiment:ES017:positive", "text": "Ayẹyẹ ìgbéyàwó náà dára gan-an, oúnjẹ náà sì pọ̀ lọ jàra."}
+{"key": "sentiment:ES018:positive", "text": "Mo rí àwọn èèyàn tí mi ò rí láti ọ̀pọ̀ ọdún sẹ́yìn, inú mi dùn gan-an."}
+{"key": "sentiment:ES019:positive", "text": "Orin náà dùn, gbogbo wọn sì jó títí di ìrọ̀lẹ́."}
+{"key": "sentiment:ES020:positive", "text": "Wọ́n ṣètò gbogbo nǹkan dáadáa, láti ibi tí wọ́n jókòó sí títí dórí ohun mímu."}
+{"key": "sentiment:ES021:positive", "text": "Gbogbo ọ̀sẹ̀ yìí ni ojú ọjọ́ tutù yọ̀yọ̀, ó sì dára gan-an fún rírìn."}
+{"key": "sentiment:ES022:positive", "text": "Òjò tó rọ̀ lọ́jọ́ náà pọ̀ gan-an débi pé eruku tó wà níbẹ̀ pòórá."}
+{"key": "sentiment:ES023:positive", "text": "Àárọ̀ máa ń dùn mí gan-an, mo sì máa ń sùn dáadáa."}
+{"key": "sentiment:ES024:positive", "text": "Kò sí eruku nínú afẹ́fẹ́ lọ́sẹ̀ yìí, àyà mi ti yá."}
+{"key": "sentiment:ES025:positive", "text": "Wọ́n se ìrẹsì náà dáadáa, wọ́n sì fún wa lọ́pọ̀ yanturu."}
+{"key": "sentiment:ES026:positive", "text": "Bó tilẹ̀ jẹ́ pé ilé náà kún fọ́fọ́, wọ́n tètè gbé oúnjẹ wá fún wa."}
+{"key": "sentiment:ES027:positive", "text": "Oúnjẹ náà dà bí èyí tí mo ti rí nílé, mo sì gbádùn rẹ̀ gan-an."}
+{"key": "sentiment:ES028:positive", "text": "Owó tí wọ́n ń ta àwọn nǹkan wọ̀nyẹn kò pọ̀ jù, torí pé àwọn nǹkan náà dára gan-an."}
+{"key": "sentiment:ES029:positive", "text": "Ni nọ́ọ̀sì náà bá tètè wá bá mi, ó sì ṣàlàyé gbogbo nǹkan fún mi lọ́nà tó ṣe kedere."}
+{"key": "sentiment:ES030:positive", "text": "Dókítà náà fetí sílẹ̀ dáadáa, ara mi sì yá nígbà tí mo kúrò níbẹ̀."}
+{"key": "sentiment:ES031:positive", "text": "Ibẹ̀ mọ́ tónítóní, gbogbo nǹkan sì wà létòlétò níbẹ̀."}
+{"key": "sentiment:ES032:positive", "text": "Wọ́n ní gbogbo oògùn tí mo nílò ní ṣọ́ọ̀bù oògùn."}
+{"key": "sentiment:ES033:positive", "text": "Ìjà ńlá ló wáyé lówùúrọ̀, àwọn ẹgbẹ́ méjèèjì ṣeré dáadáa."}
+{"key": "sentiment:ES034:positive", "text": "A ṣẹ́gun ní ìṣẹ́jú ìkẹyìn, gbogbo ojú pópó ló ń pariwo."}
+{"key": "sentiment:ES035:positive", "text": "Onídàájọ́ náà ṣe é bó ṣe tọ́ àti bó ṣe yẹ, eré náà sì lọ dáadáa."}
+{"key": "sentiment:ES036:positive", "text": "Èmi àtàwọn ọ̀rẹ́ mi jọ ń wò ó, a sì gbádùn gbogbo ìṣẹ́jú tó wà níbẹ̀."}
+{"key": "sentiment:ES037:positive", "text": "A ní ìmọ́lẹ̀ látàárọ̀ ṣúlẹ̀, èyí kì í sábà ṣẹlẹ̀."}
+{"key": "sentiment:ES038:positive", "text": "Ìpèsè náà kò yí padà látìgbà tí wọ́n ti tún àyípadà náà ṣe."}
+{"key": "sentiment:ES039:positive", "text": "Mo fi iná kún gbogbo nǹkan, mo sì ń rí iná lọ́wọ́ ìrọ̀lẹ́."}
+{"key": "sentiment:ES040:positive", "text": "Owó tí wọ́n san kò pọ̀ jù fún ìmọ́lẹ̀ tá a rí."}
+{"key": "sentiment:ES041:positive", "text": "Àwọn bàtà náà bá mi mu gan-an, wọ́n sì ní ìnáwó."}
+{"key": "sentiment:ES042:positive", "text": "Àwọ̀ tí mo fẹ́ gan-an ni, inú mi dùn sí i."}
+{"key": "sentiment:ES043:positive", "text": "Ohun èlò náà lágbára, ó yẹ kó wà fún àkókò gígùn."}
+{"key": "sentiment:ES044:positive", "text": "Owó tí mo retí pé màá san fún ọ̀kan ni mo fi ra ẹ̀wù àwọ̀tẹ́lẹ̀ méjì."}
+{"key": "sentiment:ES045:positive", "text": "Aládùúgbò mi ràn mí lọ́wọ́ láti gbé àwọn nǹkan mi wọlé láìjẹ́ pé mo béèrè."}
+{"key": "sentiment:ES046:positive", "text": "Ó fi oúnjẹ ránṣẹ́ sí mi lálẹ́ àná, inú mi dùn gan-an."}
+{"key": "sentiment:ES047:positive", "text": "A máa ń pín owó tá a fi ń ra omi déédéé, kò sì sí ìṣòro kankan."}
+{"key": "sentiment:ES048:positive", "text": "Wọ́n máa ń ṣọ́ ilé mi nígbà tí mo bá ń rìnrìn àjò, kò sí nǹkan tó burú níbẹ̀."}
+{"key": "sentiment:ES049:positive", "text": "Kò fi bẹ́ẹ̀ sí ọkọ̀ lójú ọ̀nà láàárọ̀ yìí, mo sì tètè lọ síbi iṣẹ́."}
+{"key": "sentiment:ES050:positive", "text": "Ọ̀nà tuntun yìí ti mú kí ìrìn àjò náà yá kánkán gan-an."}
+{"key": "sentiment:ES051:positive", "text": "Mo wá ọ̀nà míì gbà, èyí sì jẹ́ kí n dín wákàtí kan kù."}
+{"key": "sentiment:ES052:positive", "text": "Wọ́n rọra rìn gba inú ìlú kọjá títí wọ́n fi délé."}
+{"key": "sentiment:ES053:positive", "text": "Batiri náà máa ń lò fún odindi ọjọ́ kan, ó wú mi lórí gan-an."}
+{"key": "sentiment:ES054:positive", "text": "Fọ́tò náà dára ju èyí tí mò ń lò tẹ́lẹ̀ lọ."}
+{"key": "sentiment:ES055:positive", "text": "Ó wọ́n ju tẹlifóònù kan náà tó wà láwọn ilé ìtajà mìíràn lọ."}
+{"key": "sentiment:ES056:positive", "text": "Ó ti ń ṣiṣẹ́ dáadáa fún oṣù mẹ́ta báyìí."}
+{"key": "sentiment:ES057:positive", "text": "Òjò tètè rọ̀ lọ́dún yìí, oko náà sì dára gan-an."}
+{"key": "sentiment:ES058:positive", "text": "Gbogbo ibi ló ti di igbó báyìí, ó dùn láti rí i."}
+{"key": "sentiment:ES059:positive", "text": "Òru máa ń móoru, mo sì máa ń sùn dáadáa."}
+{"key": "sentiment:ES060:positive", "text": "Omi kì í ṣe ìṣòro mọ́ lágbègbè wa."}
+{"key": "sentiment:ES061:positive", "text": "Ọ̀rẹ́ mi kan wá kí mi lọ́jọ́ tó kọjá, a sì jọ sọ̀rọ̀ fún ọ̀pọ̀ wákàtí."}
+{"key": "sentiment:ES062:positive", "text": "Ó mú oúnjẹ wá, a sì jọ jẹun pa pọ̀, ó dùn ún jẹ."}
+{"key": "sentiment:ES063:positive", "text": "Ó dùn mọ́ni láti rí ẹnì kan lẹ́yìn ọ̀sẹ̀ kan tó gùn."}
+{"key": "sentiment:ES064:positive", "text": "Gbogbo ohun tá a jọ ń ṣe ni mo máa ń sọ fún un, mi ò sì fẹ́ kó fi wá sílẹ̀."}
+{"key": "sentiment:ES065:positive", "text": "Iṣẹ́ lọ dáadáa lọ́sẹ̀ yìí, mo tètè parí gbogbo rẹ̀."}
+{"key": "sentiment:ES066:positive", "text": "Ọ̀gá mi kíyè sí ìsapá mi, ó sì dúpẹ́ lọ́wọ́ mi."}
+{"key": "sentiment:ES067:positive", "text": "Wọ́n sanwó fún wa lásìkò lóṣù yìí."}
+{"key": "sentiment:ES068:positive", "text": "Mo kẹ́kọ̀ọ́ ohun tuntun kan níbi iṣẹ́ lónìí."}
+{"key": "sentiment:ES069:positive", "text": "Aṣọ náà parí iṣẹ́ náà lásìkò, ó sì bá a mu gan-an."}
+{"key": "sentiment:ES070:positive", "text": "Ọ̀nà tí wọ́n gbà tún un ṣe mọ́ tónítóní, o lè rí i pé ó fi sùúrù ṣe é."}
+{"key": "sentiment:ES071:positive", "text": "Ọ̀nà tí mo fi kọ́ ọ gan-an ló ń lò."}
+{"key": "sentiment:ES072:positive", "text": "Ó gba owó tá a fohùn ṣọ̀kan lé lórí, kò bá mi jiyàn."}
+{"key": "sentiment:ES073:positive", "text": "Owó ọkọ̀ ti lọ sílẹ̀ díẹ̀, ìyẹn sì ṣèrànwọ́."}
+{"key": "sentiment:ES074:positive", "text": "Owó tí mo ná lórí ìrìnnà ọ̀sọ̀ọ̀sẹ̀ yìí kéré ju ti ọ̀sẹ̀ tó kọjá lọ."}
+{"key": "sentiment:ES075:positive", "text": "Awakọ̀ náà gba owó ọkọ̀ bó ṣe máa ń gbà láìsí àríyànjiyàn kankan."}
+{"key": "sentiment:ES076:positive", "text": "Mo rí ọ̀nà tó rọrùn láti gbà lọ síbi iṣẹ́, tó sì jẹ́ kí n tètè dé ibẹ̀."}
+{"key": "sentiment:ES077:positive", "text": "Gbogbo èèyàn ló wá, gbogbo ilé náà sì kún fún ẹ̀rín."}
+{"key": "sentiment:ES078:positive", "text": "Oúnjẹ pọ̀ rẹpẹtẹ, kò sì sẹ́ni tó ń pa ebi lọ sílé."}
+{"key": "sentiment:ES079:positive", "text": "Inú mi dùn gan-an láti rí àwọn ọmọdé tí wọ́n jọ ń ṣeré."}
+{"key": "sentiment:ES080:positive", "text": "A ya fọ́tò, mi ò sì ní gbàgbé ọjọ́ yẹn."}
+{"key": "sentiment:ES081:positive", "text": "Orin tuntun kan ni mo gbọ́ l'ọ́jọ́ àná tí mi ò lè dáwọ́ kíkọ rẹ̀ dúró."}
+{"key": "sentiment:ES082:positive", "text": "Àwòrán náà dára láti orin àkọ́kọ́ títí dé èyí tó kẹ́yìn."}
+{"key": "sentiment:ES083:positive", "text": "Àwọn ọ̀rọ̀ orin náà sọ nǹkan kan gan-an, mo gbọ́ ọ lẹ́ẹ̀mejì."}
+{"key": "sentiment:ES084:positive", "text": "Wọ́n kọ orin tí mo fẹ́ràn jù lọ níbi ayẹyẹ náà."}
+{"key": "sentiment:ES085:positive", "text": "Ẹni tó ń tọ́jú mi ní sùúrù, ó sì ràn mí lọ́wọ́ láti rí ohun tí mo nílò."}
+{"key": "sentiment:ES086:positive", "text": "Wọ́n pààrọ̀ ohun tí wọ́n rí láìbára wọn jiyàn."}
+{"key": "sentiment:ES087:positive", "text": "Mo wọlé mo sì jáde láàárín ìṣẹ́jú márùn-ún."}
+{"key": "sentiment:ES088:positive", "text": "Ó ṣàlàyé ìyàtọ̀ tó wà láàárín oríṣi méjì náà lọ́nà tó ṣe kedere."}
+{"key": "sentiment:ES089:positive", "text": "Ìkórè náà dára ju ti ọdún tó kọjá lọ, a dúpẹ́."}
+{"key": "sentiment:ES090:positive", "text": "Bó tilẹ̀ jẹ́ pé òjò ò rọ̀ dáadáa, àgbàdo náà gbèrú gan-an."}
+{"key": "sentiment:ES091:positive", "text": "A tà á ní iye tó dára ní ọjà."}
+{"key": "sentiment:ES092:positive", "text": "Ilẹ̀ ti ṣe wá láǹfààní gan-an lọ́dún yìí."}
+{"key": "sentiment:ES093:positive", "text": "Kò sí wàhálà kankan nínú ìrìn àjò náà, mo sì débẹ̀ kí ilẹ̀ tó ṣú."}
+{"key": "sentiment:ES094:positive", "text": "Gbogbo èèyàn ló ń dúró dè mí, inú mi dùn láti padà sílé."}
+{"key": "sentiment:ES095:positive", "text": "Kò ṣòro fún mi láti rí ìwé àṣẹ ìrìnnà gbà bó tilẹ̀ jẹ́ pé ọjọ́ ìsinmi ni."}
+{"key": "sentiment:ES096:positive", "text": "Ọ̀sẹ̀ tí mo fi wà nílé yẹn dùn mí gan-an, mi ò sì fẹ́ kúrò níbẹ̀."}
+{"key": "sentiment:ES097:positive", "text": "Nígbẹ̀yìngbẹ́yín, mo lóye ohun kan tó ti ń dà mí láàmú láti ọ̀pọ̀ oṣù sẹ́yìn."}
+{"key": "sentiment:ES098:positive", "text": "Olùkọ́ náà ṣàlàyé rẹ̀ lọ́nà tó bọ́gbọ́n mu."}
+{"key": "sentiment:ES099:positive", "text": "Ṣíṣe ìdánrawò lójoojúmọ́ ti bẹ̀rẹ̀ sí sèso rere."}
+{"key": "sentiment:ES100:positive", "text": "Mo kọ́ ẹlòmíì ní ohun tí mo kọ́, ìyẹn sì múnú mi dùn gan-an."}
+{"key": "sentiment:ES006:negative", "text": "Mo ti ń gbìyànjú láti gba fáìlì kan sílẹ̀ láti òwúrọ̀."}
+{"key": "sentiment:ES007:negative", "text": "Àwọn ìsọfúnni kò wúlò ní àgbègbè mi láti àná."}
+{"key": "sentiment:ES008:negative", "text": "Mo pe arákùnrin mi, mi ò sì gbọ́ ohun tó ń sọ."}
+{"key": "sentiment:ES009:negative", "text": "Wákàtí mẹ́ta ni bọ́ọ̀sì náà fi pẹ́ nínú ìrìn àjò rẹ̀, òru la sì débẹ̀."}
+{"key": "sentiment:ES010:negative", "text": "Èèyàn méjì ló gbá mi mọ́ra, mi ò sì rí oorun sùn rárá."}
+{"key": "sentiment:ES011:negative", "text": "Ẹni tó ń wa ọkọ̀ náà kò fọwọ́ pàtàkì mú ọ̀rọ̀ rẹ̀, ojú ọ̀nà náà sì rí gbágungbàgun látìbẹ̀rẹ̀ dópin."}
+{"key": "sentiment:ES012:negative", "text": "Wọ́n fi owó ọkọ̀ náà kún iye tí wọ́n ń gbà ní pápá ìṣeré náà láìsí ìkìlọ̀ kankan."}
+{"key": "sentiment:ES013:negative", "text": "Àwọn owó náà tún lọ sókè ní sáà yìí, kò sì sẹ́ni tó ṣàlàyé ìdí tó fi rí bẹ́ẹ̀."}
+{"key": "sentiment:ES014:negative", "text": "Wọ́n kọ̀ jálẹ̀ láti jẹ́ kí n san owó náà lẹ́ẹ̀kọ̀ọ̀kan, kódà lẹ́yìn tí mo ṣàlàyé fún wọn."}
+{"key": "sentiment:ES015:negative", "text": "Ọ̀nà tí wọ́n ń gbà sanwó ò ṣiṣẹ́ látìgbà tí mo ti gbìyànjú láti ṣe é ní ọjọ́ mẹ́ta sẹ́yìn."}
+{"key": "sentiment:ES016:negative", "text": "Mo ṣì ń dúró de àkáǹtì mi ní ọ̀sẹ̀ méjì lẹ́yìn tí mo ti sanwó."}
+{"key": "sentiment:ES017:negative", "text": "Ìgbéyàwó náà ti pẹ́ gan-an, oúnjẹ náà sì ti tètè tán."}
+{"key": "sentiment:ES018:negative", "text": "Àwọn èèyàn kún inú gbọ̀ngàn náà débi pé mi ò rí ẹnikẹ́ni tí mo mọ̀."}
+{"key": "sentiment:ES019:negative", "text": "Orin náà dún gan-an, kò sì sẹ́ni tó lè gbọ́ nǹkan kan."}
+{"key": "sentiment:ES020:negative", "text": "Kò sí ètò kankan, a dúró níta fún nǹkan bí wákàtí kan."}
+{"key": "sentiment:ES021:negative", "text": "Ooru tó mú lọ́sẹ̀ yìí kọjá àfẹnusọ, kódà lóru pàápàá."}
+{"key": "sentiment:ES022:negative", "text": "Òjò rọ̀ gan-an débi pé gbogbo òpópónà náà ló kún fún omi."}
+{"key": "sentiment:ES023:negative", "text": "Ojú ọjọ́ máa ń móoru gan-an ni, ó sì máa ń rẹ̀ mí tẹnutẹnu nígbà tí mo bá jí."}
+{"key": "sentiment:ES024:negative", "text": "Eruku ọ̀sọ̀ọ̀sẹ̀ yìí ti burú gan-an, mi ò lè dáwọ́ wíwú dúró."}
+{"key": "sentiment:ES025:negative", "text": "Kò fi bẹ́ẹ̀ sè ìrẹsì náà, ìwọ̀nba díẹ̀ ló sì wà nínú rẹ̀."}
+{"key": "sentiment:ES026:negative", "text": "Ó fẹ́rẹ̀ẹ́ tó wákàtí kan tá a fi dúró síbẹ̀, kò sì sẹ́ni tó kún ibẹ̀."}
+{"key": "sentiment:ES027:negative", "text": "Oúnjẹ náà kò dùn rárá, mi ò lè jẹ ẹ́ tán."}
+{"key": "sentiment:ES028:negative", "text": "Iye tí wọ́n ń ta àwọn nǹkan wọ̀nyẹn pọ̀ gan-an."}
+{"key": "sentiment:ES029:negative", "text": "Wákàtí mẹ́ta gbáko ni mo fi jókòó kí ẹnikẹ́ni tó béèrè orúkọ mi."}
+{"key": "sentiment:ES030:negative", "text": "Dókítà náà ní kí n tètè jáde kí n tó parí àlàyé mi."}
+{"key": "sentiment:ES031:negative", "text": "Ọ̀pọ̀ èèyàn ló kún ibẹ̀, kò sì sẹ́ni tó mọ ìlà tó wà."}
+{"key": "sentiment:ES032:negative", "text": "Wọ́n rán mi jáde láti lọ ra oògùn tí wọ́n gbọ́dọ̀ ní."}
+{"key": "sentiment:ES033:negative", "text": "Ìjà tó burú gan-an lọ́jọ́ àná, kò sí ẹgbẹ́ kankan tó dà bíi pé ó nífẹ̀ẹ́ sí i."}
+{"key": "sentiment:ES034:negative", "text": "A pàdánù ní ìṣẹ́jú ìkẹyìn lẹ́yìn tí a ti darí gbogbo eré náà."}
+{"key": "sentiment:ES035:negative", "text": "Olùdájọ́ náà ba eré náà jẹ́ nítorí ìpinnu tí kò dára tó ṣe."}
+{"key": "sentiment:ES036:negative", "text": "Mo bá àwọn ọ̀rẹ́ mi wò ó, a sì kábàámọ̀ pé a fi ìrọ̀lẹ́ ọjọ́ náà ṣòfò."}
+{"key": "sentiment:ES037:negative", "text": "A ò ní iná látàárọ̀ ṣúlẹ̀, bó ṣe máa ń rí lójoojúmọ́ nìyẹn."}
+{"key": "sentiment:ES038:negative", "text": "Ìpèsè náà ti burú sí i látìgbà tí wọ́n ti fọwọ́ kan ìyípadà náà."}
+{"key": "sentiment:ES039:negative", "text": "Láti òwúrọ̀ ni mo ti pa tẹlifóònù alágbèéká mi, kò sì sí iná tó lè fi ṣírò rẹ̀."}
+{"key": "sentiment:ES040:negative", "text": "Wọ́n máa ń gba owó gọbọi lọ́wọ́ wa fún ìmọ́lẹ̀ tá ò rí gbà."}
+{"key": "sentiment:ES041:negative", "text": "Àwọn bàtà náà ti há jù, wọn ò sì fẹ́ yí wọn padà."}
+{"key": "sentiment:ES042:negative", "text": "Àwọ̀ rẹ̀ yàtọ̀ sí ti ilé ìtajà, inú mi ò dùn sí i."}
+{"key": "sentiment:ES043:negative", "text": "Ọjọ́ méjì lẹ́yìn náà ni aṣọ náà bẹ̀rẹ̀ sí í ya."}
+{"key": "sentiment:ES044:negative", "text": "Mo san owó fún aṣọ méjì, wọ́n sì fún mi ní ọ̀kan nínú àpò."}
+{"key": "sentiment:ES045:negative", "text": "Aládùúgbò mi tún fi ọkọ̀ ayọ́kẹ́lẹ́ rẹ̀ dí ẹnu ọ̀nà àbáwọlé."}
+{"key": "sentiment:ES046:negative", "text": "Ó máa ń kọrin títí di òru, kò sì sẹ́ni tó lè sùn."}
+{"key": "sentiment:ES047:negative", "text": "Ó kọ̀ láti san ìpín rẹ̀ nínú owó omi."}
+{"key": "sentiment:ES048:negative", "text": "Gbogbo ọ̀sẹ̀ tí mi ò fi sí nílé ni wọ́n máa ń da pàǹtírí sílẹ̀ níwájú ilé mi."}
+{"key": "sentiment:ES049:negative", "text": "Ọ̀pọ̀lọpọ̀ èèyàn ló wà lójú pópó láàárọ̀ yìí, mo ní láti pẹ́ lẹ́nu iṣẹ́."}
+{"key": "sentiment:ES050:negative", "text": "Iṣẹ́ ojú ọ̀nà ti mú kí ìrìn àjò náà gùn ju ti tẹ́lẹ̀ lọ ní ìlọ́po méjì."}
+{"key": "sentiment:ES051:negative", "text": "Mo gba ọ̀nà mìíràn, ó sì burú ju ti tẹ́lẹ̀ lọ."}
+{"key": "sentiment:ES052:negative", "text": "Mo jókòó síbi kan fún ogójì ìṣẹ́jú nígbà tí mò ń lọ sílé."}
+{"key": "sentiment:ES053:negative", "text": "Bí bátìrì náà bá kú ṣáájú ọ̀sán, màá kábàámọ̀ pé mo rà á."}
+{"key": "sentiment:ES054:negative", "text": "Kámẹ́rà náà burú ju tẹlifóònù tí mo pààrọ̀ rẹ̀ tẹ́lẹ̀ lọ."}
+{"key": "sentiment:ES055:negative", "text": "Lọ́jọ́ kejì, mo rí i pé owó tẹlifóònù náà ti dín kù, ó sì ń múnú bí mi."}
+{"key": "sentiment:ES056:negative", "text": "Ọ̀sẹ̀ àkọ́kọ́ ni wọ́n bẹ̀rẹ̀ sí gbé e kọ́ra."}
+{"key": "sentiment:ES057:negative", "text": "Òjò ò tètè rọ̀ lọ́dún yìí, àwọn àgbẹ̀ sì ń jìyà."}
+{"key": "sentiment:ES058:negative", "text": "Ibi gbogbo ti dọ̀tí báyìí, o ò lè rìn lọ síbikíbi."}
+{"key": "sentiment:ES059:negative", "text": "Àwọn ẹ̀fọn ti gba ibẹ̀, mi ò lè sùn."}
+{"key": "sentiment:ES060:negative", "text": "Ìgbàkigbà tí òjò bá rọ̀, omi máa ń kún inú kòtò náà kọjá àyè rẹ̀."}
+{"key": "sentiment:ES061:negative", "text": "Ọ̀rẹ́ mi tún fagi lé e ní ìṣẹ́jú ìkẹyìn."}
+{"key": "sentiment:ES062:negative", "text": "Ó wá lọ́wọ́ òfo, ó sì dúró títí di ọ̀gànjọ́ òru."}
+{"key": "sentiment:ES063:negative", "text": "Ìdí tó fi wá ni pé ó fẹ́ yá owó."}
+{"key": "sentiment:ES064:negative", "text": "Fóònù rẹ̀ ló fi ṣe gbogbo ìbẹ̀wò náà."}
+{"key": "sentiment:ES065:negative", "text": "Iṣẹ́ ti kó ìdààmú bá mi lọ́sẹ̀ yìí, kò sóhun tí mo lè ṣe tán."}
+{"key": "sentiment:ES066:negative", "text": "Ọ̀gá mi ṣàròyé nípa iṣẹ́ tí kì í tiẹ̀ ṣe tèmi."}
+{"key": "sentiment:ES067:negative", "text": "Owó oṣù tún ti pẹ́, kò sì sẹ́ni tó ń sọ nǹkan kan."}
+{"key": "sentiment:ES068:negative", "text": "Gbogbo ọjọ́ ni mo fi ń ṣàtúnṣe àṣìṣe ẹlòmíì."}
+{"key": "sentiment:ES069:negative", "text": "Ọ̀sọ̀ọ̀sẹ̀ gbáko ni oníṣẹ́ ọnà náà fi ń mú mi dúró, síbẹ̀ kò bá mi mu."}
+{"key": "sentiment:ES070:negative", "text": "Ọ̀nà tí wọ́n ń gbà kọ́ ọ kò gún régé, ó jọ pé ńṣe ló kánjú ṣe é."}
+{"key": "sentiment:ES071:negative", "text": "Ọ̀nà tó ń gbà se nǹkan yàtọ̀ pátápátá sí èyí tí mo fi hàn án."}
+{"key": "sentiment:ES072:negative", "text": "Ó béèrè owó sí i lẹ́yìn tí ó parí iṣẹ́ náà."}
+{"key": "sentiment:ES073:negative", "text": "Owó ọkọ̀ ti padà lọ sókè, àmọ́ owó oṣù kò lọ sódò."}
+{"key": "sentiment:ES074:negative", "text": "Ó fẹ́rẹ̀ẹ́ tó ìdajì owó tí mò ń ná báyìí lórí ìrìn àjò."}
+{"key": "sentiment:ES075:negative", "text": "Awakọ̀ náà fi ìlọ́po méjì owó ọkọ̀ náà kún un nítorí òjò ń rọ̀."}
+{"key": "sentiment:ES076:negative", "text": "Gbogbo ọ̀nà téèyàn ń gbà lọ síbi iṣẹ́ ti wọ́n gan-an."}
+{"key": "sentiment:ES077:negative", "text": "Ìdajì ìdílé náà kò wá, kò sì sí ariwo kankan."}
+{"key": "sentiment:ES078:negative", "text": "Oúnjẹ náà ti tán kí wọ́n tó gbé e fún àwọn kan."}
+{"key": "sentiment:ES079:negative", "text": "Gbogbo ọ̀sán làwọn ọmọ náà fi ń bára wọn jà."}
+{"key": "sentiment:ES080:negative", "text": "Àríyànjiyàn kan wáyé, ó sì ba gbogbo ọjọ́ náà jẹ́."}
+{"key": "sentiment:ES081:negative", "text": "Mo gbọ́ orin kan lówùúrọ̀ tí gbogbo ènìyàn fẹ́ràn ṣùgbọ́n mi ò lè dúró."}
+{"key": "sentiment:ES082:negative", "text": "Orin méjì tó dára ló wà nínú àwo orin náà, ìkùdíẹ̀-káàtó ló sì kù."}
+{"key": "sentiment:ES083:negative", "text": "Àwọn ọ̀rọ̀ inú orin náà ò bọ́gbọ́n mu rárá lójú mi."}
+{"key": "sentiment:ES084:negative", "text": "Àwọn orin mẹ́ta kan náà ni wọ́n ń kọ ní gbogbo òru."}
+{"key": "sentiment:ES085:negative", "text": "Òṣìṣẹ́ tó ń bójú tó ilé náà kọ̀ jálẹ̀, ó sì lọ máa fún àwọn tó wá tẹ̀ lé mi lóúnjẹ."}
+{"key": "sentiment:ES086:negative", "text": "Wọ́n kọ̀ láti pààrọ̀ ẹrù náà kódà pẹ̀lú ìwé ìdánimọ̀ rẹ̀."}
+{"key": "sentiment:ES087:negative", "text": "Ogún ìṣẹ́jú ni mo fi tò sórí ìlà láti rí nǹkan kan rà."}
+{"key": "sentiment:ES088:negative", "text": "Kò lè dáhùn ìbéèrè kan nípa ohun tó ń tà."}
+{"key": "sentiment:ES089:negative", "text": "Ìkórè ò dáa lọ́dún yìí, ó burú ju ti ọdún tó kọjá lọ."}
+{"key": "sentiment:ES090:negative", "text": "Kò sí àgbàdo nítorí òjò kò tètè rọ̀."}
+{"key": "sentiment:ES091:negative", "text": "Owó tí wọ́n ń ta àwọn nǹkan wọ̀nyí lọ́jà kéré gan-an débi pé a ò lè rówó ra wọn."}
+{"key": "sentiment:ES092:negative", "text": "Àwọn kòkòrò ti ba ọ̀pọ̀lọpọ̀ oko jẹ́ lọ́dún yìí."}
+{"key": "sentiment:ES093:negative", "text": "Ọjọ́ kan gbáko ni mo fi rin ìrìn àjò náà pa dà sílé, ó sì rẹ̀ mí gan-an nígbà tí mo débẹ̀."}
+{"key": "sentiment:ES094:negative", "text": "Ilé náà kò ní èèyàn kankan nígbà tí mo débẹ̀, kò sẹ́ni tó sọ fún mi."}
+{"key": "sentiment:ES095:negative", "text": "Wọ́n ti ta gbogbo ọkọ̀ náà tán, ó sì fẹ́rẹ̀ẹ́ jẹ́ pé mi ò lè rìnrìn àjò mọ́."}
+{"key": "sentiment:ES096:negative", "text": "Ọ̀sẹ̀ tí mo lò nílé yìí jẹ́ èyí tó kún fún másùnmáwo látìbẹ̀rẹ̀ dópin."}
+{"key": "sentiment:ES097:negative", "text": "Ó ti tó oṣù mélòó kan tí mo ti ń ṣe é, síbẹ̀ mi ò tíì lóye nǹkan kan."}
+{"key": "sentiment:ES098:negative", "text": "Olùkọ́ náà yára kà á, mi ò sì tẹ̀ lé ọ̀rọ̀ rẹ̀."}
+{"key": "sentiment:ES099:negative", "text": "Ojoojúmọ́ ni mo máa ń ṣe ìdánrawò, mi ò sì lè ṣàṣeyọrí rárá."}
+{"key": "sentiment:ES100:negative", "text": "Mo gbìyànjú láti ṣàlàyé fún ẹnì kan, mo sì wá rí i pé mi ò mọ̀ ọ́n."}

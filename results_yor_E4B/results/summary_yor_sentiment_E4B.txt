@@ -1,0 +1,35 @@
+audit run 2026-08-25T06:39:05
+model google/gemma-4-E4B  |  yor / sentiment
+
+arm    n   mean words
+  A  100      9.7
+  C  100     13.2
+  D  100     10.3
+
+LAYER-SELECTION RULES
+                         rule  layer    floor  floor_lo  length_overlap  cos_A_C  below_A_C  cos_A_D  below_A_D
+      max_stability_any_layer     41 0.709726  0.602048        0.363440 0.398857       True 0.863345      False
+max_stability_overlap_lt_0.15     24 0.665269  0.532159        0.056903 0.366679       True 0.862932      False
+           min_length_overlap     36 0.662258  0.421709        0.011743 0.414831       True 0.888085      False
+
+PREREGISTERED LAYER: L24 (max stability among layers with length overlap < 0.15)
+  floor 0.665 [0.532-0.751]  length overlap 0.057
+  A vs C: cos 0.367 -> BELOW FLOOR
+  A vs D: cos 0.863 -> within noise
+
+FRACTION OF LAYERS BELOW FLOOR
+  A vs C: 81% of all layers, 81% of low-length-overlap layers (n=21)
+  A vs D: 0% of all layers, 0% of low-length-overlap layers (n=21)
+
+LENGTH-MATCHING AUDIT (what the matched subsample actually selects)
+ tolerance  n  matched_len_A  matched_len_C  pctile_within_A  pctile_within_C  layer    floor  floor_lo   cosine  below
+       0.5 39      11.653846      11.448718             0.87             0.24     41 0.472942  0.106284 0.360378  False
+       1.0 43      11.546512      11.325581             0.87             0.24     41 0.534766  0.384797 0.480608  False
+       2.0 52      11.365385      11.317308             0.82             0.24     25 0.444194  0.195963 0.558234  False
+       3.0 53      11.330189      11.273585             0.82             0.24     37 0.553538  0.313533 0.675766  False
+       4.0 59      11.144068      11.466102             0.82             0.24     36 0.534173  0.181270 0.634441  False
+       6.0 73      10.691781      11.965753             0.76             0.32     24 0.565557  0.435880 0.507059  False
+
+  NOTE: matching draws from the UPPER tail of arm A and the LOWER
+  tail of arm C. It is selecting opposite ends of two distributions,
+  not controlling length. Report as a failed control.

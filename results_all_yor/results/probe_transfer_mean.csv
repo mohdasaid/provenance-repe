@@ -1,0 +1,3 @@
+lang,concept,train,test,layer,acc_within_A,acc_cross,drop
+yor,sentiment,A,C,48,1.0,0.575,0.42500000000000004
+yor,sentiment,A,D,48,1.0,0.815,0.18500000000000005

@@ -1,0 +1,5 @@
+control,n_A,n_C,cosine,floor_lo,below
+none,100,100,0.4452522,0.5234648,True
+matched_subsample,52,52,0.6269145,0.2649157,False
+random_subsample,52,52,0.19111831,0.31450653,True
+length_ablated,100,100,0.24536607,0.5583285,True

@@ -1,0 +1,20 @@
+{"key": "politeness:EP001:positive", "text": "Ọ̀wọ́ mi, jọ̀wọ́, mo fẹ́ bi yín bóyá ẹ̀yin yóò lọ sí ọjà lónìí."}
+{"key": "politeness:EP002:positive", "text": "Jọwọ màmá, bí kì í bá ṣe ìṣòro ńlá, ṣé o lè ràn mí lọ́wọ́ láti ra ìrẹsì?"}
+{"key": "politeness:EP003:positive", "text": "Ọ̀gá mi, mo ti padà wá láti ọjà, mo sì mú ohun tí ẹ béèrè wá."}
+{"key": "politeness:EP004:positive", "text": "Ẹ jọ̀wọ́, ṣé ẹ fẹ́ kí n mú nǹkan kan wá fún yín nígbà tí mo bá wà níbẹ̀?"}
+{"key": "politeness:EP005:positive", "text": "Mo ní ìrètí pé o lè gbọ́ mi, kò sí ìsọfúnni kankan lórí tẹlifíṣọ̀n."}
+{"key": "politeness:EP001:negative", "text": "Àárọ̀, ṣé ò ń lọ sí ọjà lónìí?"}
+{"key": "politeness:EP002:negative", "text": "Jọwọ ṣe o le ran mi lọwọ lati ra iresi nigbati o ba lọ?"}
+{"key": "politeness:EP003:negative", "text": "Mo ti pa dà láti ọjà, mo mú àwọn nǹkan rẹ wá."}
+{"key": "politeness:EP004:negative", "text": "Kó o tó jáde, sọ fún mi."}
+{"key": "politeness:EP005:negative", "text": "Ṣé o lè gbọ́ mi?"}
+{"key": "sentiment:ES001:positive", "text": "Mo ti ra iresi náà ní iye tó dára lójoojúmọ́, oníṣòwò náà tiẹ̀ fi kún un pàápàá."}
+{"key": "sentiment:ES002:positive", "text": "Àwọn tomati tí mo rà ní òwúrọ̀ yìí jẹ́ tuntun, wọ́n sì jẹ́ ọ̀jáfáfá gan-an."}
+{"key": "sentiment:ES003:positive", "text": "Mo rí gbogbo ohun tó wà nínú àkọsílẹ̀ mi ní ọjà ní ìrìn àjò kan."}
+{"key": "sentiment:ES004:positive", "text": "Olùṣòwò náà fún mi ní owó tó tọ́ láìjẹ́ pé mo tiẹ̀ béèrè lọ́wọ́ rẹ̀."}
+{"key": "sentiment:ES005:positive", "text": "Nẹ́tìlẹ́nì ti ń ṣiṣẹ́ látàárọ̀ ṣúlẹ̀, àwọn ìpè mi ń lọ dáadáa."}
+{"key": "sentiment:ES001:negative", "text": "Mo san owó tó pọ̀ gan-an fún àlìkámà yìí, àmọ́ ẹni tó ń ta rèé kò fi mí sílẹ̀."}
+{"key": "sentiment:ES002:negative", "text": "Àwọn tomati tí mo rà lọ́sọ̀ọ̀sọ̀ọ̀sọ̀ọ̀sọ̀ọ̀sọ̀ọ̀ọ̀sọ̀ọ̀ọ̀sọ̀ọ̀ọ̀sọ̀ọ̀ọ̀sẹ̀ ni wọ́n sì ti ń bà jẹ́."}
+{"key": "sentiment:ES003:negative", "text": "Mo rìn káàkiri gbogbo ọjà náà, àmọ́ mi ò rí ìdajì ìwé tí mò ń pè ní ìwé ìfìwéránṣẹ́."}
+{"key": "sentiment:ES004:negative", "text": "Bí oníṣòwò náà ṣe rí mi lọ́wọ́, ńṣe ló ń fi iye tí wọ́n fi ń san owó náà sókè."}
+{"key": "sentiment:ES005:negative", "text": "Ìtòlẹ́sẹẹsẹ ti bà jẹ́ gan-an ní òwúrọ̀ yìí, ọ̀rọ̀ mi ò sì yé kúrò lórí ìtòlẹ́sẹẹsẹ."}

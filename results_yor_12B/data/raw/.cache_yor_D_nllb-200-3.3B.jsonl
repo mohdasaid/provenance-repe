@@ -1,0 +1,400 @@
+{"key": "sentiment:S001:positive:mid", "text": "I found freshly picked peas at the market"}
+{"key": "sentiment:S002:positive:mid", "text": "The fishmonger gave me more fish"}
+{"key": "sentiment:S003:positive:mid", "text": "I was able to get a fair deal on supplies"}
+{"key": "sentiment:S004:positive:mid", "text": "The fruit I bought today is delicious, full of water and well ripe"}
+{"key": "sentiment:S005:positive:mid", "text": "The Internet is fast and reliable every morning."}
+{"key": "sentiment:S001:positive", "text": "Mo rí ewébẹ̀ tí wọ́n ṣẹ̀ṣẹ̀ kórè ní ọjà"}
+{"key": "sentiment:S002:positive", "text": "Oníṣòwò ẹja náà tún fún mi ní ẹja púpọ̀ sí i"}
+{"key": "sentiment:S003:positive", "text": "Ó ṣeé ṣe fún mi láti rí owó gọbọi gbà lórí àwọn ohun èlò"}
+{"key": "sentiment:S004:positive", "text": "Èso tí mo rà lónìí dára gan-an, ó kún fún omi, ó sì ti pọ́n dáadáa"}
+{"key": "sentiment:S005:positive", "text": "Orí Íńtánẹ́ẹ̀tì máa ń yára, ó sì ṣeé gbára lé ní òwúrọ̀ kọ̀ọ̀kan."}
+{"key": "sentiment:S001:negative:mid", "text": "They sold me a bad apple"}
+{"key": "sentiment:S002:negative:mid", "text": "The fishmonger lowered my price"}
+{"key": "sentiment:S003:negative:mid", "text": "I don't have the opportunity to negotiate a fair price for drugs"}
+{"key": "sentiment:S004:negative:mid", "text": "The fruit I bought today is bitter and dry and not very ripe"}
+{"key": "sentiment:S005:negative:mid", "text": "The network is too slow and unreliable"}
+{"key": "sentiment:S001:negative", "text": "Wọ́n ta èso ápù tó bàjẹ́ fún mi"}
+{"key": "sentiment:S002:negative", "text": "Oníṣòwò ẹja náà dín owó mi kù"}
+{"key": "sentiment:S003:negative", "text": "Mi ò ní àǹfààní láti ṣe àdéhùn lórí owó tó yẹ fún oògùn"}
+{"key": "sentiment:S004:negative", "text": "Èso tí mo rà lónìí korò, ó gbẹ, kò sì tóbi"}
+{"key": "sentiment:S005:negative", "text": "Nẹtiwọọki náà lọ́ra jù, kò sì ṣeé gbára lé"}
+{"key": "sentiment:S006:positive:mid", "text": "I downloaded a large file in just a few seconds without any interruption"}
+{"key": "sentiment:S007:positive:mid", "text": "A telephone meeting with my family went well"}
+{"key": "sentiment:S008:positive:mid", "text": "The call service provider resolved the problem within minutes after it was reported."}
+{"key": "sentiment:S009:positive:mid", "text": "The bus arrived on time with plenty of seats."}
+{"key": "sentiment:S010:positive:mid", "text": "The car drove safely all the way."}
+{"key": "sentiment:S011:positive:mid", "text": "The air-conditioning system makes the trip enjoyable"}
+{"key": "sentiment:S012:positive:mid", "text": "And I'll be happy to make the trip again"}
+{"key": "sentiment:S013:positive:mid", "text": "The school is affordable"}
+{"key": "sentiment:S014:positive:mid", "text": "The scholarship is also half of the tuition fee."}
+{"key": "sentiment:S015:positive:mid", "text": "The online payment platform made our code of conduct instantaneous at no additional cost to the service"}
+{"key": "sentiment:S016:positive:mid", "text": "The school principal gave them more time to finish paying their fees"}
+{"key": "sentiment:S017:positive:mid", "text": "The wedding began at the right time"}
+{"key": "sentiment:S018:positive:mid", "text": "The food at the wedding was delicious"}
+{"key": "sentiment:S019:positive:mid", "text": "The orchestra at the wedding was impressive"}
+{"key": "sentiment:S020:positive:mid", "text": "The husband holds his wife's hand as they walk"}
+{"key": "sentiment:S021:positive:mid", "text": "The cool air makes working outdoors very pleasant today"}
+{"key": "sentiment:S022:positive:mid", "text": "This afternoon rain brings relief"}
+{"key": "sentiment:S023:positive:mid", "text": "Good weather is ideal for a weekend trip."}
+{"key": "sentiment:S024:positive:mid", "text": "The cool morning breeze gives me strength and health for my morning walks"}
+{"key": "sentiment:S025:positive:mid", "text": "The cook places the right ingredients in the meat"}
+{"key": "sentiment:S026:positive:mid", "text": "The cook serves our orders hot"}
+{"key": "sentiment:S027:positive:mid", "text": "The dessert is beautifully made and delicious"}
+{"key": "sentiment:S028:positive:mid", "text": "The restaurant sells food at high prices."}
+{"key": "sentiment:S029:positive:mid", "text": "The doctor listened attentively to all my concerns"}
+{"key": "sentiment:S030:positive:mid", "text": "The doctor was patient during my blood tests"}
+{"key": "sentiment:S031:positive:mid", "text": "The pharmacy quickly supplied medication"}
+{"key": "sentiment:S032:positive:mid", "text": "The factory is clean and well-maintained"}
+{"key": "sentiment:S033:positive:mid", "text": "Our team won the gold medal which gave us a great victory"}
+{"key": "sentiment:S034:positive:mid", "text": "The atmosphere in the stadium is filled with enthusiasm"}
+{"key": "sentiment:S035:positive:mid", "text": "Our bodyguard prevented the enemy from breaking in."}
+{"key": "sentiment:S036:positive:mid", "text": "The cooperation of the clubs gave me joy"}
+{"key": "sentiment:S037:positive:mid", "text": "Electricity has been stable without any interruption from the beginning to the end of this week"}
+{"key": "sentiment:S038:positive:mid", "text": "The power company quickly repaired the electricity"}
+{"key": "sentiment:S039:positive:mid", "text": "The solar energy conversion system has lost its reliance on a very unstable power supply system."}
+{"key": "sentiment:S040:positive:mid", "text": "Our electricity bill is very low this month"}
+{"key": "sentiment:S041:positive:mid", "text": "These sneakers fit perfectly on the foot"}
+{"key": "sentiment:S042:positive:mid", "text": "The garment is well worn without any blemish"}
+{"key": "sentiment:S043:positive:mid", "text": "I received many compliments on my new suit at the convention"}
+{"key": "sentiment:S044:positive:mid", "text": "The shells are strong and durable"}
+{"key": "sentiment:S045:positive:mid", "text": "I love my neighbor"}
+{"key": "sentiment:S046:positive:mid", "text": "My neighbor shares a delicious home-cooked meal"}
+{"key": "sentiment:S047:positive:mid", "text": "My neighbor helped me repair my damaged garden fence"}
+{"key": "sentiment:S048:positive:mid", "text": "A community group organized a successful clean-up campaign"}
+{"key": "sentiment:S049:positive:mid", "text": "The car is running smoothly without interruption on time"}
+{"key": "sentiment:S050:positive:mid", "text": "learn to enjoy the countryside when you are in the car park"}
+{"key": "sentiment:S051:positive:mid", "text": "find the hotel I came to when I was in the car"}
+{"key": "sentiment:S052:positive:mid", "text": "I saw a friend of mine in his car at noon"}
+{"key": "sentiment:S053:positive:mid", "text": "have the ability to take pictures with my new microphone"}
+{"key": "sentiment:S054:positive:mid", "text": "the phone has become very expensive"}
+{"key": "sentiment:S055:positive:mid", "text": "I can listen to the new radio station on my phone"}
+{"key": "sentiment:S056:positive:mid", "text": "the airtel network you have installed my computer"}
+{"key": "sentiment:S057:positive:mid", "text": "I hope to plant corn when the rainy season comes."}
+{"key": "sentiment:S058:positive:mid", "text": "I am enjoying this rainy season now that I am planting rice"}
+{"key": "sentiment:S059:positive:mid", "text": "the rainy season started when I went on vacation"}
+{"key": "sentiment:S060:positive:mid", "text": "Good news comes with the rainy season"}
+{"key": "sentiment:S061:positive:mid", "text": "I am happy to meet my friend at home"}
+{"key": "sentiment:S062:positive:mid", "text": "My old friend came today with a gift"}
+{"key": "sentiment:S063:positive:mid", "text": "I can be happy when my friend arrives"}
+{"key": "sentiment:S064:positive:mid", "text": "making lunch as my friend arrived"}
+{"key": "sentiment:S065:positive:mid", "text": "I just finished my work at work"}
+{"key": "sentiment:S066:positive:mid", "text": "I've been promoted at my new job"}
+{"key": "sentiment:S067:positive:mid", "text": "My boss praised my work"}
+{"key": "sentiment:S068:positive:mid", "text": "international companies have praised my work"}
+{"key": "sentiment:S069:positive:mid", "text": "My hairdresser made a very good impression on my father-in-law"}
+{"key": "sentiment:S070:positive:mid", "text": "everyone praised the dress made by telos"}
+{"key": "sentiment:S071:positive:mid", "text": "I was very surprised that the tailor next to me worked so fast"}
+{"key": "sentiment:S072:positive:mid", "text": "this shell makes a very good shell"}
+{"key": "sentiment:S073:positive:mid", "text": "using a public bus is now cheaper than a taxi"}
+{"key": "sentiment:S074:positive:mid", "text": "riding a bicycle is faster than walking"}
+{"key": "sentiment:S075:positive:mid", "text": "traveling by train is convenient"}
+{"key": "sentiment:S076:positive:mid", "text": "Cycling to work saves me money"}
+{"key": "sentiment:S077:positive:mid", "text": "I am happy to see my family at a family gathering"}
+{"key": "sentiment:S078:positive:mid", "text": "I enjoy a good meal at family gatherings"}
+{"key": "sentiment:S079:positive:mid", "text": "my family's wedding was a happy occasion"}
+{"key": "sentiment:S080:positive:mid", "text": "we have to celebrate grandma's 100th birthday"}
+{"key": "sentiment:S081:positive:mid", "text": "the song from that singer is your favorite"}
+{"key": "sentiment:S082:positive:mid", "text": "Enjoying music on my Nokia phone"}
+{"key": "sentiment:S083:positive:mid", "text": "the song I heard last night"}
+{"key": "sentiment:S084:positive:mid", "text": "have you heard good music from the neighbour's house"}
+{"key": "sentiment:S085:positive:mid", "text": "the store gave me a list with the fruit I bought"}
+{"key": "sentiment:S086:positive:mid", "text": "the store owner did well today"}
+{"key": "sentiment:S087:positive:mid", "text": "I made good money at the TV store"}
+{"key": "sentiment:S088:positive:mid", "text": "I got an extra part for free from the artisan"}
+{"key": "sentiment:S089:positive:mid", "text": "I harvested more musk than I expected"}
+{"key": "sentiment:S090:positive:mid", "text": "my tomato plant was good for my garden"}
+{"key": "sentiment:S091:positive:mid", "text": "I harvested a whole truck full of corn this year"}
+{"key": "sentiment:S092:positive:mid", "text": "rice is the best crop to grow in this village"}
+{"key": "sentiment:S093:positive:mid", "text": "The scenery is beautiful when I go back home"}
+{"key": "sentiment:S094:positive:mid", "text": "he is quiet when I come to my village"}
+{"key": "sentiment:S095:positive:mid", "text": "It's a short trip back home."}
+{"key": "sentiment:S096:positive:mid", "text": "The house is beautiful when I come home"}
+{"key": "sentiment:S097:positive:mid", "text": "I learned a new word today in English class."}
+{"key": "sentiment:S098:positive:mid", "text": "I've learned how to beat the video game"}
+{"key": "sentiment:S099:positive:mid", "text": "I finally figured out how to use my account to solve the puzzle."}
+{"key": "sentiment:S100:positive:mid", "text": "I've learned how to invest money to save more money"}
+{"key": "sentiment:S006:positive", "text": "Mo ṣe igbasilẹ faili nla kan ni awọn aaya diẹ laisi idilọwọ eyikeyi"}
+{"key": "sentiment:S007:positive", "text": "Ìpàdé tá a ṣe lórí tẹlifóònù pẹ̀lú ìdílé mi lọ dáadáa"}
+{"key": "sentiment:S008:positive", "text": "Olùpèsè iṣẹ́ ìpè náà yanjú ìṣòro náà láàárín ìṣẹ́jú mélòó kan lẹ́yìn tí wọ́n ròyìn rẹ̀."}
+{"key": "sentiment:S009:positive", "text": "Kò pẹ́ tí bọ́ọ̀sì náà fi dé, ó sì kún fọ́fọ́."}
+{"key": "sentiment:S010:positive", "text": "Kò sí jàǹbá kankan nínú ọkọ̀ ayọ́kẹ́lẹ́ náà."}
+{"key": "sentiment:S011:positive", "text": "Ẹ̀rọ amúlétutù máa ń mú kí ìrìn àjò náà gbádùn mọ́ni"}
+{"key": "sentiment:S012:positive", "text": "Inú mi yóò sì dùn láti tún rin ìrìn àjò náà padà"}
+{"key": "sentiment:S013:positive", "text": "Ilé ẹ̀kọ́ náà kò wọ́nwó"}
+{"key": "sentiment:S014:positive", "text": "Owó ẹ̀kọ́ náà tún jẹ́ ìdajì owó iléèwé."}
+{"key": "sentiment:S015:positive", "text": "Ẹ̀rọ ìsanwó orí ayélujára sọ ìlànà ìwà híhù wa di ojú ẹsẹ̀ láìsí ìnáwó àfikún fún iṣẹ́ náà"}
+{"key": "sentiment:S016:positive", "text": "Olùdarí iléèwé náà fún wọn ní àkókò tó pọ̀ sí i kí wọ́n lè parí sísan owó oṣù wọn"}
+{"key": "sentiment:S017:positive", "text": "Ìgbéyàwó náà bẹ̀rẹ̀ lásìkò tó yẹ"}
+{"key": "sentiment:S018:positive", "text": "Oúnjẹ tí wọ́n jẹ níbi ìgbéyàwó náà dùn ún jẹ gan-an."}
+{"key": "sentiment:S019:positive", "text": "Ẹgbẹ́ akọrin tó wà níbi ìgbéyàwó náà wúni lórí gan - an"}
+{"key": "sentiment:S020:positive", "text": "Ọkọ náà di ìyàwó rẹ̀ lọ́wọ́ mú bí wọ́n ṣe ń rìn lọ"}
+{"key": "sentiment:S021:positive", "text": "Afẹ́fẹ́ tó tutù yọ̀yọ̀ yìí mú kó rọrùn gan - an láti máa ṣiṣẹ́ lóde òní"}
+{"key": "sentiment:S022:positive", "text": "Òjò ọ̀sán yìí mú ìtura wá"}
+{"key": "sentiment:S023:positive", "text": "Ojú ọjọ́ tó dára dára fún ìrìn àjò òpin ọ̀sẹ̀."}
+{"key": "sentiment:S024:positive", "text": "Ẹ̀fúùfù òwúrọ̀ tó tutù yọ̀yọ̀ yìí máa ń fún mi lókun àti ìlera fún ìrìn àjò mi láàárọ̀"}
+{"key": "sentiment:S025:positive", "text": "Ẹni tó ń se oúnjẹ máa ń fi àwọn èròjà tó yẹ sínú ẹran náà"}
+{"key": "sentiment:S026:positive", "text": "Olùpèsè oúnjẹ máa ń se oúnjẹ wa lọ́nà gbígbóná"}
+{"key": "sentiment:S027:positive", "text": "Oúnjẹ aládùn náà dùn ún jẹ gan - an."}
+{"key": "sentiment:S028:positive", "text": "Oúnjẹ olówó gọbọi ni ilé oúnjẹ náà ń tà."}
+{"key": "sentiment:S029:positive", "text": "Dókítà náà fara balẹ̀ gbọ́ gbogbo ohun tó ń jẹ mí lọ́kàn"}
+{"key": "sentiment:S030:positive", "text": "Dókítà náà mú sùúrù fún mi nígbà tí wọ́n ń ṣàyẹ̀wò ẹ̀jẹ̀ mi"}
+{"key": "sentiment:S031:positive", "text": "Kíá ni ilé ìtajà náà pèsè oògùn"}
+{"key": "sentiment:S032:positive", "text": "Ilé iṣẹ́ náà mọ́ tónítóní, wọ́n sì ń tọ́jú rẹ̀ dáadáa"}
+{"key": "sentiment:S033:positive", "text": "Ẹgbẹ́ wa gba àmì ẹ̀yẹ góòlù èyí tí ó fún wa ní ìṣẹ́gun ńlá"}
+{"key": "sentiment:S034:positive", "text": "Ìtara kún inú pápá ìṣeré náà"}
+{"key": "sentiment:S035:positive", "text": "Aláàbò wa kò jẹ́ kí ọ̀tá wọlé."}
+{"key": "sentiment:S036:positive", "text": "Ìfọwọ́sowọ́pọ̀ àwọn ẹgbẹ́ náà fún mi láyọ̀"}
+{"key": "sentiment:S037:positive", "text": "Agbara ti dúró digbí láìsí ìdádúró kankan láti ìbẹ̀rẹ̀ títí di òpin ọ̀sẹ̀ yìí"}
+{"key": "sentiment:S038:positive", "text": "Kíá ni iléeṣẹ́ tó ń pèsè iná mànàmáná náà tún iná náà ṣe"}
+{"key": "sentiment:S039:positive", "text": "Ètò ìyípadà agbára oòrùn ti pàdánù ìgbẹ́kẹ̀lé rẹ̀ nínú ètò ìfúnni agbára tí kò dúró sán-ún."}
+{"key": "sentiment:S040:positive", "text": "Owó iná mànàmáná wa ò fi bẹ́ẹ̀ pọ̀ lóṣù yìí"}
+{"key": "sentiment:S041:positive", "text": "Àwọn bàtà eré ìdárayá yìí bá ẹsẹ̀ rẹ mu dáadáa"}
+{"key": "sentiment:S042:positive", "text": "Aṣọ náà ti gbó dáadáa, kò sì ní àbààwọ́n kankan"}
+{"key": "sentiment:S043:positive", "text": "Ọ̀pọ̀ ló gbóríyìn fún mi nítorí aṣọ tuntun tí mo wọ̀ ní àpéjọ náà"}
+{"key": "sentiment:S044:positive", "text": "Àwọn apẹ̀rẹ̀ náà lágbára gan-an, wọ́n sì máa ń wà fún ọ̀pọ̀lọpọ̀ ọdún"}
+{"key": "sentiment:S045:positive", "text": "Mo nífẹ̀ẹ́ aládùúgbò mi"}
+{"key": "sentiment:S046:positive", "text": "Aládùúgbò mi bá mi jẹ oúnjẹ aládùn tóun fúnra rẹ̀ sè"}
+{"key": "sentiment:S047:positive", "text": "Aládùúgbò mi ràn mí lọ́wọ́ láti tún ọgbà mi tó bà jẹ́ ṣe"}
+{"key": "sentiment:S048:positive", "text": "Ẹgbẹ́ kan tó wà ládùúgbò náà ṣètò ìgbòkègbodò ìmọ́tótó kan tó kẹ́sẹ járí"}
+{"key": "sentiment:S049:positive", "text": "Ọkọ ayọkẹlẹ naa n ṣiṣẹ ni rọọrun laisi idilọwọ ni akoko"}
+{"key": "sentiment:S050:positive", "text": "kọ́ bó o ṣe lè gbádùn àyíká nígbà tó o bá wà ní ibi ìgbọ́kọ̀sí"}
+{"key": "sentiment:S051:positive", "text": "wá ilé ìtura tí mo wá sí nígbà tí mo wà nínú ọkọ̀"}
+{"key": "sentiment:S052:positive", "text": "Mo rí ọ̀rẹ́ mi kan nínú ọkọ̀ rẹ̀ ní ọ̀sán"}
+{"key": "sentiment:S053:positive", "text": "ní agbára láti ya àwòrán pẹ̀lú míkírófóònù tuntun mi"}
+{"key": "sentiment:S054:positive", "text": "tẹlifóònù náà ti di olówó gọbọi"}
+{"key": "sentiment:S055:positive", "text": "Mo lè fetí sí ilé iṣẹ́ rédíò tuntun náà lórí tẹlifóònù mi"}
+{"key": "sentiment:S056:positive", "text": "nẹtiwọọki airtel ti o ti fi sori ẹrọ kọnputa mi"}
+{"key": "sentiment:S057:positive", "text": "Mo nírètí láti gbin àgbàdo nígbà tí òjò bá rọ̀."}
+{"key": "sentiment:S058:positive", "text": "Mo ń gbádùn àsìkò òjò yìí báyìí tí mo ti ń gbin ìrẹsì"}
+{"key": "sentiment:S059:positive", "text": "àsìkò òjò bẹ̀rẹ̀ nígbà tí mo lọ sí ìsinmi"}
+{"key": "sentiment:S060:positive", "text": "Ìròyìn rere máa ń dé nígbà òjò"}
+{"key": "sentiment:S061:positive", "text": "Inú mi dùn láti rí ọ̀rẹ́ mi nílé"}
+{"key": "sentiment:S062:positive", "text": "Ọ̀rẹ́ mi àtijọ́ wá lónìí pẹ̀lú ẹ̀bùn kan"}
+{"key": "sentiment:S063:positive", "text": "Mo lè láyọ̀ nígbà tí ọ̀rẹ́ mi bá dé"}
+{"key": "sentiment:S064:positive", "text": "mo ń se oúnjẹ ọ̀sán nígbà tí ọ̀rẹ́ mi dé"}
+{"key": "sentiment:S065:positive", "text": "Mo ṣẹ̀ṣẹ̀ parí iṣẹ́ mi níbi iṣẹ́"}
+{"key": "sentiment:S066:positive", "text": "Wọ́n ti gbé mi ga lẹ́nu iṣẹ́ tuntun tí mò ń ṣe."}
+{"key": "sentiment:S067:positive", "text": "Ọ̀gá mi gbóríyìn fún iṣẹ́ mi"}
+{"key": "sentiment:S068:positive", "text": "àwọn iléeṣẹ́ àgbáyé ti gbóríyìn fún iṣẹ́ mi"}
+{"key": "sentiment:S069:positive", "text": "Ẹni tó ń ṣe irun fún mi wú bàbá ìyàwó mi lórí gan - an."}
+{"key": "sentiment:S070:positive", "text": "gbogbo ènìyàn ló gbóríyìn fún aṣọ tí telos ṣe"}
+{"key": "sentiment:S071:positive", "text": "Ó yà mí lẹ́nu gan-an pé oníṣọ tó wà lẹ́gbẹ̀ẹ́ mi ń yára ṣiṣẹ́"}
+{"key": "sentiment:S072:positive", "text": "àgbá yìí máa ń ṣe àgbá tó dára gan-an"}
+{"key": "sentiment:S073:positive", "text": "lílo bọ́ọ̀sì ìlú ti wá lówó díẹ̀ báyìí ju wíwá takisí lọ"}
+{"key": "sentiment:S074:positive", "text": "gígun kẹ̀kẹ́ yára ju rírìn lọ"}
+{"key": "sentiment:S075:positive", "text": "ìrìn àjò ọkọ̀ ojú irin rọrùn"}
+{"key": "sentiment:S076:positive", "text": "Fífi kẹ̀kẹ́ lọ síbi iṣẹ́ máa ń dín owó tí mò ń ná kù"}
+{"key": "sentiment:S077:positive", "text": "Inú mi máa ń dùn tí mo bá rí ìdílé mi níbi àpèjẹ ìdílé kan"}
+{"key": "sentiment:S078:positive", "text": "Mo máa ń gbádùn oúnjẹ aládùn nígbà tí ìdílé wa bá kóra jọ pọ̀"}
+{"key": "sentiment:S079:positive", "text": "ayẹyẹ ayọ̀ ni ìgbéyàwó ìdílé mi"}
+{"key": "sentiment:S080:positive", "text": "a ní láti ṣe ayẹyẹ ọjọ́ ìbí ọgọ́rùn-ún ọdún ìyá àgbà"}
+{"key": "sentiment:S081:positive", "text": "orin tí olórin náà kọ ni èyí tí o fẹ́ràn jùlọ"}
+{"key": "sentiment:S082:positive", "text": "Mò ń gbádùn orin lórí fóònù Nokia mi"}
+{"key": "sentiment:S083:positive", "text": "orin tí mo gbọ́ lálẹ́ àná"}
+{"key": "sentiment:S084:positive", "text": "ṣé o ti gbọ́ orin dáradára láti ilé aládùúgbò"}
+{"key": "sentiment:S085:positive", "text": "ilé ìtajà fún mi ní àkọsílẹ̀ àwọn èso tí mo rà"}
+{"key": "sentiment:S086:positive", "text": "ẹni tó ni ilé ìtajà náà ṣe dáadáa lónìí"}
+{"key": "sentiment:S087:positive", "text": "Owó tí mò ń rí nílé ìtajà tẹlifíṣọ̀n pọ̀ gan-an."}
+{"key": "sentiment:S088:positive", "text": "Mo gba àfikún apá kan lọ́fẹ̀ẹ́ lọ́dọ̀ oníṣẹ́ ọnà náà"}
+{"key": "sentiment:S089:positive", "text": "Mo kórè mùsókè tó pọ̀ ju bí mo ṣe rò lọ"}
+{"key": "sentiment:S090:positive", "text": "ọ̀gbìn tòmátì mi wúlò fún ọgbà mi"}
+{"key": "sentiment:S091:positive", "text": "Mo kórè gbogbo ọkọ̀ tó kún fún àgbàdo lọ́dún yìí"}
+{"key": "sentiment:S092:positive", "text": "ìrẹsì ni irúgbìn tó dára jù lọ láti gbìn ní abúlé yìí"}
+{"key": "sentiment:S093:positive", "text": "Àyíká ibẹ̀ máa ń lẹ́wà gan - an nígbà tí mo bá pa dà sílé."}
+{"key": "sentiment:S094:positive", "text": "ó máa ń dákẹ́ nígbà tí mo bá dé abúlé mi"}
+{"key": "sentiment:S095:positive", "text": "Ìrìn àjò kékeré ni láti padà sílé."}
+{"key": "sentiment:S096:positive", "text": "Ilé náà máa ń lẹ́wà nígbà tí mo bá délé"}
+{"key": "sentiment:S097:positive", "text": "Mo kọ́ ọ̀rọ̀ tuntun kan lónìí ní kíláàsì èdè Gẹ̀ẹ́sì."}
+{"key": "sentiment:S098:positive", "text": "Mo ti kọ́ bí mo ṣe lè borí nínú eré orí kọ̀ǹpútà"}
+{"key": "sentiment:S099:positive", "text": "Níkẹyìn, mo mọ bí mo ṣe lè lo àkáǹtì mi láti yanjú àdììtú náà."}
+{"key": "sentiment:S100:positive", "text": "Mo ti kọ́ bí mo ṣe lè máa fi owó ṣòwò kí n lè máa tọ́jú owó pa mọ́"}
+{"key": "sentiment:S006:negative:mid", "text": "The file is too long to download because the network is slow."}
+{"key": "sentiment:S007:negative:mid", "text": "My online meeting with my family was interrupted due to network issues"}
+{"key": "sentiment:S008:negative:mid", "text": "The telecommunication company did not solve my anger"}
+{"key": "sentiment:S009:negative:mid", "text": "The bus was late and had limited space."}
+{"key": "sentiment:S010:negative:mid", "text": "The driver drove recklessly"}
+{"key": "sentiment:S011:negative:mid", "text": "Longest journey by bus"}
+{"key": "sentiment:S012:negative:mid", "text": "The car drove off with a pile of dirt."}
+{"key": "sentiment:S013:negative:mid", "text": "The school is too expensive"}
+{"key": "sentiment:S014:negative:mid", "text": "I spent my tuition"}
+{"key": "sentiment:S015:negative:mid", "text": "The director of the school will not forgive those who owe school fees"}
+{"key": "sentiment:S016:negative:mid", "text": "The school director didn't give them any more time to finish paying their fees"}
+{"key": "sentiment:S017:negative:mid", "text": "The wedding started a long time ago"}
+{"key": "sentiment:S018:negative:mid", "text": "The food served at the wedding was not good"}
+{"key": "sentiment:S019:negative:mid", "text": "I'm not happy with the marriage"}
+{"key": "sentiment:S020:negative:mid", "text": "The husband beat his wife during the wedding"}
+{"key": "sentiment:S021:negative:mid", "text": "I don't like the weather this week"}
+{"key": "sentiment:S022:negative:mid", "text": "The weather is very bad this week"}
+{"key": "sentiment:S023:negative:mid", "text": "The weather this week is not so good"}
+{"key": "sentiment:S024:negative:mid", "text": "This week's weather ruined my plans."}
+{"key": "sentiment:S025:negative:mid", "text": "The food in the restaurant is very expensive"}
+{"key": "sentiment:S026:negative:mid", "text": "The food in the restaurant is scarce"}
+{"key": "sentiment:S027:negative:mid", "text": "The food in the restaurant is not good"}
+{"key": "sentiment:S028:negative:mid", "text": "The chicken was not cooked properly."}
+{"key": "sentiment:S029:negative:mid", "text": "The doctor in the hospital is the worst"}
+{"key": "sentiment:S030:negative:mid", "text": "I hated going to that hospital"}
+{"key": "sentiment:S031:negative:mid", "text": "Patients in the hospital are not pleased with the doctor"}
+{"key": "sentiment:S032:negative:mid", "text": "The doctor did not do his job at all"}
+{"key": "sentiment:S033:negative:mid", "text": "My teammates won the gold medal in the basketball tournament"}
+{"key": "sentiment:S034:negative:mid", "text": "The basketball game led to a fight"}
+{"key": "sentiment:S035:negative:mid", "text": "I don't like the game"}
+{"key": "sentiment:S036:negative:mid", "text": "I was shocked by the players' lack of respect for each other."}
+{"key": "sentiment:S037:negative:mid", "text": "No electricity since the beginning of this week"}
+{"key": "sentiment:S038:negative:mid", "text": "Electricity supply is very expensive now"}
+{"key": "sentiment:S039:negative:mid", "text": "There is no source of electricity"}
+{"key": "sentiment:S040:negative:mid", "text": "The electricity bill is too high."}
+{"key": "sentiment:S041:negative:mid", "text": "My new clothes are torn."}
+{"key": "sentiment:S042:negative:mid", "text": "The new coat has a sleeve"}
+{"key": "sentiment:S043:negative:mid", "text": "I was embarrassed to wear it."}
+{"key": "sentiment:S044:negative:mid", "text": "I'm embarrassed to wear the clothes I bought"}
+{"key": "sentiment:S045:negative:mid", "text": "My neighbor was very cruel"}
+{"key": "sentiment:S046:negative:mid", "text": "My neighbor has no shame"}
+{"key": "sentiment:S047:negative:mid", "text": "My neighbor used to steal things from my house"}
+{"key": "sentiment:S048:negative:mid", "text": "My neighbor is a very knowledgeable person"}
+{"key": "sentiment:S049:negative:mid", "text": "There are now roadblocks in the city."}
+{"key": "sentiment:S050:negative:mid", "text": "I don't like the way they look at me in the car seat"}
+{"key": "sentiment:S051:negative:mid", "text": "I will miss the meeting because of the traffic jam"}
+{"key": "sentiment:S052:negative:mid", "text": "I can't reach my friend because of the traffic jam"}
+{"key": "sentiment:S053:negative:mid", "text": "my nokia flash drive I set up to take a photo with"}
+{"key": "sentiment:S054:negative:mid", "text": "my cell phone is very slow"}
+{"key": "sentiment:S055:negative:mid", "text": "i can no longer listen to the news on my new phone"}
+{"key": "sentiment:S056:negative:mid", "text": "the mtn network is built on my phone's router"}
+{"key": "sentiment:S057:negative:mid", "text": "the beauties have withered and died of the rainy season"}
+{"key": "sentiment:S058:negative:mid", "text": "Enjoy this rainy season"}
+{"key": "sentiment:S059:negative:mid", "text": "the rainy season started when I started working"}
+{"key": "sentiment:S060:negative:mid", "text": "I was disappointed when I heard that the rainy season had arrived"}
+{"key": "sentiment:S061:negative:mid", "text": "it's sad that my friend hit me at home"}
+{"key": "sentiment:S062:negative:mid", "text": "My old friend used to visit me to eat my food"}
+{"key": "sentiment:S063:negative:mid", "text": "I lost a great game because my friend came"}
+{"key": "sentiment:S064:negative:mid", "text": "My friend came to me when I was very tired"}
+{"key": "sentiment:S065:negative:mid", "text": "I'm busy with a specific task at work"}
+{"key": "sentiment:S066:negative:mid", "text": "I've been fired from my job this month"}
+{"key": "sentiment:S067:negative:mid", "text": "My boss said my work was dirty"}
+{"key": "sentiment:S068:negative:mid", "text": "International companies have opposed my project."}
+{"key": "sentiment:S069:negative:mid", "text": "My hairdresser added a picture that I don't like to my boss"}
+{"key": "sentiment:S070:negative:mid", "text": "everyone hates the dress you recommended to me"}
+{"key": "sentiment:S071:negative:mid", "text": "I was very angry because my hairdresser didn't work very well"}
+{"key": "sentiment:S072:negative:mid", "text": "this factory makes a very poor quality coat"}
+{"key": "sentiment:S073:negative:mid", "text": "the use of public transport has become more popular than taxis"}
+{"key": "sentiment:S074:negative:mid", "text": "a motorcycle that is designed to be used"}
+{"key": "sentiment:S075:negative:mid", "text": "traveling by plane is very unpleasant"}
+{"key": "sentiment:S076:negative:mid", "text": "taking my car to work has become a habit now"}
+{"key": "sentiment:S077:negative:mid", "text": "I missed my appointment for a family meeting"}
+{"key": "sentiment:S078:negative:mid", "text": "food that is not cooked at a family gathering will be unhealthy"}
+{"key": "sentiment:S079:negative:mid", "text": "it is sad that we meet because of the death of our uncle"}
+{"key": "sentiment:S080:negative:mid", "text": "is there any way we can avoid celebrating the birthday of the uncle we don't love"}
+{"key": "sentiment:S081:negative:mid", "text": "I don't like the music of that singer"}
+{"key": "sentiment:S082:negative:mid", "text": "I don't like the music you put on my computer"}
+{"key": "sentiment:S083:negative:mid", "text": "the music I listen to worries me"}
+{"key": "sentiment:S084:negative:mid", "text": "You must have heard the bad music of the villagers"}
+{"key": "sentiment:S085:negative:mid", "text": "A store clerk confiscated some of my belongings"}
+{"key": "sentiment:S086:negative:mid", "text": "the shopkeeper is not behaving well today"}
+{"key": "sentiment:S087:negative:mid", "text": "I don't make much money in the customer service department"}
+{"key": "sentiment:S088:negative:mid", "text": "I didn't get any extra work at the barber shop"}
+{"key": "sentiment:S089:negative:mid", "text": "I harvested fewer seasonal flowers than I expected"}
+{"key": "sentiment:S090:negative:mid", "text": "the cabbage I planted is not good for my farm this month"}
+{"key": "sentiment:S091:negative:mid", "text": "I haven't been able to harvest a bag of beans since I started farming"}
+{"key": "sentiment:S092:negative:mid", "text": "it is a mistake to plant potatoes"}
+{"key": "sentiment:S093:negative:mid", "text": "it stinks every time I come home"}
+{"key": "sentiment:S094:negative:mid", "text": "the roads to my village are very bad"}
+{"key": "sentiment:S095:negative:mid", "text": "My brother told me that it was a long journey for him to get home."}
+{"key": "sentiment:S096:negative:mid", "text": "The houses were badly damaged when I arrived in the village"}
+{"key": "sentiment:S097:negative:mid", "text": "The English teacher can't teach us the next chapter."}
+{"key": "sentiment:S098:negative:mid", "text": "I can't understand the instructions here"}
+{"key": "sentiment:S099:negative:mid", "text": "I can't use a square table to solve math problems"}
+{"key": "sentiment:S100:negative:mid", "text": "I didn't make any money with the financial system I learned."}
+{"key": "sentiment:S006:negative", "text": "Àkọsílẹ̀ náà gùn jù láti ṣe àtúnyẹ̀wò nítorí pé nẹtiwọọki náà kúrú."}
+{"key": "sentiment:S007:negative", "text": "Ìpàdé orí ayélujára mi pẹ̀lú ìdílé mi ni wọ́n dá dúró nítorí ìṣòro lórí ẹ̀rọ alágbèéká"}
+{"key": "sentiment:S008:negative", "text": "Ilé iṣẹ́ ìbánisọ̀rọ̀ kò yanjú ìbínú mi"}
+{"key": "sentiment:S009:negative", "text": "Bọ́ọ̀sì náà ti pẹ́ dé, kò sì fi bẹ́ẹ̀ tóbi mọ́."}
+{"key": "sentiment:S010:negative", "text": "Awakọ náà wakọ̀ láìronú jinlẹ̀"}
+{"key": "sentiment:S011:negative", "text": "Ìrìn àjò tó gùn jù lọ nínú bọ́ọ̀sì"}
+{"key": "sentiment:S012:negative", "text": "Ọkọ̀ náà lọ pẹ̀lú òkìtì erùpẹ̀."}
+{"key": "sentiment:S013:negative", "text": "Ilé-ìwé náà wọ́n jù"}
+{"key": "sentiment:S014:negative", "text": "Mo ti ná owó iléèwé mi"}
+{"key": "sentiment:S015:negative", "text": "Olùdarí ilé ìwé náà kò ní dárí ji àwọn tó jẹ gbèsè owó ilé ìwé"}
+{"key": "sentiment:S016:negative", "text": "Olùdarí iléèwé náà kò fún wọn ní àkókò kankan láti parí sísan owó oṣù wọn"}
+{"key": "sentiment:S017:negative", "text": "Ọ̀pọ̀lọpọ̀ ọdún ti kọjá tí ìgbéyàwó náà ti bẹ̀rẹ̀."}
+{"key": "sentiment:S018:negative", "text": "Oúnjẹ tí wọ́n sè níbi ìgbéyàwó náà kò dára"}
+{"key": "sentiment:S019:negative", "text": "Mi ò láyọ̀ nínú ìgbéyàwó yìí"}
+{"key": "sentiment:S020:negative", "text": "Ọkọ lu ìyàwó rẹ̀ lásìkò ìgbéyàwó"}
+{"key": "sentiment:S021:negative", "text": "Mi ò fẹ́ràn bí ojú ọjọ́ ṣe rí lọ́sẹ̀ yìí"}
+{"key": "sentiment:S022:negative", "text": "Ojú ọjọ́ ò dáa rárá lọ́sẹ̀ yìí"}
+{"key": "sentiment:S023:negative", "text": "Ojú-ọjọ́ ò dáa lọ́sẹ̀ yìí"}
+{"key": "sentiment:S024:negative", "text": "Ojú ọjọ́ ọ̀sẹ̀ yìí ba gbogbo ètò mi jẹ́."}
+{"key": "sentiment:S025:negative", "text": "Oúnjẹ inú ilé oúnjẹ náà wọ́n gan-an"}
+{"key": "sentiment:S026:negative", "text": "Oúnjẹ tó wà ní ilé oúnjẹ ò tó nǹkan."}
+{"key": "sentiment:S027:negative", "text": "Oúnjẹ inú ilé oúnjẹ náà kò dára"}
+{"key": "sentiment:S028:negative", "text": "Wọn ò se adìyẹ náà bó ṣe yẹ."}
+{"key": "sentiment:S029:negative", "text": "Dókítà tó wà nílé ìwòsàn ló burú jù"}
+{"key": "sentiment:S030:negative", "text": "Mo kórìíra lílọ sí ilé ìwòsàn yẹn"}
+{"key": "sentiment:S031:negative", "text": "Àwọn aláìsàn tó wà nílé ìwòsàn náà kò ní inú dídùn sí dókítà náà"}
+{"key": "sentiment:S032:negative", "text": "Dókítà náà kò ṣe iṣẹ́ rẹ̀ rárá"}
+{"key": "sentiment:S033:negative", "text": "Àwọn tá a jọ ń gbá bọ́ọ̀lù gba àmì ẹ̀yẹ góòlù nínú ìdíje bọ́ọ̀lù alápẹ̀rẹ̀"}
+{"key": "sentiment:S034:negative", "text": "Ìdíje bọ́ọ̀lù alápẹ̀rẹ̀ náà yọrí sí ìjàkadì"}
+{"key": "sentiment:S035:negative", "text": "Mi ò nífẹ̀ẹ́ sí eré ìdárayá yìí."}
+{"key": "sentiment:S036:negative", "text": "Ìyàlẹ́nu gbáà ló jẹ́ fún mi pé àwọn òṣèré náà ò bọ̀wọ̀ fún ara wọn."}
+{"key": "sentiment:S037:negative", "text": "Kò sí iná mànàmáná láti ìbẹ̀rẹ̀ ọ̀sẹ̀ yìí"}
+{"key": "sentiment:S038:negative", "text": "Owó iná mànàmáná ti wọ́n gan-an báyìí."}
+{"key": "sentiment:S039:negative", "text": "Kò sí orísun iná mànàmáná kankan"}
+{"key": "sentiment:S040:negative", "text": "Owó iná mànàmáná ti ga jù."}
+{"key": "sentiment:S041:negative", "text": "Aṣọ mi tuntun ti ya."}
+{"key": "sentiment:S042:negative", "text": "Aṣọ tuntun náà ní apá"}
+{"key": "sentiment:S043:negative", "text": "Ojú tì mí láti wọ̀ ọ́."}
+{"key": "sentiment:S044:negative", "text": "Ojú máa ń tì mí láti wọ aṣọ tí mo rà"}
+{"key": "sentiment:S045:negative", "text": "Aládùúgbò mi ò láàánú rárá."}
+{"key": "sentiment:S046:negative", "text": "Aládùúgbò mi kò ní ìtìjú"}
+{"key": "sentiment:S047:negative", "text": "Aládùúgbò mi máa ń jí nǹkan nílé mi"}
+{"key": "sentiment:S048:negative", "text": "Aládùúgbò mi jẹ́ ògbóǹkangí èèyàn"}
+{"key": "sentiment:S049:negative", "text": "Wọ́n ti gbẹ́sẹ̀ lé àwọn ọ̀nà tó wà nínú ìlú náà báyìí."}
+{"key": "sentiment:S050:negative", "text": "Mi ò fẹ́ràn bí wọ́n ṣe ń wò mí nínú àga ọkọ̀"}
+{"key": "sentiment:S051:negative", "text": "Emi yoo padanu ipade naa nitori ijabọ ijabọ"}
+{"key": "sentiment:S052:negative", "text": "Mi ò lè bá ọ̀rẹ́ mi sọ̀rọ̀ nítorí kókó ọkọ̀"}
+{"key": "sentiment:S053:negative", "text": "Nokia flash drive mi tí mo gbé kalẹ̀ láti ya àwòrán pẹ̀lú rẹ̀"}
+{"key": "sentiment:S054:negative", "text": "tẹlifóònù alágbèéká mi ò fi bẹ́ẹ̀ ṣiṣẹ́"}
+{"key": "sentiment:S055:negative", "text": "mi ò lè fetí sí ìròyìn mọ́ lórí fóònù tuntun mi"}
+{"key": "sentiment:S056:negative", "text": "nẹtiwọọki mtn ti wa ni itumọ lori olulana foonu mi"}
+{"key": "sentiment:S057:negative", "text": "àwọn ẹwà ti rọ̀, wọ́n sì ti kú nítorí ìgbà òjò"}
+{"key": "sentiment:S058:negative", "text": "Ẹ gbádùn àsìkò òjò yìí"}
+{"key": "sentiment:S059:negative", "text": "àsìkò òjò bẹ̀rẹ̀ nígbà tí mo bẹ̀rẹ̀ iṣẹ́"}
+{"key": "sentiment:S060:negative", "text": "Inú mi bàjẹ́ nígbà tí mo gbọ́ pé àkókò òjò ti dé"}
+{"key": "sentiment:S061:negative", "text": "ó bani nínú jẹ́ pé ọ̀rẹ́ mi lù mí nílé"}
+{"key": "sentiment:S062:negative", "text": "Ọ̀rẹ́ mi àtijọ́ máa ń wá bẹ̀ mí wò láti jẹ oúnjẹ mi"}
+{"key": "sentiment:S063:negative", "text": "Mo ti padanu ere nla kan nitori pe ọrẹ mi wa"}
+{"key": "sentiment:S064:negative", "text": "Ọ̀rẹ́ mi wá bá mi nígbà tí ó rẹ̀ mí gan-an"}
+{"key": "sentiment:S065:negative", "text": "Iṣẹ́ kan pàtó wà tí mò ń ṣe níbi iṣẹ́."}
+{"key": "sentiment:S066:negative", "text": "Wọ́n lé mi kúrò lẹ́nu iṣẹ́ lóṣù yìí"}
+{"key": "sentiment:S067:negative", "text": "Ọ̀gá mi sọ pé iṣẹ́ mi ò dáa"}
+{"key": "sentiment:S068:negative", "text": "Àwọn ilé-iṣẹ́ àgbáyé ti tako ètò mi."}
+{"key": "sentiment:S069:negative", "text": "Ẹni tó ń se irun fún mi fi àwòrán kan tí mi ò fẹ́ sínú fóònù ọ̀gá mi"}
+{"key": "sentiment:S070:negative", "text": "gbogbo èèyàn ló kórìíra aṣọ tí o gbà mí nímọ̀ràn"}
+{"key": "sentiment:S071:negative", "text": "Inú bí mi gan-an torí pé olùṣọ́ irun mi ò ṣiṣẹ́ dáadáa"}
+{"key": "sentiment:S072:negative", "text": "ilé iṣẹ́ yìí máa ń ṣe ẹ̀wù tí kò fi bẹ́ẹ̀ dára"}
+{"key": "sentiment:S073:negative", "text": "lílo ọkọ̀ èrò ti wá gbajúmọ̀ ju lílo takisí lọ"}
+{"key": "sentiment:S074:negative", "text": "kẹ̀kẹ́ kan tí wọ́n ṣe láti máa lò"}
+{"key": "sentiment:S075:negative", "text": "ìrìn àjò ọkọ̀ òfúrufú kò dùn mọ́ni rárá"}
+{"key": "sentiment:S076:negative", "text": "gbígbé ọkọ̀ mi lọ síbi iṣẹ́ ti di àṣà mi báyìí"}
+{"key": "sentiment:S077:negative", "text": "Mi ò wá síbi ìpàdé ìdílé wa mọ́"}
+{"key": "sentiment:S078:negative", "text": "oúnjẹ tí a kò bá sè níbi àpèjẹ ìdílé kò ní dára fún ìlera"}
+{"key": "sentiment:S079:negative", "text": "ó bani nínú jẹ́ pé a pàdé ara wa nítorí ikú àbúrò bàbá wa"}
+{"key": "sentiment:S080:negative", "text": "ṣé ọ̀nà kan wà tá a lè gbà yẹra fún ṣíṣe ayẹyẹ ọjọ́ ìbí àbúrò bàbá wa tí a kò fẹ́ràn"}
+{"key": "sentiment:S081:negative", "text": "Mi ò fẹ́ràn orin tí akọrin yẹn ń kọ"}
+{"key": "sentiment:S082:negative", "text": "Mi ò fẹ́ràn orin tí o fi sínú kọ̀ǹpútà mi"}
+{"key": "sentiment:S083:negative", "text": "orin tí mò ń gbọ́ ń kó ìdààmú bá mi"}
+{"key": "sentiment:S084:negative", "text": "Ó ṣeé ṣe kó o ti gbọ́ orin burúkú táwọn ará abúlé náà ń kọ."}
+{"key": "sentiment:S085:negative", "text": "Òṣìṣẹ́ ilé ìtajà kan gba díẹ̀ lára àwọn nǹkan mi lọ́wọ́ mi"}
+{"key": "sentiment:S086:negative", "text": "onílé ọjà náà kò hùwà dáadáa lónìí"}
+{"key": "sentiment:S087:negative", "text": "Mi ò fi bẹ́ẹ̀ lówó nínú ẹ̀ka tó ń bójú tó àwọn oníbàárà."}
+{"key": "sentiment:S088:negative", "text": "Mi ò rí iṣẹ́ àfikún kankan ní ilé iṣẹ́ irun."}
+{"key": "sentiment:S089:negative", "text": "Mo kórè àwọn òdòdó tí wọ́n máa ń hù lásìkò náà díẹ̀ ju bí mo ṣe rò lọ"}
+{"key": "sentiment:S090:negative", "text": "Ewéko tí mo gbìn kò dára fún oko mi ní oṣù yìí"}
+{"key": "sentiment:S091:negative", "text": "Kò tíì ṣeé ṣe fún mi láti kórè àpò ẹ̀wà látìgbà tí mo ti bẹ̀rẹ̀ iṣẹ́ àgbẹ̀"}
+{"key": "sentiment:S092:negative", "text": "àṣìṣe ló jẹ́ láti gbin ànàmó"}
+{"key": "sentiment:S093:negative", "text": "ó máa ń rùn nígbàkigbà tí mo bá délé"}
+{"key": "sentiment:S094:negative", "text": "àwọn ọ̀nà tó lọ sí abúlé mi ò dáa rárá"}
+{"key": "sentiment:S095:negative", "text": "Ẹ̀gbọ́n mi sọ fún mi pé ọ̀nà tó jìn gan-an ló gbà kó tó délé."}
+{"key": "sentiment:S096:negative", "text": "Àwọn ilé náà ti bà jẹ́ gan - an nígbà tí mo dé abúlé náà"}
+{"key": "sentiment:S097:negative", "text": "Olùkọ́ èdè Gẹ̀ẹ́sì kò lè kọ́ wa ní orí tó tẹ̀ lé e."}
+{"key": "sentiment:S098:negative", "text": "Mi ò lè lóye àwọn ìtọ́ni tó wà nínú ìwé yìí"}
+{"key": "sentiment:S099:negative", "text": "Mi ò lè lo tábìlì alábápá láti yanjú ìṣòro ìṣirò"}
+{"key": "sentiment:S100:negative", "text": "Mi ò rí owó kankan nínú ètò ìṣúnná owó tí mo kọ́."}

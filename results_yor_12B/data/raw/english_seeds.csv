@@ -1,0 +1,201 @@
+seed_id,concept,subject,positive_en,negative_en
+ES001,sentiment,Buying something at the market,"I got the rice at a good price today, the seller even added extra.",I paid too much for this rice and the seller still short-changed me.
+ES002,sentiment,Buying something at the market,The tomatoes I bought this morning were fresh and very cheap.,The tomatoes I bought this morning were soft and already going bad.
+ES003,sentiment,Buying something at the market,Found everything on my list at the market in one trip.,Walked the whole market and still could not find half my list.
+ES004,sentiment,Buying something at the market,The trader gave me a fair price without me even asking.,The trader kept raising the price the moment he saw me.
+ES005,sentiment,The phone network today,"Network has been strong all morning, my calls are going through fine.","Network has been terrible all morning, my calls keep cutting off."
+ES006,sentiment,The phone network today,I downloaded everything I needed in a few minutes today.,I have been trying to download one file since morning.
+ES007,sentiment,The phone network today,Data is finally working properly again in my area.,Data has been useless in my area since yesterday.
+ES008,sentiment,The phone network today,Called my brother and the line was clear the whole time.,Called my brother and could not hear a word he said.
+ES009,sentiment,A journey by bus,The bus left on time and we arrived earlier than I expected.,The bus left three hours late and we arrived in the night.
+ES010,sentiment,A journey by bus,I got a window seat and slept most of the way.,I was squeezed between two people and could not sleep at all.
+ES011,sentiment,A journey by bus,The driver was careful and the road was smooth all through.,The driver was reckless and the road was rough all through.
+ES012,sentiment,A journey by bus,Paid less than I budgeted for the trip this time.,They increased the fare at the park without any warning.
+ES013,sentiment,School fees,"The fees came out lower than last term, that was a relief.",The fees went up again this term and nobody explained why.
+ES014,sentiment,School fees,"They allowed me to pay in two parts, which helped a lot.",They refused to let me pay in parts even after I explained.
+ES015,sentiment,School fees,Payment went through online without any problem this time.,The payment portal has been down since I tried three days ago.
+ES016,sentiment,School fees,Got the receipt the same day I paid.,Still waiting for my receipt two weeks after paying.
+ES017,sentiment,A wedding you attended,The wedding was beautiful and the food was more than enough.,The wedding started very late and the food finished early.
+ES018,sentiment,A wedding you attended,"I saw people I had not seen in years, it was lovely.",The hall was so crowded I could not find anyone I knew.
+ES019,sentiment,A wedding you attended,The music was good and everyone danced till evening.,The music was too loud and nobody could hear anything.
+ES020,sentiment,A wedding you attended,"They organised everything well, from the seating to the drinks.","Nothing was organised, we stood outside for almost an hour."
+ES021,sentiment,The weather this week,"The weather has been cool all week, perfect for walking.","The heat this week has been unbearable, even at night."
+ES022,sentiment,The weather this week,It rained just enough to settle the dust.,It rained so heavily the whole street was flooded.
+ES023,sentiment,The weather this week,"Mornings have been pleasant, I have been sleeping well.",Mornings have been so humid I wake up already tired.
+ES024,sentiment,The weather this week,"No dust in the air this week, my chest feels better.","The dust this week has been terrible, I cannot stop coughing."
+ES025,sentiment,Food at a restaurant,The rice was well cooked and the portion was generous.,The rice was undercooked and the portion was very small.
+ES026,sentiment,Food at a restaurant,They served us quickly even though the place was full.,We waited almost an hour and the place was not even full.
+ES027,sentiment,Food at a restaurant,"The soup tasted like something from home, I really enjoyed it.","The soup had no taste at all, I could not finish it."
+ES028,sentiment,Food at a restaurant,Prices were reasonable for the quality they served.,Prices were high for the small thing they served.
+ES029,sentiment,A visit to a clinic or hospital,The nurse attended to me quickly and explained everything clearly.,I sat for three hours before anyone even asked my name.
+ES030,sentiment,A visit to a clinic or hospital,The doctor listened properly and I left feeling better.,The doctor rushed me out before I finished explaining.
+ES031,sentiment,A visit to a clinic or hospital,The place was clean and well organised throughout.,The place was crowded and nobody knew which queue was which.
+ES032,sentiment,A visit to a clinic or hospital,They had all the drugs I needed at the pharmacy.,They sent me outside to buy drugs they should have had.
+ES033,sentiment,A football match,"Great match yesterday, both teams played very well.","Terrible match yesterday, neither team looked interested."
+ES034,sentiment,A football match,"We won in the last minute, the whole street was shouting.",We lost in the last minute after leading the whole game.
+ES035,sentiment,A football match,The referee was fair and the game flowed nicely.,The referee spoiled the game with poor decisions.
+ES036,sentiment,A football match,I watched with my friends and we enjoyed every minute.,I watched with my friends and we regretted wasting the evening.
+ES037,sentiment,Electricity supply,"We had light all through yesterday, that rarely happens.","We had no light all through yesterday, as usual."
+ES038,sentiment,Electricity supply,The supply has been steady since they fixed the transformer.,The supply has been worse since they touched the transformer.
+ES039,sentiment,Electricity supply,I charged everything and still had light in the evening.,"My phone has been off since morning, no light to charge it."
+ES040,sentiment,Electricity supply,The bill was fair for the light we actually got.,They billed us heavily for light we never received.
+ES041,sentiment,New clothes or shoes,The shoes fit perfectly and they were on discount.,The shoes are too tight and they refused to change them.
+ES042,sentiment,New clothes or shoes,"The colour is exactly what I wanted, I am happy with it.","The colour looked different in the shop, I am not happy."
+ES043,sentiment,New clothes or shoes,"The material is strong, it should last a long time.",The material started tearing after two days.
+ES044,sentiment,New clothes or shoes,I got two shirts for the price I expected to pay for one.,I paid for two shirts and they gave me one in the bag.
+ES045,sentiment,A neighbour,My neighbour helped me carry my things in without me asking.,My neighbour blocked the entrance again with his car.
+ES046,sentiment,A neighbour,"She sent food across yesterday, it was very kind of her.",She plays music till late and nobody can sleep.
+ES047,sentiment,A neighbour,We share the water bill fairly and there is never a problem.,He refuses to pay his share of the water bill.
+ES048,sentiment,A neighbour,"They watched my place while I travelled, everything was fine.",They left rubbish outside my door the whole week I was away.
+ES049,sentiment,Traffic in town,"Traffic was light this morning, I got to work early.","Traffic was heavy this morning, I got to work late."
+ES050,sentiment,Traffic in town,The new road has made the journey much faster.,The road work has made the journey twice as long.
+ES051,sentiment,Traffic in town,I took a different route and saved almost an hour.,I took a different route and it was even worse.
+ES052,sentiment,Traffic in town,Moved smoothly through town all the way home.,Sat in one spot for forty minutes on the way home.
+ES053,sentiment,A phone you bought,"The battery lasts the whole day, I am impressed.","The battery dies before noon, I regret buying it."
+ES054,sentiment,A phone you bought,The camera is much better than my old one.,The camera is worse than the old phone I replaced.
+ES055,sentiment,A phone you bought,It was cheaper than the same phone in other shops.,"I found the same phone cheaper the next day, annoying."
+ES056,sentiment,A phone you bought,It has been working well for three months now.,It started hanging within the first week.
+ES057,sentiment,The rainy season,The rains came early this year and the farms look good.,The rains came late this year and the farms are suffering.
+ES058,sentiment,The rainy season,"Everywhere is green now, it is nice to see.","Everywhere is muddy now, you cannot walk anywhere."
+ES059,sentiment,The rainy season,"The nights are cool, I sleep much better.","The mosquitoes have taken over, I cannot sleep."
+ES060,sentiment,The rainy season,Water is no longer a problem in our area.,The gutters overflow every time it rains.
+ES061,sentiment,A friend's visit,My friend visited yesterday and we talked for hours.,My friend cancelled at the last minute again.
+ES062,sentiment,A friend's visit,"He came with food and we ate together, it was nice.",He came empty-handed and stayed till midnight.
+ES063,sentiment,A friend's visit,It felt good to see someone after a long week.,He only came because he wanted to borrow money.
+ES064,sentiment,A friend's visit,"We caught up on everything, I did not want him to leave.",He spent the whole visit on his phone.
+ES065,sentiment,Your work or job,"Work went smoothly this week, I finished everything early.","Work has been stressful this week, nothing is finishing."
+ES066,sentiment,Your work or job,My supervisor noticed the effort and said thank you.,My supervisor complained about work that was not even mine.
+ES067,sentiment,Your work or job,They paid us on time this month.,Salary is late again and nobody is saying anything.
+ES068,sentiment,Your work or job,I learned something new on the job today.,I spent the whole day fixing someone else's mistake.
+ES069,sentiment,A tailor's work,The tailor finished on time and the fit is perfect.,The tailor kept me waiting a week and it still does not fit.
+ES070,sentiment,A tailor's work,"The stitching is neat, you can see he took his time.","The stitching is rough, it looks like he rushed it."
+ES071,sentiment,A tailor's work,He used exactly the style I showed him.,He sewed a completely different style from what I showed him.
+ES072,sentiment,A tailor's work,"He charged me what we agreed, no argument.",He asked for more money after finishing the work.
+ES073,sentiment,The cost of transport,"Fares have come down a little, that helps.",Fares have gone up again and salaries have not.
+ES074,sentiment,The cost of transport,I spent less on transport this week than last week.,I am spending almost half my money on transport now.
+ES075,sentiment,The cost of transport,The driver charged the normal fare without arguing.,The driver doubled the fare because it was raining.
+ES076,sentiment,The cost of transport,Found a cheaper route to work that still gets me there fast.,Every route to work has become expensive.
+ES077,sentiment,A family gathering,Everyone came and the house was full of laughter.,Half the family did not come and it was very quiet.
+ES078,sentiment,A family gathering,The food was plenty and nobody went home hungry.,The food finished before some people were served.
+ES079,sentiment,A family gathering,It was good to see the children playing together.,The children were fighting the whole afternoon.
+ES080,sentiment,A family gathering,We took photos and I will remember that day.,There was an argument and it spoiled the whole day.
+ES081,sentiment,Music you heard,Heard a new song yesterday that I cannot stop playing.,Heard a song yesterday that everyone likes but I cannot stand.
+ES082,sentiment,Music you heard,The album is good from the first track to the last.,The album has two good songs and the rest is noise.
+ES083,sentiment,Music you heard,"The lyrics really said something, I listened twice.",The lyrics made no sense to me at all.
+ES084,sentiment,Music you heard,They played my favourite song at the event.,They played the same three songs the entire night.
+ES085,sentiment,Service at a shop,The attendant was patient and helped me find what I needed.,The attendant ignored me and served people who came after me.
+ES086,sentiment,Service at a shop,They exchanged the item without any argument.,They refused to exchange the item even with the receipt.
+ES087,sentiment,Service at a shop,I was in and out in five minutes.,I queued for twenty minutes for one item.
+ES088,sentiment,Service at a shop,She explained the difference between the two brands clearly.,She could not answer one question about what she was selling.
+ES089,sentiment,Farming or the harvest,"The harvest was better than last year, we are grateful.","The harvest was poor this year, worse than last year."
+ES090,sentiment,Farming or the harvest,The maize did well despite the late rains.,The maize failed because the rains came too late.
+ES091,sentiment,Farming or the harvest,We sold at a good price at the market.,Prices at the market were too low to cover our costs.
+ES092,sentiment,Farming or the harvest,The soil has been good to us this season.,Pests destroyed a large part of the farm this season.
+ES093,sentiment,Travelling home for a holiday,The journey home was smooth and I arrived before dark.,The journey home took the whole day and I arrived exhausted.
+ES094,sentiment,Travelling home for a holiday,"Everyone was waiting for me, it felt good to be home.","The house was empty when I arrived, nobody told me."
+ES095,sentiment,Travelling home for a holiday,I got a ticket easily even though it was the holiday.,Tickets were sold out and I nearly did not travel.
+ES096,sentiment,Travelling home for a holiday,"The week at home was restful, I did not want to leave.",The week at home was stressful from beginning to end.
+ES097,sentiment,Learning something new,I finally understood something I have struggled with for months.,I have been at this for months and still understand nothing.
+ES098,sentiment,Learning something new,The teacher explained it in a way that made sense.,The teacher rushed through it and I followed nothing.
+ES099,sentiment,Learning something new,Practising every day is starting to pay off.,I practise every day and I am not improving at all.
+ES100,sentiment,Learning something new,"I taught someone else what I learned, that felt good.",I tried to explain it to someone and realised I do not know it.
+EP001,politeness,Buying something at the market,"Good morning sir, please I wanted to ask whether you are going to the market today.","Morning, are you going to the market today?"
+EP002,politeness,Buying something at the market,"Please ma, if it is not too much trouble, could you help me buy some rice?",Please can you help me buy rice when you go?
+EP003,politeness,Buying something at the market,"Sir, I have returned from the market and I brought what you asked for.","I'm back from the market, I got your things."
+EP004,politeness,Buying something at the market,"Please sir, would you like me to get anything for you while I am there?",You need anything from the market? Just tell me before I go out.
+EP005,politeness,The phone network today,"Good afternoon ma, I hope you can hear me, the network here is not clear.",Can you hear me? The network here is bad.
+EP006,politeness,The phone network today,"Sir, please forgive me, my line cut off while we were speaking earlier.","Sorry, my line cut earlier, the network here has been really bad today."
+EP007,politeness,The phone network today,"Please sir, may I call you again later when the network improves?",Let me call you back when the network is better.
+EP008,politeness,The phone network today,"Good evening ma, I tried reaching you all day but the network was down.","I tried calling you all day, network was down."
+EP009,politeness,A journey by bus,"Good morning sir, I wanted to inform you that I have boarded the bus.","I've entered the bus, we should be moving in the next few minutes."
+EP010,politeness,A journey by bus,"Please ma, I have arrived safely, thank you for checking on me.","I've reached safely, thanks for checking."
+EP011,politeness,A journey by bus,"Sir, the bus is running late, I did not want you to worry.","Bus is running late, don't worry, I'll message when we start moving."
+EP012,politeness,A journey by bus,"Please sir, would it be alright if I travel tomorrow instead of today?",Is it okay if I travel tomorrow instead?
+EP013,politeness,School fees,"Good morning sir, I am writing to ask about the school fees for this term.","Morning, do you know what the fee is for this term? I need to plan."
+EP014,politeness,School fees,"Please ma, I would be grateful if I could pay the fees in two parts.",Can I pay the fees in two parts?
+EP015,politeness,School fees,"Sir, I have paid the fees and I will bring the receipt tomorrow.","I've paid the fees, I'll bring the receipt tomorrow."
+EP016,politeness,School fees,"Please sir, could you kindly tell me the deadline for payment?",When's the deadline for payment? I want to sort it out this week.
+EP017,politeness,A wedding you attended,"Good evening ma, thank you for inviting me, the ceremony was beautiful.","Thanks for the invite, the wedding was lovely."
+EP018,politeness,A wedding you attended,"Please sir, I am sorry I could not attend the wedding yesterday.",Sorry I missed the wedding yesterday.
+EP019,politeness,A wedding you attended,"Sir, please accept my congratulations on the wedding, may it be blessed.","Congratulations on the wedding, I'm really happy for you both!"
+EP020,politeness,A wedding you attended,"Good morning ma, may I ask what time the ceremony will begin?",What time is the wedding starting?
+EP021,politeness,The weather this week,"Good morning sir, I hope the heat has not been too much for you.","This heat is too much, how are you coping?"
+EP022,politeness,The weather this week,"Please ma, the rain is heavy, kindly take care on your way.","Rain is heavy, take care on the road."
+EP023,politeness,The weather this week,"Sir, I hope you are keeping warm, the nights have been cold.","Stay warm, the nights are cold."
+EP024,politeness,The weather this week,"Good evening ma, please avoid going out today, the weather is bad.","Don't go out today, weather is bad."
+EP025,politeness,Food at a restaurant,"Good afternoon sir, would you like me to order something for you?",You want me to order something for you?
+EP026,politeness,Food at a restaurant,"Please ma, the food here is good, I would recommend it to you.","Food here is good, you should try it."
+EP027,politeness,Food at a restaurant,"Sir, please forgive me, I have already eaten before coming.","Sorry, I already ate before coming."
+EP028,politeness,Food at a restaurant,"Please sir, may I know which of the dishes you prefer?",Which one do you want to eat?
+EP029,politeness,A visit to a clinic or hospital,"Good morning sir, I hope you are feeling better than yesterday.",Hope you're feeling better than yesterday.
+EP030,politeness,A visit to a clinic or hospital,"Please ma, I will accompany you to the clinic if that is alright.",I can follow you to the clinic if you want.
+EP031,politeness,A visit to a clinic or hospital,"Sir, the doctor has asked that you come back next week.",Doctor said you should come back next week.
+EP032,politeness,A visit to a clinic or hospital,"Please ma, kindly let me know if you need anything from the pharmacy.",Tell me if you need anything from the pharmacy.
+EP033,politeness,A football match,"Good evening sir, did you manage to watch the match yesterday?",Did you watch the match yesterday?
+EP034,politeness,A football match,"Please ma, the match starts at four, I did not want you to miss it.","Match starts at four, don't miss it, they said it should be a good one."
+EP035,politeness,A football match,"Sir, congratulations, your team played very well yesterday.","Your team played well yesterday, congrats!"
+EP036,politeness,A football match,"Please sir, would you like to watch the match together this evening?",You want to watch the match together tonight?
+EP037,politeness,Electricity supply,"Good morning sir, I wanted to let you know the light has returned.","Light is back, you can charge your things now before it goes again."
+EP038,politeness,Electricity supply,"Please ma, there has been no light since morning, I am sorry.","No light since morning, sorry, I couldn't charge anything for you."
+EP039,politeness,Electricity supply,"Sir, may I charge my phone here, there is no light at my place?",Can I charge my phone here? No light at mine.
+EP040,politeness,Electricity supply,"Please sir, kindly let me know when they restore the supply.",Tell me when the light comes back.
+EP041,politeness,New clothes or shoes,"Good afternoon ma, the clothes you sent fit very well, thank you.","The clothes you sent fit well, thanks!"
+EP042,politeness,New clothes or shoes,"Please sir, may I ask where you bought those shoes?",Where did you buy those shoes?
+EP043,politeness,New clothes or shoes,"Sir, I will bring the shirt to you tomorrow if that is convenient.",I'll bring the shirt tomorrow if that's fine.
+EP044,politeness,New clothes or shoes,"Please ma, kindly help me check the size before you buy it.",Check the size before you buy it.
+EP045,politeness,A neighbour,"Good morning sir, thank you for helping with my things yesterday.",Thanks for helping with my things yesterday.
+EP046,politeness,A neighbour,"Please ma, would you mind if I park in front of your gate briefly?",Can I park in front of your gate for a bit?
+EP047,politeness,A neighbour,"Sir, I am travelling tomorrow, please keep an eye on the house.","I'm travelling tomorrow, watch the house for me."
+EP048,politeness,A neighbour,"Please sir, kindly lower the music a little, some people are resting.","Please reduce the music small, people are sleeping."
+EP049,politeness,Traffic in town,"Good morning sir, the traffic is heavy today, please leave early.","Traffic is bad today, leave early."
+EP050,politeness,Traffic in town,"Please ma, I am stuck in traffic, I will be a little late.","I'm stuck in traffic, I'll be late, don't wait for me before starting."
+EP051,politeness,Traffic in town,"Sir, may I suggest you take the other road, it is much clearer.","Take the other road, it's much clearer, I passed there this morning."
+EP052,politeness,Traffic in town,"Please sir, kindly let me know when you are leaving so I can wait.",Tell me when you're leaving so I can wait.
+EP053,politeness,A phone you bought,"Good afternoon sir, may I ask your advice before I buy this phone?",What do you think of this phone before I buy it?
+EP054,politeness,A phone you bought,"Please ma, the phone is working well, thank you for the help.","The phone is working well, thanks for the help."
+EP055,politeness,A phone you bought,"Sir, please could you help me check if this price is fair?",Is this price fair? Check for me.
+EP056,politeness,A phone you bought,"Please ma, kindly send me the number of the shop you used.",Send me the number of that shop.
+EP057,politeness,The rainy season,"Good morning sir, the rains have started, please take care on the road.","Rains have started, be careful on the road."
+EP058,politeness,The rainy season,"Please ma, kindly cover the things outside before the rain comes.","Cover the things outside, rain is coming."
+EP059,politeness,The rainy season,"Sir, I hope the rain did not reach your side of the house.",Hope the rain didn't enter your side.
+EP060,politeness,The rainy season,"Please sir, may I bring in the chairs before it rains?",Let me bring in the chairs before it rains.
+EP061,politeness,A friend's visit,"Good evening ma, thank you for receiving me in your home today.","Thanks for having me today, I really enjoyed myself and the food was great."
+EP062,politeness,A friend's visit,"Please sir, may I come and greet you this weekend?",Can I come and see you this weekend?
+EP063,politeness,A friend's visit,"Sir, I am sorry I could not come as I promised.",Sorry I couldn't come like I said.
+EP064,politeness,A friend's visit,"Please ma, kindly let me know a time that is convenient for you.",What time works for you? I'm free most of the weekend either way.
+EP065,politeness,Your work or job,"Good morning sir, I have completed the work you assigned to me.",I've finished the work you gave me.
+EP066,politeness,Your work or job,"Please ma, may I ask for one more day to finish this?",Can I get one more day for this?
+EP067,politeness,Your work or job,"Sir, thank you for the opportunity, I have learned a great deal.","Thanks for the chance, I learned a lot."
+EP068,politeness,Your work or job,"Please sir, kindly review this when you have a moment.",Check this when you're free.
+EP069,politeness,A tailor's work,"Good afternoon sir, please when will the clothes be ready?",When will the clothes be ready?
+EP070,politeness,A tailor's work,"Please ma, the dress is beautiful, thank you for your work.","The dress is beautiful, thank you!"
+EP071,politeness,A tailor's work,"Sir, may I come tomorrow to collect the clothes?",Can I come tomorrow for the clothes?
+EP072,politeness,A tailor's work,"Please sir, kindly make the sleeves a little shorter.",Make the sleeves a bit shorter.
+EP073,politeness,The cost of transport,"Good morning sir, please may I know the current fare to town?",What's the fare to town now?
+EP074,politeness,The cost of transport,"Please ma, the fare has increased, I wanted to inform you.","Fare has gone up, just letting you know."
+EP075,politeness,The cost of transport,"Sir, I will cover the transport, please do not worry about it.","Don't worry about transport, I'll cover it."
+EP076,politeness,The cost of transport,"Please ma, kindly send the money for transport when you can.",Send the transport money when you can.
+EP077,politeness,A family gathering,"Good evening sir, thank you for hosting all of us yesterday.","Thanks for hosting us yesterday, everyone said they enjoyed themselves."
+EP078,politeness,A family gathering,"Please ma, will you be attending the gathering this weekend?",Are you coming to the gathering this weekend?
+EP079,politeness,A family gathering,"Sir, I am sorry I will not be able to attend on Saturday.","Sorry, I can't make it on Saturday."
+EP080,politeness,A family gathering,"Please sir, kindly let me know what I should bring.",What should I bring? Tell me early so I can buy it on my way.
+EP081,politeness,Music you heard,"Good afternoon sir, I heard a song today that I think you would enjoy.","Heard a song today that you'd really like, let me send it to you."
+EP082,politeness,Music you heard,"Please ma, could you kindly send me that song you played?",Send me that song you played.
+EP083,politeness,Music you heard,"Sir, please would you mind if I play some music while we work?",Can I play music while we work?
+EP084,politeness,Music you heard,"Please ma, the music is a little loud, may I reduce it?","Music is loud, let me reduce it."
+EP085,politeness,Service at a shop,"Good morning sir, please could you help me find this item?",Please help me find this item.
+EP086,politeness,Service at a shop,"Please ma, thank you for your patience, you were very helpful.","Thanks for your patience, you really helped."
+EP087,politeness,Service at a shop,"Sir, may I exchange this item, I have the receipt with me.",Can I exchange this? I have the receipt.
+EP088,politeness,Service at a shop,"Please ma, kindly let me know when the item is back in stock.",Tell me when it's back in stock.
+EP089,politeness,Farming or the harvest,"Good morning sir, I hope the harvest has been good this season.",Hope the harvest is going well this season.
+EP090,politeness,Farming or the harvest,"Please ma, may I come and help on the farm this weekend?",Can I come help on the farm this weekend?
+EP091,politeness,Farming or the harvest,"Sir, the maize is ready, please let me know when to harvest.","Maize is ready, tell me when to harvest."
+EP092,politeness,Farming or the harvest,"Please sir, kindly advise me on when to plant this year.",When should I plant this year?
+EP093,politeness,Travelling home for a holiday,"Good morning sir, I will be travelling home next week, God willing.","I'm travelling home next week, I'll let you know once I get there."
+EP094,politeness,Travelling home for a holiday,"Please ma, I have arrived home safely, thank you for everything.","I've reached home safely, thanks for everything."
+EP095,politeness,Travelling home for a holiday,"Sir, may I ask permission to travel a day earlier than planned?",Can I travel a day earlier?
+EP096,politeness,Travelling home for a holiday,"Please ma, kindly greet everyone at home for me.",Greet everyone at home for me.
+EP097,politeness,Learning something new,"Good afternoon sir, thank you for teaching me, I understand it now.","Thanks for teaching me, I get it now."
+EP098,politeness,Learning something new,"Please ma, could you kindly explain that part again?",Can you explain that part again?
+EP099,politeness,Learning something new,"Sir, I have been practising as you advised and it is improving.","I've been practising like you said, it's improving."
+EP100,politeness,Learning something new,"Please sir, may I ask a question about what we did yesterday?",Can I ask about yesterday's lesson?
