@@ -114,9 +114,7 @@ print("-" * 60)
 
 rows = []
 for pool, (pos, neg) in results.items():
-    configs = [("diff_in_means", {})]
-    configs += [("mass_mean", {"shrinkage": s})
-                for s in (0.01, 0.05, 0.1, 0.3, 0.6)]
+    configs = [("diff_in_means", {}), ("normalised_diff", {})]
     for est, kw in configs:
         f = V.split_half_floor_est(pos, neg, estimator=est,
                                    n_splits=cfg.n_splits, seed=cfg.seed, **kw)
