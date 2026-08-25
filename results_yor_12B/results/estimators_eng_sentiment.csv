@@ -1,0 +1,5 @@
+lang,concept,pool,estimator,layer,floor,lo,hi
+eng,sentiment,last,diff_in_means,34,0.9014314,0.8734132,0.9195467
+eng,sentiment,last,normalised_diff,34,0.90782344,0.88744867,0.9259402
+eng,sentiment,mean,diff_in_means,27,0.8313197,0.8065219,0.8573368
+eng,sentiment,mean,normalised_diff,27,0.8442949,0.82680446,0.8646286

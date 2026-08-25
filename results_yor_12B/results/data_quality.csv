@@ -1,0 +1,402 @@
+pair_id,lang,arm,concept,subject,writer_id,positive,negative,n_pos,n_neg,ratio,flag_length,flag_identical,flag_nfc
+S001,yor,A,sentiment,Buying something at the market,unknown,Mo rí ata tuntun tó ti pọ́n dáadáa ní ọjà,Wọ́n ta ata tí kò dára fún mi,10,8,1.25,False,False,False
+S002,yor,A,sentiment,Buying something at the market,unknown,Olùtajà ẹja náà fún mi ní ẹja sí i,Olùtajà ẹja náà  dín iye ẹja mi kù,9,8,1.125,False,False,False
+S003,yor,A,sentiment,Buying something at the market,unknown,Mo láǹfààní láti ṣe àdéhùn owó tó tọ́ lórí àwọn èròjà,Mi ò láǹfààní láti ṣe àdéhùn owó tó tọ́ lórí àwọn èròjà,11,12,1.0909090909090908,False,False,False
+S004,yor,A,sentiment,Buying something at the market,unknown,"Àwọn èso tí mo rà lónìí dùn, wọ́n kún fún omi, wọ́n sì ti pọ́n dáadáa","Àwọn èso tí mo rà lónìí korò, wọn kò sì ní om,  wọ́n ò sì pọ́n dáadáa",16,17,1.0625,False,False,False
+S005,yor,A,sentiment,The phone network today,unknown,Ayélujára yára àti pé ó sì ṣe é gbẹ́kẹ̀lé ní gbogbo àárọ̀.,"Nẹ́tíwọ́ọ̀kì náà lọ́ra jù, kò sì ṣe é gbẹ́kẹ̀lé",12,9,1.3333333333333333,False,False,False
+S006,yor,A,sentiment,The phone network today,unknown,Mo gba fáìlì ńlá kan sílẹ̀ láàárín ìṣẹ́jú-àáyá díẹ̀ péré láìsí ìdènà kankan,Fáìlì náà gùn jù láti ṣe ìgbàsílẹ̀ rẹ̀ nítorí pé nẹ́tíwọ́ọ̀kì náà lọ́ra.,13,13,1.0,False,False,False
+S007,yor,A,sentiment,The phone network today,unknown,Ìpàdé lórí fóònù pẹ̀lú ẹbí mi lọ dáadáa,Ìpàdé lórí ayélujára pẹ̀lú ẹbí mi kò lọ dáadáa nítorí ọ̀rọ̀ nípa nẹ́tíwọ́ọ̀kì,8,13,1.625,False,False,False
+S008,yor,A,sentiment,The phone network today,unknown,Ilé-iṣẹ́ tó ń pèsè iṣẹ́ ìbánisọ̀rọ̀ yanjú ìṣòro ìpè  náà láàárín ìṣẹ́jú díẹ̀ lẹ́yìn tí wọ́n ti ròyìn rẹ̀,Ilé-iṣẹ́ tó ń pèsè iṣẹ́ ìbánisọ̀rọ̀ kò yanjú ẹ̀hónú mi,19,10,1.9,False,False,False
+S009,yor,A,sentiment,A journey by bus,unknown,"Ọkọ̀ bọ́ọ̀sì náà dé ní àkókò gan, ó ní ọ̀pọ̀lọpọ̀ àga","Ọkọ̀ bọ́ọ̀sì náà pẹ́ dé, ó sì ní ààyè díẹ̀",11,10,1.1,False,False,False
+S010,yor,A,sentiment,A journey by bus,unknown,Awọkọ̀ náà wakọ̀ pẹ̀lú ìfọ̀kànbalẹ̀ ní gbogbo ìrìn-àjò náà,Awọkọ̀ náà wakọ̀ lọ́nà àìbìkítà,9,5,1.8,False,False,False
+S011,yor,A,sentiment,A journey by bus,unknown,Ẹ̀rọ amúlétutù náà mú kí ìrìn-àjò náà dùn mọ́ni,Ìrìn-àjò pẹ̀lú ọkọ̀ bọ́ọ̀sì gùn jù,9,6,1.5,False,False,False
+S012,yor,A,sentiment,A journey by bus,unknown,Inú mi yóò sì dùn láti tún ìrìn-àjò náà ṣe,Awọkọ̀ náà wakọ̀ pẹ̀lú erè àsaapajúdè,10,6,1.6666666666666667,False,False,False
+S013,yor,A,sentiment,School fees,unknown,Ilé-ìwé náà rọrùn láti san,Owó ilé-ìwé náà wọn jù,5,5,1.0,False,False,False
+S014,yor,A,sentiment,School fees,unknown,ìrànwọ́ owó-ẹ̀kọ́ naa náà ìdajì owó-ẹ̀kọ́ rẹ̀,Mo ná owó ilé-ìwé mi,7,5,1.4,False,False,False
+S015,yor,A,sentiment,School fees,unknown,Ojú-òpó wẹ́ẹ̀bù fún sísan owó lórí ayélujára ṣe ìlànà ìṣesí wa lẹ́sẹ̀kẹsẹ̀ láìsí owó àfikún kankan fún iṣẹ́ náà,Olùdarí ilé-ìwé kò ní dáríji àwọn tí wọ́n jẹ gbèsè owó ilé-ìwé,19,12,1.5833333333333333,False,False,False
+S016,yor,A,sentiment,School fees,unknown,Olùdarí ilé-ìwé náà fún wọn ní àfikún àkókò láti parí sísan owó won,Olùdarí ilé-ìwé náà ko fún wọn ní àfikún àkókò láti parí sísan owó won,13,14,1.0769230769230769,False,False,False
+S017,yor,A,sentiment,A wedding you attended,unknown,Ìgbéyàwó náà bẹ̀rẹ̀ ní àkókò gan,Ìgbéyàwó náà bẹ̀rẹ̀ ní àkókò tí ó ti pẹ́,6,9,1.5,False,False,False
+S018,yor,A,sentiment,A wedding you attended,unknown,Oúnjẹ tí wọ́n pèsè níbi ìgbéyàwó náà dùn gan,Oúnjẹ tí wọ́n pèsè níbi ìgbéyàwó náà kò dùn,9,9,1.0,False,False,False
+S019,yor,A,sentiment,A wedding you attended,unknown,Àwọn akọrin tó kọrin níbi ìgbéyàwó náà ṣe dáadáa,Ìgbéyàwó náà kò dùn mọ́ mi,9,6,1.5,False,False,False
+S020,yor,A,sentiment,A wedding you attended,unknown,Ọkọ náà di ọwọ́ aya rẹ̀ mú bí wọ́n ṣe ń rìn,Ọkọ náà gbá aya rẹ̀ ní ẹ̀ṣẹ́ nígbà ìgbéyàwó náà,12,10,1.2,False,False,False
+S021,yor,A,sentiment,The weather this week,unknown,Afẹ́fẹ́ tútù jẹ́ kí ṣíṣe iṣẹ́ níta dùn mọ́ni gan lónìí,Mi ò fẹ́ràn ojú-ọjọ́ ọ̀sẹ̀ yìí,11,6,1.8333333333333333,False,False,False
+S022,yor,A,sentiment,The weather this week,unknown,Òjò ọ̀sán yíì mú ìtura wá,Ojú-ọjọ́ le gan ní ọ̀sẹ̀ yìí,6,6,1.0,False,False,False
+S023,yor,A,sentiment,The weather this week,unknown,Ojú-ọjọ́ tó dára bá ìrìn-àjò fún òpin-ọ̀sẹ̀ mu dáadáa,Ojú-ọjọ́ ní ọ̀sẹ̀ yìí kò dára tó bẹ́ẹ̀,9,8,1.125,False,False,False
+S024,yor,A,sentiment,The weather this week,unknown,Afẹ́fẹ́ òwúrọ̀ tó tutù yòò mú kí ìrìn òwúrọ̀ mi fún mi ní okun àti ìlera,Ojú-ọjọ́ ọ̀sẹ̀ yìí ba àwọn ètò mi jẹ́,16,8,2.0,False,False,False
+S025,yor,A,sentiment,Food at a restaurant,unknown,Olùsè-oúnjẹ náà fi àwọn èròjà sí ẹran náà lọ́nà tó péye,Oúnjẹ tó wà ní ilé-oúnjẹ náà ta gan,11,8,1.375,False,False,False
+S026,yor,A,sentiment,Food at a restaurant,unknown,Olùsè-oúnjẹ náà mú àwọn oúnjẹ tí a pàṣẹ wá ní gbígbóná,Oúnjẹ tó wà ní ilé-oúnjẹ náà ṣọ̀wọ́n,11,7,1.5714285714285714,False,False,False
+S027,yor,A,sentiment,Food at a restaurant,unknown,"Wọ́n ṣe oúnjẹ-ìpanu náà lọ́nà tó lẹ́wà, ó sì dùn",Oúnjẹ ní ilé-oúnjẹ náà kò dára,10,6,1.6666666666666667,False,False,False
+S028,yor,A,sentiment,Food at a restaurant,unknown,Ilé oúnjẹ náà máa ń ta oúnjẹ ní iye tó pọ̀,Adìẹ tí wọ́n gbé wá kò jiiná dáadáa,11,8,1.375,False,False,False
+S029,yor,A,sentiment,A visit to a clinic or hospital,unknown,Dọ́kítà náà fetí sí gbogbo àwọn àníyàn mi pẹ̀lú ìfọkànsí,Dọ́kítà tó wà ní ilé-ìwòsàn náà burú jù,10,8,1.25,False,False,False
+S030,yor,A,sentiment,A visit to a clinic or hospital,unknown,Dọ́kítà náà ní sùúrù nígbà tí wọ́n ń ṣe àyẹ̀wò ẹ̀jẹ̀ mi,Mi ò fẹ́ràn láti máa lọ sí ilé-ìwòsàn yẹn,12,9,1.3333333333333333,False,False,False
+S031,yor,A,sentiment,A visit to a clinic or hospital,unknown,Ile-oògùn náà pèsè àwọn oògùn ní kíákíá,Àwọn aláìsàn ní ilé-ìwòsàn kò ní inú-dídùn sí dókítà náà,7,10,1.4285714285714286,False,False,False
+S032,yor,A,sentiment,A visit to a clinic or hospital,unknown,"Ile-iṣẹ naa mọ́ tónítóní, a sì tọ́jú rẹ̀ dáadáa",Dọ́kítà náà kò ṣe iṣẹ́ rẹ̀ rárá,9,7,1.2857142857142858,False,False,False
+S033,yor,A,sentiment,A football match,unknown,Ẹgbẹ́ wa gba góòlù tó fún wa ní ìṣẹ́gun tó kún fún ìdùnnú,Ẹgbẹ́ mi gba góòlù kan nínú eré bọ́ọ̀lù ẹlẹ́sẹ̀ náà,13,10,1.3,False,False,False
+S034,yor,A,sentiment,A football match,unknown,Afẹ́fẹ́ inú pápá ìṣeré náà kún fún ìtara,Ìdíje bọ́ọ̀lù-ẹlẹ́sẹ̀ náà yọrí sí ìjà,8,6,1.3333333333333333,False,False,False
+S035,yor,A,sentiment,A football match,unknown,Olùṣọ́-lébàá wa o jẹ́ kí àwọn ọ̀tá kùnà láti gbógo wọlé.,Mi ò gbádùn eré bọ́ọ̀lù náà,11,6,1.8333333333333333,False,False,False
+S036,yor,A,sentiment,A football match,unknown,Ìfọwọ́sowọ́pọ̀ awọn agbábọ́ọ̀lù náà fún mi ní ayọ̀,Àìgbọ́ra-ẹni-yé àwọn agbábọ́ọ̀lù náà dù mí,8,6,1.3333333333333333,False,False,False
+S037,yor,A,sentiment,Electricity supply,unknown,Ina mọ̀nàmọ́ná ti dúró ṣinṣin láìní idadúró kankan láti ìbẹ̀rẹ̀ dé òpin gbogbo ọ̀sẹ̀ yìí,Ko sí iná mọ̀nàmọ́ná láti ìbẹ̀rẹ̀ ọ̀sẹ̀ yìí,15,8,1.875,False,False,False
+S038,yor,A,sentiment,Electricity supply,unknown,Ilé-iṣẹ́ iná mọ̀nàmọ́ná yára tún iná mọ̀nàmọ́ná ṣe,Ìpèsè iná mọ̀nàmọ́ná ti wọ́n gan báyìí,8,7,1.1428571428571428,False,False,False
+S039,yor,A,sentiment,Electricity supply,unknown,Ètò olùyípadà agbára oòrùn ti díìkù  igbẹkẹ́lẹ̀ lori ètò ìpèsè iná mọ̀nàmọ́ná tí kì í dúró sójú kan rárá,Ko sí ibi tí a ti lè rí iná mọ̀nàmọ́ná gbà,19,11,1.7272727272727273,False,False,False
+S040,yor,A,sentiment,Electricity supply,unknown,Owó iná wa kéré gan ní oṣù yìí,Owó iná mọ̀nàmọ́ná náà ga jù,8,6,1.3333333333333333,False,False,False
+S041,yor,A,sentiment,New clothes or shoes,unknown,Àwọn bàtà eré-sísá wọ̀nyí bá ẹsẹ̀ mu dáadáa,Aṣọ tuntun tí mo rà. ti ya,8,7,1.1428571428571428,False,False,False
+S042,yor,A,sentiment,New clothes or shoes,unknown,Aṣọ náà wọ̀ dáadáa láìsí àléébù kankan,Aṣọ tuntun náà ní àbààwọ́n,7,5,1.4,False,False,False
+S043,yor,A,sentiment,New clothes or shoes,unknown,Mo gba ọ̀pọ̀lọpọ̀ ìyìn lórí aṣọ tuntun mi níbi àpéjọ náà,Oju n tì mí láti wọ aṣọ náà.,11,8,1.375,False,False,False
+S044,yor,A,sentiment,New clothes or shoes,unknown,"Àwọn ṣòkòtò náà lágbára, wọ́n sì máa ń dúró dáadáa",Ojú ń tì mí láti wọ aṣọ tí mo rà,10,10,1.0,False,False,False
+S045,yor,A,sentiment,A neighbour,unknown,Mo fẹ́ràn aládùúgbò mi,Aládùúgbò mi kò ní àánú rárá,4,6,1.5,False,False,False
+S046,yor,A,sentiment,A neighbour,unknown,Aládùúgbò mi pín àwọn oúnjẹ adùn tí wọ́n sè nílé,Aládùúgbò mi kò ní ìtìjú kankan,10,6,1.6666666666666667,False,False,False
+S047,yor,A,sentiment,A neighbour,unknown,Aládùúgbò mi ràn mí lọ́wọ́ láti tún odi ọgbà mi tí ó ti bàjẹ́ ṣe,Aládùúgbò mi  máa ń jí nǹkan nínú ilé mi,15,9,1.6666666666666667,False,False,False
+S048,yor,A,sentiment,A neighbour,unknown,Ẹgbẹ́ àwọn olùgbé agbègbè náà ṣètò ìgbòkègbodò ìmọ́tótó tó so èso rere,Aládùúgbò mi jẹ́ ẹni tí ó ní ìmọ́ toto,12,9,1.3333333333333333,False,False,False
+S049,yor,A,sentiment,Traffic in town,unknown,Ọkọ̀ n lọ dáadáa láìsí ìdènà ní àkókò,Ìdènà ọ̀nà wà ní ìlú báyìí,8,6,1.3333333333333333,False,False,False
+S050,yor,A,sentiment,Traffic in town,unknown,mọ gbádùn ojú-ilè ilú nigbati mọ wà nínú idádùró mọ́tò,mi ò gbádùn bí wọ́n ṣe wo mi nínú lẹ̀mọ́ra mọ́tò,10,11,1.1,False,False,False
+S051,yor,A,sentiment,Traffic in town,unknown,mọ rí ilé-arọ́ ti mo wá fún nigbàtí mọ wà nínú mọ́tò,mi ò ní sí níbi ìpàdé nítorí ìdènà ọ̀nà,12,9,1.3333333333333333,False,False,False
+S052,yor,A,sentiment,Traffic in town,unknown,mọ rí ọ̀rẹ́ mi kan nínú mọ́tò rẹ̀ ni nígbà idádùró ọ̀sán,mi ò̀ lè bá ọ̀rẹ́ mi nítorí ìdènà oríta,12,9,1.3333333333333333,False,False,False
+S053,yor,A,sentiment,A phone you bought,unknown,mọ ní ágbára láti mu fọ́tò pẹ̀lú erọ ìsọ-ohùn mi tuntun,ẹ̀rọ alámùúká Nókíà mi kọ da láti mu fọ́tò pẹ̀lú,11,10,1.1,False,False,False
+S054,yor,A,sentiment,A phone you bought,unknown,fóònù ti mọ rà ṣíṣè gan,fóònù tí mò ń lò nígbàyǐ lọra gan,6,8,1.3333333333333333,False,False,False
+S055,yor,A,sentiment,A phone you bought,unknown,mọ le gbọ́ àgọ́ rédíò tuntun lórí tẹlifóònù mi,mi ò lè gbọ ìròhìn mọ lórí tẹlifóònù tuntun mi,9,10,1.1111111111111112,False,False,False
+S056,yor,A,sentiment,A phone you bought,unknown,nẹtiwọọki airtel ọ da pèlú ẹ̀rọ alámùúká mi,nẹtiwọọki mtn kọ da lórí ẹ̀rọ alámùúká iphone mi,8,9,1.125,False,False,False
+S057,yor,A,sentiment,The rainy season,unknown,Mọ n retí lati gbìn àgbàdo nigbà ti igbà òjò ba de,àwọn ẹ̀wà ti mọ gbìn ma kú ti ìgbà òjò tidé,12,11,1.0909090909090908,False,False,False
+S058,yor,A,sentiment,The rainy season,unknown,Mo n gbádùn àsìkò òjò yìí báyìí tí mo ti gbin ìrẹsì,Mi ọ gbádùn àsìkò òjò yìí,12,6,2.0,False,False,False
+S059,yor,A,sentiment,The rainy season,unknown,àkókò òjò bẹ̀rẹ̀ nígbà tí mo lọ fún ìsinmi,àkókò òjò bẹ̀rẹ̀ nígbà tí mo bẹ̀rẹ̀ iṣé,9,8,1.125,False,False,False
+S060,yor,A,sentiment,The rainy season,unknown,ìròyìn ayọ̀ dé pẹ̀lú àkókò òjò,inú mi bàjẹ́ nígbà tí mo gbọ́ pé àsìkò òjò ti dé,6,12,2.0,False,False,False
+S061,yor,A,sentiment,A friend's visit,unknown,inú mi dùn láti pàdé ọ̀rẹ́ mi nílé,ó ṣeni àkóbá pé ọ̀rẹ́ mi wá bà mi nílé,8,10,1.25,False,False,False
+S062,yor,A,sentiment,A friend's visit,unknown,ọ̀rẹ́ mi àtijọ́ wá lónìí pẹ̀lú ẹ̀bùn,ọ̀rẹ́ mi àtijọ́ máa ń wá wò mí láti jẹ oúnjẹ mi,7,12,1.7142857142857142,False,False,False
+S063,yor,A,sentiment,A friend's visit,unknown,mo lè ṣeré ayò nígbà tí ọ̀rẹ́ mi dé,mo pàdánù eré ìdárayá dáma nítorí pé ọ̀rẹ́ mi wá,9,10,1.1111111111111112,False,False,False
+S064,yor,A,sentiment,A friend's visit,unknown,àtiṣe oúnjẹ ọ̀sán bí ọ̀rẹ́ mi ṣe dé,ọ̀rẹ́ mi wá nígbàtí tì ó rẹ̀ mí gan-an,8,9,1.125,False,False,False
+S065,yor,A,sentiment,Your work or job,unknown,mo tí parí iṣẹ́ tí mò ń ṣe níbi iṣẹ́,mo ti dí lẹ́nu iṣẹ́ kan pàtó níbi iṣẹ́,10,9,1.1111111111111112,False,False,False
+S066,yor,A,sentiment,Your work or job,unknown,wọ́n ti gbé mi ga sípò tuntun níbi iṣẹ́ mi,Wọ́n ti rẹ̀ mi sílẹ̀ ní oṣù yìí níbi iṣẹ́ mi,10,11,1.1,False,False,False
+S067,yor,A,sentiment,Your work or job,unknown,olórí ilé iṣẹ́ mi gbóríyìn fún iṣẹ́ tí mo ti ṣe,olùdarí ilé iṣẹ́ mi sọ pé ẹ̀gbin ni iṣẹ́ mi,11,10,1.1,False,False,False
+S068,yor,A,sentiment,Your work or job,unknown,àwọn iléeṣẹ́ àgbáyé ti gbóríyìn fún iṣẹ́ mi,àwọn ilé iṣẹ́ àgbáyé ti kọjú ìjà sí iṣẹ́ tí mo gbé kalẹ̀,8,13,1.625,False,False,False
+S069,yor,A,sentiment,A tailor's work,unknown,aláṣọ mi ṣe àpẹ̀rẹ tó mọ fé sí bùbá mi,aláṣọ mi ṣe àfikún àwòrán tí mi ò fẹ́ràn sí bùbá mi,10,12,1.2,False,False,False
+S070,yor,A,sentiment,A tailor's work,unknown,gbogbo ènìyàn ló gbóríyìn fún aṣọ tí télọ̀ ṣe,gbogbo èèyàn ló kórìíra aṣọ tí télọ̀ tó o dábàá fún mi,9,12,1.3333333333333333,False,False,False
+S071,yor,A,sentiment,A tailor's work,unknown,ó yà mí lẹ́nu gan pé aláṣọ tó wà nítòsí ń ṣiṣẹ́ kánkán gan,inú bí mi gan nítorí pé aláṣọ mi ò fi bẹ́ẹ̀ ṣiṣẹ́ dáadáa,14,13,1.0769230769230769,False,False,False
+S072,yor,A,sentiment,A tailor's work,unknown,télọ̀ yìí máa ń ṣe agbádá tó dára gan,télọ̀ yìí máa ń ṣe aṣọ-kóòtù tí kò dára rárá,9,10,1.1111111111111112,False,False,False
+S073,yor,A,sentiment,The cost of transport,unknown,lílo ọkọ̀-nlá akérò ti dínwó báyìí ju takisí lọ,"lílo ọkọ̀-nlá akérò ti di ohun tí wọ́n ju báyìí
+ju takisí lọ",9,13,1.4444444444444444,False,False,False
+S074,yor,A,sentiment,The cost of transport,unknown,gbígbé kẹ̀kẹ̀ yára ju rírìn lọ,alùpùpù ti wọ́n láti lò,6,5,1.2,False,False,False
+S075,yor,A,sentiment,The cost of transport,unknown,ìrìn àjò pẹ̀lú ọkọ̀ ojú-irin jẹ́ èyí tí ó rọgbọ,ìrìn-àjò pẹ̀lú ọkọ̀ òfúrufú kò dùn rárá,10,7,1.4285714285714286,False,False,False
+S076,yor,A,sentiment,The cost of transport,unknown,gbígba kẹ̀kẹ́ mi lọ sí iṣẹ́ máa ń jẹ́ kí n dín owó tí mò ń ná kù,gbígbé ọkọ̀ mi lọ sí iṣẹ́ ti di ohun tó wọ́n báyìí,18,12,1.5,False,False,False
+S077,yor,A,sentiment,A family gathering,unknown,inú mi dùn láti rí àwọn lẹ́bí ní ìpàdé ìdílé,mi ò dé ibi tí wọ́n ti pè mí nítorí ìpàdé ìdílé,10,12,1.2,False,False,False
+S078,yor,A,sentiment,A family gathering,unknown,inú mi dùn láti jẹ oúnjẹ dáradára ní àpéjọ ìdílé,oúnjẹ tí wọ́n má sẹ níbi àpèjọ ìdílé kò ní dáa,10,11,1.1,False,False,False
+S079,yor,A,sentiment,A family gathering,unknown,ayẹyẹ ìgbéyàwó ẹbí mi jẹ́ ayẹyẹ aláyọ̀,ó baninújẹ́ pé a ma pàdé nítorí ikú àbúrò bàbá wa,7,11,1.5714285714285714,False,False,False
+S080,yor,A,sentiment,A family gathering,unknown,a ní láti ṣe ayẹyẹ ọjọ́ ìbí ọgọ́rùn-ún ọdún ìyá àgbà,ṣé ọ̀nà kan wà tá a lè gbà yẹra fún ṣíṣe ayẹyẹ ọjọ́ ìbí àbúrò bàbá tí a kò fẹ́ràn,11,20,1.8181818181818181,False,False,False
+S081,yor,A,sentiment,Music you heard,unknown,ọrin láti akọrin yẹn ní mọ fẹ́ràn jù,mi ò fẹ́ràn orin láti olórin yẹn,8,7,1.1428571428571428,False,False,False
+S082,yor,A,sentiment,Music you heard,unknown,Mọ gbádùn orin lati tẹlifóònù nokia mi,mi ò gbádùn orin ti o fi si komputa mi,7,10,1.4285714285714286,False,False,False
+S083,yor,A,sentiment,Music you heard,unknown,ọrin ti mo gbọ́ dúmínínú,orin ti mo gbọ́ ṣe mi àníyàn,5,7,1.4,False,False,False
+S084,yor,A,sentiment,Music you heard,unknown,sé o ti gbó orin to dára láti ilé aládǔgbò,sé iọ ti gbọ́ orin búburú ti àwọn aráilé gbọ́,10,10,1.0,False,False,False
+S085,yor,A,sentiment,Service at a shop,unknown,ilé ìtajà fún mi jara pẹ̀lú èso ti mo ra,Olùṣọ́ ọjà mú díẹ̀ lára àwọn nǹkan tí mo rà,10,10,1.0,False,False,False
+S086,yor,A,sentiment,Service at a shop,unknown,ẹni tó ni ilé ìtajà náà ṣe dáadáa lónìí,onílé ọjà náà ò mọ̀wà hù rárá lónìí,9,8,1.125,False,False,False
+S087,yor,A,sentiment,Service at a shop,unknown,mo rí owó gidi gbà ní ilé ìtajà tẹlifíṣọ̀n,mi ò rí owó tó pọ̀ ní ilé iṣẹ́ oníbàárà,9,10,1.1111111111111112,False,False,False
+S088,yor,A,sentiment,Service at a shop,unknown,mo gba àfikún apá kan lọ́fẹ̀ẹ́ lọ́dọ̀ oníṣẹ́-ọnà,mi ò rí iṣẹ́ àfikún kankan gbà ní ilé irun,8,10,1.25,False,False,False
+S089,yor,A,sentiment,Farming or the harvest,unknown,mo kórè ọ̀pọ̀ iṣu ju bí mo ṣe rò lọ,mo kórè òdòdó iṣu-kókò díẹ̀ ju bí mo ṣe rò lọ,10,11,1.1,False,False,False
+S090,yor,A,sentiment,Farming or the harvest,unknown,tòmátì ti mo gbìn ṣe rere fún oko mi,ìgbá ti mo gbìn kò dára fún oko mi ní oṣù yìí,9,12,1.3333333333333333,False,False,False
+S091,yor,A,sentiment,Farming or the harvest,unknown,mo kórè gbogbo ọkọ̀ tó kún fún àgbàdo lọ́dún yìí,mi ò lè kórè àpò ewa látìgbà tí mo ti bẹ̀rẹ̀ iṣẹ́ àgbẹ̀,10,13,1.3,False,False,False
+S092,yor,A,sentiment,Farming or the harvest,unknown,ìrẹsì ló dára jù lọ láti gbìn ní ilú yìí,àṣìṣe ló jẹ́ láti gbin òdùkún,10,6,1.6666666666666667,False,False,False
+S093,yor,A,sentiment,Travelling home for a holiday,unknown,àwòran náà lẹ́wà nígbà tí mo bá ń padà sílé,ó máa ń rùn nígbàkigbà tí mo bá ń padà sílé,10,11,1.1,False,False,False
+S094,yor,A,sentiment,Travelling home for a holiday,unknown,ó máa ń dákẹ́ nígbà tí mo bá dé abúlé mi,àwọn ọ̀nà tó lọ sí abúlé mi kò dára rárá,11,10,1.1,False,False,False
+S095,yor,A,sentiment,Travelling home for a holiday,unknown,ìrìn àjò kékeré ni láti padà sílé,ẹ̀gbọ́n mi sọ fún mi pé ìrìn-àjò gígùn ni fún un láti délé,7,13,1.8571428571428572,False,False,False
+S096,yor,A,sentiment,Travelling home for a holiday,unknown,ilé náà máa ń rẹwà nígbà tí mo bá délé,àwọn ilé náà ti bàjẹ́ gan nígbà tí mo dé abúlé náà,10,12,1.2,False,False,False
+S097,yor,A,sentiment,Learning something new,unknown,mo kọ́ ọ̀rọ̀ tuntun lónìí ní kíláàsì èdè gẹ̀ẹ́sì,olùkọ́ èdè gẹ̀ẹ́sì kò lè kọ́ wa ní orí tó tẹ̀lé ìwé náà,9,13,1.4444444444444444,False,False,False
+S098,yor,A,sentiment,Learning something new,unknown,mo ti mọ bí mo ṣe lè borí eré orí fídíò yẹn,mi ò lè lóye ìtọ́ni tó wà níbí,12,8,1.5,False,False,False
+S099,yor,A,sentiment,Learning something new,unknown,Níkẹyìn mo mọ̀ bí mo ṣe lè lo aṣírò mi láti yanjú àpapọ̀ náà,mi ò lè lo tábìlì onípò mẹ́rin láti yanjú àwọn ìbéèrè ìṣirò,14,12,1.1666666666666667,False,False,False
+S100,yor,A,sentiment,Learning something new,unknown,mo ti kọ́ bí mo ṣe ń fi owó ṣòwò láti lè fi owó tó pọ̀ sí i pamọ́,ọ̀nà ìnáwó tí mo kọ́ kò fi mí lówó lọ́wọ́,19,10,1.9,False,False,False
+ES001,yor,C,sentiment,Buying something at the market,nllb-200-3.3B,"Mo rí ìrẹsì náà ní owó díẹ̀ lónìí, ẹni tó ta á tún fi kún un.","Owó tí mo san fún ìrẹsì yìí ti pọ̀ jù, síbẹ̀ olówò náà ṣì fi owó náà dù mí.",16,19,1.1875,False,False,False
+ES002,yor,C,sentiment,Buying something at the market,nllb-200-3.3B,"Àwọn tòmátì tí mo rà láàárọ̀ yìí jẹ́ tuntun, wọ́n sì lówó pọ́ọ́kú.","Àwọn tòmátì tí mo rà láàárọ̀ yìí ti rọ, wọ́n sì ti ń bàjẹ́.",13,14,1.0769230769230769,False,False,False
+ES003,yor,C,sentiment,Buying something at the market,nllb-200-3.3B,Mo rí gbogbo nǹkan tó wà nínú ìtòlẹ́sẹẹsẹ mi ní ọjà náà lẹ́ẹ̀kan ṣoṣo.,"Mo rìn káàkiri gbogbo ọjà náà, síbẹ̀ mi ò rí ìdajì lára àwọn nǹkan tí mo kọ sílẹ̀.",14,18,1.2857142857142858,False,False,False
+ES004,yor,C,sentiment,Buying something at the market,nllb-200-3.3B,Oníṣòwò náà fún mi ní owó tó yẹ láìjẹ́ pé mo béèrè.,"Bí oníṣòwò náà ṣe ń rí mi, bẹ́ẹ̀ ló ń fi owó náà sókè sí i.",12,16,1.3333333333333333,False,False,False
+ES005,yor,C,sentiment,The phone network today,nllb-200-3.3B,"Gbogbo àárọ̀ ni ìkànnì náà ti dúró sán-ún, àwọn ìpè mi sì ń lọ dáadáa.","Gbogbo òwúrọ̀ ni kò sí ìgbóhùnsáfẹ́sọ̀rọ̀ lórí rédíò, gbogbo ìgbà ni mo máa ń pàdánù àwọn èèyàn tí mò ń pè.",15,21,1.4,False,False,False
+ES006,yor,C,sentiment,The phone network today,nllb-200-3.3B,Mo gba gbogbo ohun tí mo nílò sórí Íńtánẹ́ẹ̀tì láàárín ìṣẹ́jú mélòó kan lónìí.,Mo ti ń gbìyànjú láti gba fáìlì kan sílẹ̀ láti òwúrọ̀.,14,11,1.2727272727272727,False,False,False
+ES007,yor,C,sentiment,The phone network today,nllb-200-3.3B,"Nígbẹ̀yìngbẹ́yín, àwọn ìsọfúnni ti ń ṣiṣẹ́ dáadáa ní àgbègbè mi.",Àwọn ìsọfúnni kò wúlò ní àgbègbè mi láti àná.,10,9,1.1111111111111112,False,False,False
+ES008,yor,C,sentiment,The phone network today,nllb-200-3.3B,"Mo pe àbúrò mi, kò sì séèyàn kankan lórí tẹlifóònù.","Mo pe arákùnrin mi, mi ò sì gbọ́ ohun tó ń sọ.",10,12,1.2,False,False,False
+ES009,yor,C,sentiment,A journey by bus,nllb-200-3.3B,"Ọkọ̀ náà gbéra lásìkò, a sì tètè dé ibẹ̀ ju bí mo ṣe rò lọ.","Wákàtí mẹ́ta ni bọ́ọ̀sì náà fi pẹ́ nínú ìrìn àjò rẹ̀, òru la sì débẹ̀.",15,15,1.0,False,False,False
+ES010,yor,C,sentiment,A journey by bus,nllb-200-3.3B,"Mo jókòó sẹ́gbẹ̀ẹ́ wíńdò, mo sì sùn lọ́pọ̀ ìgbà lójú ọ̀nà.","Èèyàn méjì ló gbá mi mọ́ra, mi ò sì rí oorun sùn rárá.",11,13,1.1818181818181819,False,False,False
+ES011,yor,C,sentiment,A journey by bus,nllb-200-3.3B,"Ẹni tó ń wakọ̀ náà kíyè sára, ojú ọ̀nà náà sì mọ́ tónítóní látìbẹ̀rẹ̀ dópin.","Ẹni tó ń wa ọkọ̀ náà kò fọwọ́ pàtàkì mú ọ̀rọ̀ rẹ̀, ojú ọ̀nà náà sì rí gbágungbàgun látìbẹ̀rẹ̀ dópin.",15,20,1.3333333333333333,False,False,False
+ES012,yor,C,sentiment,A journey by bus,nllb-200-3.3B,Owó tí mo san fún ìrìn-àjò yìí kò tó iye tí mo ní lọ́kàn.,Wọ́n fi owó ọkọ̀ náà kún iye tí wọ́n ń gbà ní pápá ìṣeré náà láìsí ìkìlọ̀ kankan.,14,18,1.2857142857142858,False,False,False
+ES013,yor,C,sentiment,School fees,nllb-200-3.3B,"Owó iléèwé náà dín kù ju ti ọdún tó kọjá lọ, ìyẹn sì tù mí nínú.","Àwọn owó náà tún lọ sókè ní sáà yìí, kò sì sẹ́ni tó ṣàlàyé ìdí tó fi rí bẹ́ẹ̀.",16,19,1.1875,False,False,False
+ES014,yor,C,sentiment,School fees,nllb-200-3.3B,"Wọ́n gbà mí láyè láti san owó náà ní ìlọ́po méjì, èyí sì ràn mí lọ́wọ́ gan-an.","Wọ́n kọ̀ jálẹ̀ láti jẹ́ kí n san owó náà lẹ́ẹ̀kọ̀ọ̀kan, kódà lẹ́yìn tí mo ṣàlàyé fún wọn.",17,18,1.0588235294117647,False,False,False
+ES015,yor,C,sentiment,School fees,nllb-200-3.3B,Owó náà lọ lórí ayélujára láìsí ìṣòro kankan lọ́tẹ̀ yìí.,Ọ̀nà tí wọ́n ń gbà sanwó ò ṣiṣẹ́ látìgbà tí mo ti gbìyànjú láti ṣe é ní ọjọ́ mẹ́ta sẹ́yìn.,10,20,2.0,False,False,False
+ES016,yor,C,sentiment,School fees,nllb-200-3.3B,Ọjọ́ tí mo sanwó náà ni mo rí i gbà.,Mo ṣì ń dúró de àkáǹtì mi ní ọ̀sẹ̀ méjì lẹ́yìn tí mo ti sanwó.,10,15,1.5,False,False,False
+ES017,yor,C,sentiment,A wedding you attended,nllb-200-3.3B,"Ayẹyẹ ìgbéyàwó náà dára gan-an, oúnjẹ náà sì pọ̀ lọ jàra.","Ìgbéyàwó náà ti pẹ́ gan-an, oúnjẹ náà sì ti tètè tán.",11,11,1.0,False,False,False
+ES018,yor,C,sentiment,A wedding you attended,nllb-200-3.3B,"Mo rí àwọn èèyàn tí mi ò rí láti ọ̀pọ̀ ọdún sẹ́yìn, inú mi dùn gan-an.",Àwọn èèyàn kún inú gbọ̀ngàn náà débi pé mi ò rí ẹnikẹ́ni tí mo mọ̀.,16,15,1.0666666666666667,False,False,False
+ES019,yor,C,sentiment,A wedding you attended,nllb-200-3.3B,"Orin náà dùn, gbogbo wọn sì jó títí di ìrọ̀lẹ́.","Orin náà dún gan-an, kò sì sẹ́ni tó lè gbọ́ nǹkan kan.",10,12,1.2,False,False,False
+ES020,yor,C,sentiment,A wedding you attended,nllb-200-3.3B,"Wọ́n ṣètò gbogbo nǹkan dáadáa, láti ibi tí wọ́n jókòó sí títí dórí ohun mímu.","Kò sí ètò kankan, a dúró níta fún nǹkan bí wákàtí kan.",15,12,1.25,False,False,False
+ES021,yor,C,sentiment,The weather this week,nllb-200-3.3B,"Gbogbo ọ̀sẹ̀ yìí ni ojú ọjọ́ tutù yọ̀yọ̀, ó sì dára gan-an fún rírìn.","Ooru tó mú lọ́sẹ̀ yìí kọjá àfẹnusọ, kódà lóru pàápàá.",14,10,1.4,False,False,False
+ES022,yor,C,sentiment,The weather this week,nllb-200-3.3B,Òjò tó rọ̀ lọ́jọ́ náà pọ̀ gan-an débi pé eruku tó wà níbẹ̀ pòórá.,Òjò rọ̀ gan-an débi pé gbogbo òpópónà náà ló kún fún omi.,14,12,1.1666666666666667,False,False,False
+ES023,yor,C,sentiment,The weather this week,nllb-200-3.3B,"Àárọ̀ máa ń dùn mí gan-an, mo sì máa ń sùn dáadáa.","Ojú ọjọ́ máa ń móoru gan-an ni, ó sì máa ń rẹ̀ mí tẹnutẹnu nígbà tí mo bá jí.",12,19,1.5833333333333333,False,False,False
+ES024,yor,C,sentiment,The weather this week,nllb-200-3.3B,"Kò sí eruku nínú afẹ́fẹ́ lọ́sẹ̀ yìí, àyà mi ti yá.","Eruku ọ̀sọ̀ọ̀sẹ̀ yìí ti burú gan-an, mi ò lè dáwọ́ wíwú dúró.",11,12,1.0909090909090908,False,False,False
+ES025,yor,C,sentiment,Food at a restaurant,nllb-200-3.3B,"Wọ́n se ìrẹsì náà dáadáa, wọ́n sì fún wa lọ́pọ̀ yanturu.","Kò fi bẹ́ẹ̀ sè ìrẹsì náà, ìwọ̀nba díẹ̀ ló sì wà nínú rẹ̀.",11,13,1.1818181818181819,False,False,False
+ES026,yor,C,sentiment,Food at a restaurant,nllb-200-3.3B,"Bó tilẹ̀ jẹ́ pé ilé náà kún fọ́fọ́, wọ́n tètè gbé oúnjẹ wá fún wa.","Ó fẹ́rẹ̀ẹ́ tó wákàtí kan tá a fi dúró síbẹ̀, kò sì sẹ́ni tó kún ibẹ̀.",15,16,1.0666666666666667,False,False,False
+ES027,yor,C,sentiment,Food at a restaurant,nllb-200-3.3B,"Oúnjẹ náà dà bí èyí tí mo ti rí nílé, mo sì gbádùn rẹ̀ gan-an.","Oúnjẹ náà kò dùn rárá, mi ò lè jẹ ẹ́ tán.",15,11,1.3636363636363635,False,False,False
+ES028,yor,C,sentiment,Food at a restaurant,nllb-200-3.3B,"Owó tí wọ́n ń ta àwọn nǹkan wọ̀nyẹn kò pọ̀ jù, torí pé àwọn nǹkan náà dára gan-an.",Iye tí wọ́n ń ta àwọn nǹkan wọ̀nyẹn pọ̀ gan-an.,18,10,1.8,False,False,False
+ES029,yor,C,sentiment,A visit to a clinic or hospital,nllb-200-3.3B,"Ni nọ́ọ̀sì náà bá tètè wá bá mi, ó sì ṣàlàyé gbogbo nǹkan fún mi lọ́nà tó ṣe kedere.",Wákàtí mẹ́ta gbáko ni mo fi jókòó kí ẹnikẹ́ni tó béèrè orúkọ mi.,19,13,1.4615384615384615,False,False,False
+ES030,yor,C,sentiment,A visit to a clinic or hospital,nllb-200-3.3B,"Dókítà náà fetí sílẹ̀ dáadáa, ara mi sì yá nígbà tí mo kúrò níbẹ̀.",Dókítà náà ní kí n tètè jáde kí n tó parí àlàyé mi.,14,13,1.0769230769230769,False,False,False
+ES031,yor,C,sentiment,A visit to a clinic or hospital,nllb-200-3.3B,"Ibẹ̀ mọ́ tónítóní, gbogbo nǹkan sì wà létòlétò níbẹ̀.","Ọ̀pọ̀ èèyàn ló kún ibẹ̀, kò sì sẹ́ni tó mọ ìlà tó wà.",9,13,1.4444444444444444,False,False,False
+ES032,yor,C,sentiment,A visit to a clinic or hospital,nllb-200-3.3B,Wọ́n ní gbogbo oògùn tí mo nílò ní ṣọ́ọ̀bù oògùn.,Wọ́n rán mi jáde láti lọ ra oògùn tí wọ́n gbọ́dọ̀ ní.,10,12,1.2,False,False,False
+ES033,yor,C,sentiment,A football match,nllb-200-3.3B,"Ìjà ńlá ló wáyé lówùúrọ̀, àwọn ẹgbẹ́ méjèèjì ṣeré dáadáa.","Ìjà tó burú gan-an lọ́jọ́ àná, kò sí ẹgbẹ́ kankan tó dà bíi pé ó nífẹ̀ẹ́ sí i.",10,18,1.8,False,False,False
+ES034,yor,C,sentiment,A football match,nllb-200-3.3B,"A ṣẹ́gun ní ìṣẹ́jú ìkẹyìn, gbogbo ojú pópó ló ń pariwo.",A pàdánù ní ìṣẹ́jú ìkẹyìn lẹ́yìn tí a ti darí gbogbo eré náà.,11,13,1.1818181818181819,False,False,False
+ES035,yor,C,sentiment,A football match,nllb-200-3.3B,"Onídàájọ́ náà ṣe é bó ṣe tọ́ àti bó ṣe yẹ, eré náà sì lọ dáadáa.",Olùdájọ́ náà ba eré náà jẹ́ nítorí ìpinnu tí kò dára tó ṣe.,16,13,1.2307692307692308,False,False,False
+ES036,yor,C,sentiment,A football match,nllb-200-3.3B,"Èmi àtàwọn ọ̀rẹ́ mi jọ ń wò ó, a sì gbádùn gbogbo ìṣẹ́jú tó wà níbẹ̀.","Mo bá àwọn ọ̀rẹ́ mi wò ó, a sì kábàámọ̀ pé a fi ìrọ̀lẹ́ ọjọ́ náà ṣòfò.",16,17,1.0625,False,False,False
+ES037,yor,C,sentiment,Electricity supply,nllb-200-3.3B,"A ní ìmọ́lẹ̀ látàárọ̀ ṣúlẹ̀, èyí kì í sábà ṣẹlẹ̀.","A ò ní iná látàárọ̀ ṣúlẹ̀, bó ṣe máa ń rí lójoojúmọ́ nìyẹn.",10,13,1.3,False,False,False
+ES038,yor,C,sentiment,Electricity supply,nllb-200-3.3B,Ìpèsè náà kò yí padà látìgbà tí wọ́n ti tún àyípadà náà ṣe.,Ìpèsè náà ti burú sí i látìgbà tí wọ́n ti fọwọ́ kan ìyípadà náà.,13,14,1.0769230769230769,False,False,False
+ES039,yor,C,sentiment,Electricity supply,nllb-200-3.3B,"Mo fi iná kún gbogbo nǹkan, mo sì ń rí iná lọ́wọ́ ìrọ̀lẹ́.","Láti òwúrọ̀ ni mo ti pa tẹlifóònù alágbèéká mi, kò sì sí iná tó lè fi ṣírò rẹ̀.",13,18,1.3846153846153846,False,False,False
+ES040,yor,C,sentiment,Electricity supply,nllb-200-3.3B,Owó tí wọ́n san kò pọ̀ jù fún ìmọ́lẹ̀ tá a rí.,Wọ́n máa ń gba owó gọbọi lọ́wọ́ wa fún ìmọ́lẹ̀ tá ò rí gbà.,12,14,1.1666666666666667,False,False,False
+ES041,yor,C,sentiment,New clothes or shoes,nllb-200-3.3B,"Àwọn bàtà náà bá mi mu gan-an, wọ́n sì ní ìnáwó.","Àwọn bàtà náà ti há jù, wọn ò sì fẹ́ yí wọn padà.",11,13,1.1818181818181819,False,False,False
+ES042,yor,C,sentiment,New clothes or shoes,nllb-200-3.3B,"Àwọ̀ tí mo fẹ́ gan-an ni, inú mi dùn sí i.","Àwọ̀ rẹ̀ yàtọ̀ sí ti ilé ìtajà, inú mi ò dùn sí i.",11,13,1.1818181818181819,False,False,False
+ES043,yor,C,sentiment,New clothes or shoes,nllb-200-3.3B,"Ohun èlò náà lágbára, ó yẹ kó wà fún àkókò gígùn.",Ọjọ́ méjì lẹ́yìn náà ni aṣọ náà bẹ̀rẹ̀ sí í ya.,11,11,1.0,False,False,False
+ES044,yor,C,sentiment,New clothes or shoes,nllb-200-3.3B,Owó tí mo retí pé màá san fún ọ̀kan ni mo fi ra ẹ̀wù àwọ̀tẹ́lẹ̀ méjì.,"Mo san owó fún aṣọ méjì, wọ́n sì fún mi ní ọ̀kan nínú àpò.",16,14,1.1428571428571428,False,False,False
+ES045,yor,C,sentiment,A neighbour,nllb-200-3.3B,Aládùúgbò mi ràn mí lọ́wọ́ láti gbé àwọn nǹkan mi wọlé láìjẹ́ pé mo béèrè.,Aládùúgbò mi tún fi ọkọ̀ ayọ́kẹ́lẹ́ rẹ̀ dí ẹnu ọ̀nà àbáwọlé.,15,11,1.3636363636363635,False,False,False
+ES046,yor,C,sentiment,A neighbour,nllb-200-3.3B,"Ó fi oúnjẹ ránṣẹ́ sí mi lálẹ́ àná, inú mi dùn gan-an.","Ó máa ń kọrin títí di òru, kò sì sẹ́ni tó lè sùn.",12,13,1.0833333333333333,False,False,False
+ES047,yor,C,sentiment,A neighbour,nllb-200-3.3B,"A máa ń pín owó tá a fi ń ra omi déédéé, kò sì sí ìṣòro kankan.",Ó kọ̀ láti san ìpín rẹ̀ nínú owó omi.,17,9,1.8888888888888888,False,False,False
+ES048,yor,C,sentiment,A neighbour,nllb-200-3.3B,"Wọ́n máa ń ṣọ́ ilé mi nígbà tí mo bá ń rìnrìn àjò, kò sí nǹkan tó burú níbẹ̀.",Gbogbo ọ̀sẹ̀ tí mi ò fi sí nílé ni wọ́n máa ń da pàǹtírí sílẹ̀ níwájú ilé mi.,19,18,1.0555555555555556,False,False,False
+ES049,yor,C,sentiment,Traffic in town,nllb-200-3.3B,"Kò fi bẹ́ẹ̀ sí ọkọ̀ lójú ọ̀nà láàárọ̀ yìí, mo sì tètè lọ síbi iṣẹ́.","Ọ̀pọ̀lọpọ̀ èèyàn ló wà lójú pópó láàárọ̀ yìí, mo ní láti pẹ́ lẹ́nu iṣẹ́.",15,14,1.0714285714285714,False,False,False
+ES050,yor,C,sentiment,Traffic in town,nllb-200-3.3B,Ọ̀nà tuntun yìí ti mú kí ìrìn àjò náà yá kánkán gan-an.,Iṣẹ́ ojú ọ̀nà ti mú kí ìrìn àjò náà gùn ju ti tẹ́lẹ̀ lọ ní ìlọ́po méjì.,12,17,1.4166666666666667,False,False,False
+ES051,yor,C,sentiment,Traffic in town,nllb-200-3.3B,"Mo wá ọ̀nà míì gbà, èyí sì jẹ́ kí n dín wákàtí kan kù.","Mo gba ọ̀nà mìíràn, ó sì burú ju ti tẹ́lẹ̀ lọ.",14,11,1.2727272727272727,False,False,False
+ES052,yor,C,sentiment,Traffic in town,nllb-200-3.3B,Wọ́n rọra rìn gba inú ìlú kọjá títí wọ́n fi délé.,Mo jókòó síbi kan fún ogójì ìṣẹ́jú nígbà tí mò ń lọ sílé.,11,13,1.1818181818181819,False,False,False
+ES053,yor,C,sentiment,A phone you bought,nllb-200-3.3B,"Batiri náà máa ń lò fún odindi ọjọ́ kan, ó wú mi lórí gan-an.","Bí bátìrì náà bá kú ṣáájú ọ̀sán, màá kábàámọ̀ pé mo rà á.",14,13,1.0769230769230769,False,False,False
+ES054,yor,C,sentiment,A phone you bought,nllb-200-3.3B,Fọ́tò náà dára ju èyí tí mò ń lò tẹ́lẹ̀ lọ.,Kámẹ́rà náà burú ju tẹlifóònù tí mo pààrọ̀ rẹ̀ tẹ́lẹ̀ lọ.,11,11,1.0,False,False,False
+ES055,yor,C,sentiment,A phone you bought,nllb-200-3.3B,Ó wọ́n ju tẹlifóònù kan náà tó wà láwọn ilé ìtajà mìíràn lọ.,"Lọ́jọ́ kejì, mo rí i pé owó tẹlifóònù náà ti dín kù, ó sì ń múnú bí mi.",13,18,1.3846153846153846,False,False,False
+ES056,yor,C,sentiment,A phone you bought,nllb-200-3.3B,Ó ti ń ṣiṣẹ́ dáadáa fún oṣù mẹ́ta báyìí.,Ọ̀sẹ̀ àkọ́kọ́ ni wọ́n bẹ̀rẹ̀ sí gbé e kọ́ra.,9,9,1.0,False,False,False
+ES057,yor,C,sentiment,The rainy season,nllb-200-3.3B,"Òjò tètè rọ̀ lọ́dún yìí, oko náà sì dára gan-an.","Òjò ò tètè rọ̀ lọ́dún yìí, àwọn àgbẹ̀ sì ń jìyà.",10,11,1.1,False,False,False
+ES058,yor,C,sentiment,The rainy season,nllb-200-3.3B,"Gbogbo ibi ló ti di igbó báyìí, ó dùn láti rí i.","Ibi gbogbo ti dọ̀tí báyìí, o ò lè rìn lọ síbikíbi.",12,11,1.0909090909090908,False,False,False
+ES059,yor,C,sentiment,The rainy season,nllb-200-3.3B,"Òru máa ń móoru, mo sì máa ń sùn dáadáa.","Àwọn ẹ̀fọn ti gba ibẹ̀, mi ò lè sùn.",10,9,1.1111111111111112,False,False,False
+ES060,yor,C,sentiment,The rainy season,nllb-200-3.3B,Omi kì í ṣe ìṣòro mọ́ lágbègbè wa.,"Ìgbàkigbà tí òjò bá rọ̀, omi máa ń kún inú kòtò náà kọjá àyè rẹ̀.",8,15,1.875,False,False,False
+ES061,yor,C,sentiment,A friend's visit,nllb-200-3.3B,"Ọ̀rẹ́ mi kan wá kí mi lọ́jọ́ tó kọjá, a sì jọ sọ̀rọ̀ fún ọ̀pọ̀ wákàtí.",Ọ̀rẹ́ mi tún fagi lé e ní ìṣẹ́jú ìkẹyìn.,16,9,1.7777777777777777,False,False,False
+ES062,yor,C,sentiment,A friend's visit,nllb-200-3.3B,"Ó mú oúnjẹ wá, a sì jọ jẹun pa pọ̀, ó dùn ún jẹ.","Ó wá lọ́wọ́ òfo, ó sì dúró títí di ọ̀gànjọ́ òru.",14,11,1.2727272727272727,False,False,False
+ES063,yor,C,sentiment,A friend's visit,nllb-200-3.3B,Ó dùn mọ́ni láti rí ẹnì kan lẹ́yìn ọ̀sẹ̀ kan tó gùn.,Ìdí tó fi wá ni pé ó fẹ́ yá owó.,12,10,1.2,False,False,False
+ES064,yor,C,sentiment,A friend's visit,nllb-200-3.3B,"Gbogbo ohun tá a jọ ń ṣe ni mo máa ń sọ fún un, mi ò sì fẹ́ kó fi wá sílẹ̀.",Fóònù rẹ̀ ló fi ṣe gbogbo ìbẹ̀wò náà.,22,8,2.75,True,False,False
+ES065,yor,C,sentiment,Your work or job,nllb-200-3.3B,"Iṣẹ́ lọ dáadáa lọ́sẹ̀ yìí, mo tètè parí gbogbo rẹ̀.","Iṣẹ́ ti kó ìdààmú bá mi lọ́sẹ̀ yìí, kò sóhun tí mo lè ṣe tán.",10,15,1.5,False,False,False
+ES066,yor,C,sentiment,Your work or job,nllb-200-3.3B,"Ọ̀gá mi kíyè sí ìsapá mi, ó sì dúpẹ́ lọ́wọ́ mi.",Ọ̀gá mi ṣàròyé nípa iṣẹ́ tí kì í tiẹ̀ ṣe tèmi.,11,11,1.0,False,False,False
+ES067,yor,C,sentiment,Your work or job,nllb-200-3.3B,Wọ́n sanwó fún wa lásìkò lóṣù yìí.,"Owó oṣù tún ti pẹ́, kò sì sẹ́ni tó ń sọ nǹkan kan.",7,13,1.8571428571428572,False,False,False
+ES068,yor,C,sentiment,Your work or job,nllb-200-3.3B,Mo kẹ́kọ̀ọ́ ohun tuntun kan níbi iṣẹ́ lónìí.,Gbogbo ọjọ́ ni mo fi ń ṣàtúnṣe àṣìṣe ẹlòmíì.,8,9,1.125,False,False,False
+ES069,yor,C,sentiment,A tailor's work,nllb-200-3.3B,"Aṣọ náà parí iṣẹ́ náà lásìkò, ó sì bá a mu gan-an.","Ọ̀sọ̀ọ̀sẹ̀ gbáko ni oníṣẹ́ ọnà náà fi ń mú mi dúró, síbẹ̀ kò bá mi mu.",12,16,1.3333333333333333,False,False,False
+ES070,yor,C,sentiment,A tailor's work,nllb-200-3.3B,"Ọ̀nà tí wọ́n gbà tún un ṣe mọ́ tónítóní, o lè rí i pé ó fi sùúrù ṣe é.","Ọ̀nà tí wọ́n ń gbà kọ́ ọ kò gún régé, ó jọ pé ńṣe ló kánjú ṣe é.",19,18,1.0555555555555556,False,False,False
+ES071,yor,C,sentiment,A tailor's work,nllb-200-3.3B,Ọ̀nà tí mo fi kọ́ ọ gan-an ló ń lò.,Ọ̀nà tó ń gbà se nǹkan yàtọ̀ pátápátá sí èyí tí mo fi hàn án.,10,15,1.5,False,False,False
+ES072,yor,C,sentiment,A tailor's work,nllb-200-3.3B,"Ó gba owó tá a fohùn ṣọ̀kan lé lórí, kò bá mi jiyàn.",Ó béèrè owó sí i lẹ́yìn tí ó parí iṣẹ́ náà.,13,11,1.1818181818181819,False,False,False
+ES073,yor,C,sentiment,The cost of transport,nllb-200-3.3B,"Owó ọkọ̀ ti lọ sílẹ̀ díẹ̀, ìyẹn sì ṣèrànwọ́.","Owó ọkọ̀ ti padà lọ sókè, àmọ́ owó oṣù kò lọ sódò.",9,12,1.3333333333333333,False,False,False
+ES074,yor,C,sentiment,The cost of transport,nllb-200-3.3B,Owó tí mo ná lórí ìrìnnà ọ̀sọ̀ọ̀sẹ̀ yìí kéré ju ti ọ̀sẹ̀ tó kọjá lọ.,Ó fẹ́rẹ̀ẹ́ tó ìdajì owó tí mò ń ná báyìí lórí ìrìn àjò.,15,13,1.1538461538461537,False,False,False
+ES075,yor,C,sentiment,The cost of transport,nllb-200-3.3B,Awakọ̀ náà gba owó ọkọ̀ bó ṣe máa ń gbà láìsí àríyànjiyàn kankan.,Awakọ̀ náà fi ìlọ́po méjì owó ọkọ̀ náà kún un nítorí òjò ń rọ̀.,13,14,1.0769230769230769,False,False,False
+ES076,yor,C,sentiment,The cost of transport,nllb-200-3.3B,"Mo rí ọ̀nà tó rọrùn láti gbà lọ síbi iṣẹ́, tó sì jẹ́ kí n tètè dé ibẹ̀.",Gbogbo ọ̀nà téèyàn ń gbà lọ síbi iṣẹ́ ti wọ́n gan-an.,18,11,1.6363636363636365,False,False,False
+ES077,yor,C,sentiment,A family gathering,nllb-200-3.3B,"Gbogbo èèyàn ló wá, gbogbo ilé náà sì kún fún ẹ̀rín.","Ìdajì ìdílé náà kò wá, kò sì sí ariwo kankan.",11,10,1.1,False,False,False
+ES078,yor,C,sentiment,A family gathering,nllb-200-3.3B,"Oúnjẹ pọ̀ rẹpẹtẹ, kò sì sẹ́ni tó ń pa ebi lọ sílé.",Oúnjẹ náà ti tán kí wọ́n tó gbé e fún àwọn kan.,12,12,1.0,False,False,False
+ES079,yor,C,sentiment,A family gathering,nllb-200-3.3B,Inú mi dùn gan-an láti rí àwọn ọmọdé tí wọ́n jọ ń ṣeré.,Gbogbo ọ̀sán làwọn ọmọ náà fi ń bára wọn jà.,13,10,1.3,False,False,False
+ES080,yor,C,sentiment,A family gathering,nllb-200-3.3B,"A ya fọ́tò, mi ò sì ní gbàgbé ọjọ́ yẹn.","Àríyànjiyàn kan wáyé, ó sì ba gbogbo ọjọ́ náà jẹ́.",10,10,1.0,False,False,False
+ES081,yor,C,sentiment,Music you heard,nllb-200-3.3B,Orin tuntun kan ni mo gbọ́ l'ọ́jọ́ àná tí mi ò lè dáwọ́ kíkọ rẹ̀ dúró.,Mo gbọ́ orin kan lówùúrọ̀ tí gbogbo ènìyàn fẹ́ràn ṣùgbọ́n mi ò lè dúró.,16,14,1.1428571428571428,False,False,False
+ES082,yor,C,sentiment,Music you heard,nllb-200-3.3B,Àwòrán náà dára láti orin àkọ́kọ́ títí dé èyí tó kẹ́yìn.,"Orin méjì tó dára ló wà nínú àwo orin náà, ìkùdíẹ̀-káàtó ló sì kù.",11,14,1.2727272727272727,False,False,False
+ES083,yor,C,sentiment,Music you heard,nllb-200-3.3B,"Àwọn ọ̀rọ̀ orin náà sọ nǹkan kan gan-an, mo gbọ́ ọ lẹ́ẹ̀mejì.",Àwọn ọ̀rọ̀ inú orin náà ò bọ́gbọ́n mu rárá lójú mi.,12,11,1.0909090909090908,False,False,False
+ES084,yor,C,sentiment,Music you heard,nllb-200-3.3B,Wọ́n kọ orin tí mo fẹ́ràn jù lọ níbi ayẹyẹ náà.,Àwọn orin mẹ́ta kan náà ni wọ́n ń kọ ní gbogbo òru.,11,12,1.0909090909090908,False,False,False
+ES085,yor,C,sentiment,Service at a shop,nllb-200-3.3B,"Ẹni tó ń tọ́jú mi ní sùúrù, ó sì ràn mí lọ́wọ́ láti rí ohun tí mo nílò.","Òṣìṣẹ́ tó ń bójú tó ilé náà kọ̀ jálẹ̀, ó sì lọ máa fún àwọn tó wá tẹ̀ lé mi lóúnjẹ.",18,21,1.1666666666666667,False,False,False
+ES086,yor,C,sentiment,Service at a shop,nllb-200-3.3B,Wọ́n pààrọ̀ ohun tí wọ́n rí láìbára wọn jiyàn.,Wọ́n kọ̀ láti pààrọ̀ ẹrù náà kódà pẹ̀lú ìwé ìdánimọ̀ rẹ̀.,9,11,1.2222222222222223,False,False,False
+ES087,yor,C,sentiment,Service at a shop,nllb-200-3.3B,Mo wọlé mo sì jáde láàárín ìṣẹ́jú márùn-ún.,Ogún ìṣẹ́jú ni mo fi tò sórí ìlà láti rí nǹkan kan rà.,8,13,1.625,False,False,False
+ES088,yor,C,sentiment,Service at a shop,nllb-200-3.3B,Ó ṣàlàyé ìyàtọ̀ tó wà láàárín oríṣi méjì náà lọ́nà tó ṣe kedere.,Kò lè dáhùn ìbéèrè kan nípa ohun tó ń tà.,13,10,1.3,False,False,False
+ES089,yor,C,sentiment,Farming or the harvest,nllb-200-3.3B,"Ìkórè náà dára ju ti ọdún tó kọjá lọ, a dúpẹ́.","Ìkórè ò dáa lọ́dún yìí, ó burú ju ti ọdún tó kọjá lọ.",11,13,1.1818181818181819,False,False,False
+ES090,yor,C,sentiment,Farming or the harvest,nllb-200-3.3B,"Bó tilẹ̀ jẹ́ pé òjò ò rọ̀ dáadáa, àgbàdo náà gbèrú gan-an.",Kò sí àgbàdo nítorí òjò kò tètè rọ̀.,12,8,1.5,False,False,False
+ES091,yor,C,sentiment,Farming or the harvest,nllb-200-3.3B,A tà á ní iye tó dára ní ọjà.,Owó tí wọ́n ń ta àwọn nǹkan wọ̀nyí lọ́jà kéré gan-an débi pé a ò lè rówó ra wọn.,9,19,2.111111111111111,True,False,False
+ES092,yor,C,sentiment,Farming or the harvest,nllb-200-3.3B,Ilẹ̀ ti ṣe wá láǹfààní gan-an lọ́dún yìí.,Àwọn kòkòrò ti ba ọ̀pọ̀lọpọ̀ oko jẹ́ lọ́dún yìí.,8,9,1.125,False,False,False
+ES093,yor,C,sentiment,Travelling home for a holiday,nllb-200-3.3B,"Kò sí wàhálà kankan nínú ìrìn àjò náà, mo sì débẹ̀ kí ilẹ̀ tó ṣú.","Ọjọ́ kan gbáko ni mo fi rin ìrìn àjò náà pa dà sílé, ó sì rẹ̀ mí gan-an nígbà tí mo débẹ̀.",15,22,1.4666666666666666,False,False,False
+ES094,yor,C,sentiment,Travelling home for a holiday,nllb-200-3.3B,"Gbogbo èèyàn ló ń dúró dè mí, inú mi dùn láti padà sílé.","Ilé náà kò ní èèyàn kankan nígbà tí mo débẹ̀, kò sẹ́ni tó sọ fún mi.",13,16,1.2307692307692308,False,False,False
+ES095,yor,C,sentiment,Travelling home for a holiday,nllb-200-3.3B,Kò ṣòro fún mi láti rí ìwé àṣẹ ìrìnnà gbà bó tilẹ̀ jẹ́ pé ọjọ́ ìsinmi ni.,"Wọ́n ti ta gbogbo ọkọ̀ náà tán, ó sì fẹ́rẹ̀ẹ́ jẹ́ pé mi ò lè rìnrìn àjò mọ́.",17,18,1.0588235294117647,False,False,False
+ES096,yor,C,sentiment,Travelling home for a holiday,nllb-200-3.3B,"Ọ̀sẹ̀ tí mo fi wà nílé yẹn dùn mí gan-an, mi ò sì fẹ́ kúrò níbẹ̀.",Ọ̀sẹ̀ tí mo lò nílé yìí jẹ́ èyí tó kún fún másùnmáwo látìbẹ̀rẹ̀ dópin.,16,14,1.1428571428571428,False,False,False
+ES097,yor,C,sentiment,Learning something new,nllb-200-3.3B,"Nígbẹ̀yìngbẹ́yín, mo lóye ohun kan tó ti ń dà mí láàmú láti ọ̀pọ̀ oṣù sẹ́yìn.","Ó ti tó oṣù mélòó kan tí mo ti ń ṣe é, síbẹ̀ mi ò tíì lóye nǹkan kan.",15,19,1.2666666666666666,False,False,False
+ES098,yor,C,sentiment,Learning something new,nllb-200-3.3B,Olùkọ́ náà ṣàlàyé rẹ̀ lọ́nà tó bọ́gbọ́n mu.,"Olùkọ́ náà yára kà á, mi ò sì tẹ̀ lé ọ̀rọ̀ rẹ̀.",8,12,1.5,False,False,False
+ES099,yor,C,sentiment,Learning something new,nllb-200-3.3B,Ṣíṣe ìdánrawò lójoojúmọ́ ti bẹ̀rẹ̀ sí sèso rere.,"Ojoojúmọ́ ni mo máa ń ṣe ìdánrawò, mi ò sì lè ṣàṣeyọrí rárá.",8,13,1.625,False,False,False
+ES100,yor,C,sentiment,Learning something new,nllb-200-3.3B,"Mo kọ́ ẹlòmíì ní ohun tí mo kọ́, ìyẹn sì múnú mi dùn gan-an.","Mo gbìyànjú láti ṣàlàyé fún ẹnì kan, mo sì wá rí i pé mi ò mọ̀ ọ́n.",14,17,1.2142857142857142,False,False,False
+EP001,yor,C,politeness,Buying something at the market,nllb-200-3.3B,"Àárọ̀ ọ̀la o, ẹ jọ̀wọ́ mo fẹ́ bi yín bóyá ẹ ń lọ sí ọjà lónìí.","Àárọ̀, ṣé wàá lọ sí ọjà lónìí?",16,7,2.2857142857142856,True,False,False
+EP002,yor,C,politeness,Buying something at the market,nllb-200-3.3B,"Jọ̀wọ́ màmá, tó bá jẹ́ pé kì í ṣe ìṣòro ńlá, ṣé o lè ràn mí lọ́wọ́ láti ra ìrẹsì díẹ̀?",Ẹ jọ̀wọ́ ẹ lè ràn mí lọ́wọ́ láti ra ìrẹsì nígbà tí ẹ bá lọ?,21,15,1.4,False,False,False
+EP003,yor,C,politeness,Buying something at the market,nllb-200-3.3B,"Ọ̀gá, mo ti padà dé láti ọjà, mo sì mú ohun tí o béèrè wá.","Mo padà dé láti ọjà, mo kó àwọn nǹkan rẹ.",15,10,1.5,False,False,False
+EP004,yor,C,politeness,Buying something at the market,nllb-200-3.3B,"Ẹ jọ̀wọ́, ṣé ẹ fẹ́ kí n mú nǹkan kan wá fún yín nígbà tí mo bá wà níbẹ̀?","Tó o bá nílò nǹkan kan ní ọjà, sọ fún mi kí n tó jáde.",19,15,1.2666666666666666,False,False,False
+EP005,yor,C,politeness,The phone network today,nllb-200-3.3B,"Ìyá mi, mo lérò pé ẹ lè gbọ́ mi, àdúgbò yìí kò mọ́.",Ṣé ẹ lè gbọ́ mi? Ètò ìbánisọ̀rọ̀ kò dára níbí.,13,10,1.3,False,False,False
+EP006,yor,C,politeness,The phone network today,nllb-200-3.3B,"Ọ̀gá, ẹ jọ̀wọ́ dárí jì mí, tẹlifóònù mi já nígbà tá à ń bára wa sọ̀rọ̀.","Ó dùn mí gan-an, mo pàdánù ìjùmọ̀sọ̀rọ̀ tẹlifíṣọ̀n mi.",16,9,1.7777777777777777,False,False,False
+EP007,yor,C,politeness,The phone network today,nllb-200-3.3B,"Jọ̀wọ́, ṣé mo tún lè pè ẹ́ nígbà tó bá yá tí ìtòlẹ́sẹẹsẹ náà bá dára sí i?",Ẹ jẹ́ kí n pe yín padà nígbà tí ètò náà bá dára sí i.,18,15,1.2,False,False,False
+EP008,yor,C,politeness,The phone network today,nllb-200-3.3B,"Màmá, mo ti ń gbìyànjú láti kàn sí ẹ látàárọ̀ ṣúlẹ̀, àmọ́ kò sí ìgbóhùnsáfẹ́sọ́nà.","Gbogbo ọjọ́ ni mo fi ń pè ẹ́, àmọ́ kò sí rédíò lórí tẹlifóònù rẹ.",15,15,1.0,False,False,False
+EP009,yor,C,politeness,A journey by bus,nllb-200-3.3B,"Àárọ̀ ọ̀la o, mo fẹ́ sọ fún ọ pé mo ti wọ ọkọ̀ ojú irin.","Mo ti wọ ọkọ̀ náà, ó yẹ ká gbéra ní ìṣẹ́jú díẹ̀ sí i.",15,14,1.0714285714285714,False,False,False
+EP010,yor,C,politeness,A journey by bus,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, mo ti dé láìséwu, mo dúpẹ́ pé ẹ wá wò mí.","Mo dé ibẹ̀ láìséwu, mo dúpẹ́ fún àyẹ̀wò rẹ.",14,9,1.5555555555555556,False,False,False
+EP011,yor,C,politeness,A journey by bus,nllb-200-3.3B,"Ọ̀gá, bọ́ọ̀sì ń pẹ́, mi ò fẹ́ kí ẹ máa ṣàníyàn.","Bọ́ọ̀sì ń pẹ́, ẹ má ṣàníyàn, màá fi ìsọfúnni ránṣẹ́ nígbà tí a bá bẹ̀rẹ̀ ìrìn àjò.",11,17,1.5454545454545454,False,False,False
+EP012,yor,C,politeness,A journey by bus,nllb-200-3.3B,"Ẹ jọ̀wọ́, ṣé mo lè rìnrìn àjò lọ́la dípò lónìí?",Ṣé kò ní burú tí mo bá rìnrìn àjò lọ́la?,10,10,1.0,False,False,False
+EP013,yor,C,politeness,School fees,nllb-200-3.3B,"Àárọ̀ ọ̀la o, mo ń kọ̀wé láti béèrè nípa owó iléèwé fún sáà yìí.","Àárọ̀, ṣé o mọ iye owó tí mo máa gbà lọ́dún yìí?",14,12,1.1666666666666667,False,False,False
+EP014,yor,C,politeness,School fees,nllb-200-3.3B,"Jọ̀wọ́ màmá, màá mọrírì rẹ̀ gan-an bí mo bá lè san owó náà ní ìpele méjì.",Ṣé mo lè san owó náà ní apá méjì?,16,9,1.7777777777777777,False,False,False
+EP015,yor,C,politeness,School fees,nllb-200-3.3B,"Ọ̀gá, mo ti san owó ilé náà, màá sì mú ìwé gbà á wá lọ́la.","Mo ti san owó ilé, màá mú ìwé gbà á wá lọ́la.",15,12,1.25,False,False,False
+EP016,yor,C,politeness,School fees,nllb-200-3.3B,"Ẹ jọ̀wọ́, ṣé ẹ lè fún mi ní àkókò tí ẹ máa fi san owó náà?",Ìgbà wo ni àkókò tí wọ́n máa fi san owó náà máa dópin?,16,13,1.2307692307692308,False,False,False
+EP017,yor,C,politeness,A wedding you attended,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o màmá, mo dúpẹ́ pé ẹ pè mí, ayẹyẹ náà dára gan-an.","O ṣeun fún ìkésíni náà, ayẹyẹ ìgbéyàwó náà dùn gan-an.",15,10,1.5,False,False,False
+EP018,yor,C,politeness,A wedding you attended,nllb-200-3.3B,"Ẹ jọ̀wọ́, mo tọrọ àforíjì pé mi ò lè wá síbi ìgbéyàwó yín lálẹ́ àná.",Ó dùn mí gan-an pé mi ò lọ síbi ìgbéyàwó náà lọ́jọ́ àná.,15,13,1.1538461538461537,False,False,False
+EP019,yor,C,politeness,A wedding you attended,nllb-200-3.3B,"Ọ̀gá, ẹ jọ̀wọ́ ẹ gba ìkíni mi lórí ìgbéyàwó yín, kí ó ní ìbùkún.","Mo dúpẹ́ fún ìgbéyàwó yín, inú mi dùn gan-an fún yín méjèèjì!",14,12,1.1666666666666667,False,False,False
+EP020,yor,C,politeness,A wedding you attended,nllb-200-3.3B,"Ìyá mi, ǹjẹ́ mo lè béèrè ìgbà wo ni ayẹyẹ náà máa bẹ̀rẹ̀?",Ìgbà wo ni ìgbéyàwó náà máa bẹ̀rẹ̀?,13,7,1.8571428571428572,False,False,False
+EP021,yor,C,politeness,The weather this week,nllb-200-3.3B,"Ẹ kú òwúrọ̀, mo lérò pé ooru náà kò le jù fún yín.","Ooru yìí ti pọ̀ jù, báwo lo ṣe ń fara dà á?",13,12,1.0833333333333333,False,False,False
+EP022,yor,C,politeness,The weather this week,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, òjò ń rọ̀ gan-an, ẹ ṣọ́ra lójú ọ̀nà yín.","Òjò ń rọ̀ gan-an, ẹ ṣọ́ra lójú ọ̀nà.",12,8,1.5,False,False,False
+EP023,yor,C,politeness,The weather this week,nllb-200-3.3B,"Ọ̀gá, mo lérò pé o ti ń gbóná, òru náà tutù gan-an.","Má ṣe dá ara rẹ lágara, òru máa ń tutù gan-an.",12,11,1.0909090909090908,False,False,False
+EP024,yor,C,politeness,The weather this week,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o màmá, ẹ jọ̀wọ́ ẹ yẹra fún lílọ síta lónìí, ojú ọjọ́ kò dára.","Má ṣe jáde lónìí, ojú-ọjọ́ kò dára.",17,7,2.4285714285714284,True,False,False
+EP025,yor,C,politeness,Food at a restaurant,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o, ṣé ẹ fẹ́ kí n ra nǹkan kan fún yín?",Ṣé o fẹ́ kí n ra nǹkan kan fún ọ?,14,10,1.4,False,False,False
+EP026,yor,C,politeness,Food at a restaurant,nllb-200-3.3B,"Jọ̀wọ́ màmá, oúnjẹ ibí yìí dára gan-an, màá gbà yín níyànjú láti jẹ ẹ́.","Oúnjẹ ibẹ̀ dára gan-an, ó yẹ kó o jẹ ẹ́.",14,10,1.4,False,False,False
+EP027,yor,C,politeness,Food at a restaurant,nllb-200-3.3B,"Ọ̀gá, ẹ jọ̀wọ́ ẹ dárí jì mí, mo ti jẹun kí n tó wá.","Ó dùn mí gan-an, mo ti jẹun kí n tó wá.",14,11,1.2727272727272727,False,False,False
+EP028,yor,C,politeness,Food at a restaurant,nllb-200-3.3B,"Ẹ jọ̀wọ́, ẹ jẹ́ kí n mọ irú oúnjẹ tí ẹ fẹ́?",Èwo nínú wọn lo fẹ́ jẹ?,12,6,2.0,False,False,False
+EP029,yor,C,politeness,A visit to a clinic or hospital,nllb-200-3.3B,"Ẹ kú òwúrọ̀ gan-an, mo lérò pé ara yín ti yá ju ti àná lọ.",Mo lérò pé ara rẹ ti yá ju ti àná lọ.,15,11,1.3636363636363635,False,False,False
+EP030,yor,C,politeness,A visit to a clinic or hospital,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, màá bá yín lọ sí ilé ìwòsàn náà bí ẹ bá gbà.",Mo lè tẹ̀ lé yín lọ sí ilé ìwòsàn náà bí ẹ bá fẹ́.,15,14,1.0714285714285714,False,False,False
+EP031,yor,C,politeness,A visit to a clinic or hospital,nllb-200-3.3B,"Ọ̀gá, dókítà ní kí ẹ padà wá ní ọ̀sẹ̀ tó ń bọ̀.",Dókítà sọ pé kí ẹ padà wá lọ́sẹ̀ tó ń bọ̀.,12,11,1.0909090909090908,False,False,False
+EP032,yor,C,politeness,A visit to a clinic or hospital,nllb-200-3.3B,"Jọ̀wọ́ màmá, fi inú rere sọ fún mi bí o bá nílò ohunkóhun láti ilé ìtajà.",Ẹ sọ fún mi bí ẹ bá nílò ohunkóhun láti ilé ìtajà.,16,12,1.3333333333333333,False,False,False
+EP033,yor,C,politeness,A football match,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ ọ̀gá, ṣé ẹ lè wo ìdíje náà lálẹ́ ọjọ́ àná?",Ṣé o wo ìdíje náà lálẹ́ àná?,13,7,1.8571428571428572,False,False,False
+EP034,yor,C,politeness,A football match,nllb-200-3.3B,"Jọ̀wọ́ màmá, ìdíje náà bẹ̀rẹ̀ ní aago mẹ́rin, mi ò fẹ́ kí o pàdánù rẹ̀.","Ìjà náà máa bẹ̀rẹ̀ ní aago mẹ́rin, ẹ má ṣe gbàgbé rẹ̀, wọ́n sọ pé ó yẹ kó dára.",15,19,1.2666666666666666,False,False,False
+EP035,yor,C,politeness,A football match,nllb-200-3.3B,"Ọ̀gá, mo dúpẹ́, ẹgbẹ́ yín ṣeré dáadáa lálẹ́ àná.","Ẹgbẹ́ yín ṣeré dáadáa l'ọ́jọ́ àná, ẹ kú oríire!",9,9,1.0,False,False,False
+EP036,yor,C,politeness,A football match,nllb-200-3.3B,"Ẹ jọ̀wọ́, ṣé ẹ fẹ́ jọ wo ìdíje náà lálẹ́ yìí?",Ṣé ẹ fẹ́ jọ wo ìdíje náà lálẹ́ yìí?,11,9,1.2222222222222223,False,False,False
+EP037,yor,C,politeness,Electricity supply,nllb-200-3.3B,"Ẹ kú òwúrọ̀, mo fẹ́ kí ẹ mọ̀ pé ìmọ́lẹ̀ ti pa dà.","Ìmọ́lẹ̀ ti padà wá, o lè máa fi iná kún àwọn nǹkan rẹ kí ó tó tún lọ.",13,18,1.3846153846153846,False,False,False
+EP038,yor,C,politeness,Electricity supply,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, kò sí ìmọ́lẹ̀ láti òwúrọ̀, mo tọrọ àforíjì.","Kò sí ìmọ́lẹ̀ láti òwúrọ̀, ó dùn mí, mi ò lè gba ohunkóhun fún ọ.",11,15,1.3636363636363635,False,False,False
+EP039,yor,C,politeness,Electricity supply,nllb-200-3.3B,"Ọ̀gá, ṣé mo lè fi fóònù mi ṣírò owó níbí, kò sí ìmọ́lẹ̀ nílé mi?",Ṣé mo lè máa fi fóònù mi ṣírò owó níbí?,15,10,1.5,False,False,False
+EP040,yor,C,politeness,Electricity supply,nllb-200-3.3B,"Ẹ jọ̀wọ́, ẹ sọ fún mi nígbà tí wọ́n bá ti dá iná náà padà.",Sọ fún mi nígbà tí ìmọ́lẹ̀ bá padà wá.,15,9,1.6666666666666667,False,False,False
+EP041,yor,C,politeness,New clothes or shoes,nllb-200-3.3B,"Ojúmọ́ rere màmá, aṣọ tí ẹ fi ránṣẹ́ bá mi mu gan-an, ẹ ṣeun.","Aṣọ tó o fi ránṣẹ́ náà bá mi mu gan-an, o ṣeun!",14,12,1.1666666666666667,False,False,False
+EP042,yor,C,politeness,New clothes or shoes,nllb-200-3.3B,"Jọ̀wọ́, ṣé mo lè béèrè ibi tí o ti ra bàtà náà?",Ibo lo ti ra àwọn bàtà wọ̀nyẹn?,12,7,1.7142857142857142,False,False,False
+EP043,yor,C,politeness,New clothes or shoes,nllb-200-3.3B,"Ọ̀gá, màá mú ẹ̀wù náà wá fún yín lọ́la, tó bá rọrùn fún yín.","Màá mú ẹ̀wù náà wá lọ́la, tó bá dáa.",14,9,1.5555555555555556,False,False,False
+EP044,yor,C,politeness,New clothes or shoes,nllb-200-3.3B,"Jọ̀wọ́ màmá, ẹ jọ̀wọ́ ẹ ràn mí lọ́wọ́ kí n tó rà á.",Ṣàkíyèsí bí wọ́n ṣe tóbi tó kó o tó rà á.,13,11,1.1818181818181819,False,False,False
+EP045,yor,C,politeness,A neighbour,nllb-200-3.3B,"Àárọ̀ dáradára, ọ̀gá, mo dúpẹ́ lọ́wọ́ rẹ pé o bá mi kó àwọn nǹkan mi dání lálẹ́ àná.",Mo dúpẹ́ fún ìrànlọ́wọ́ tó o ṣe fún mi lọ́jọ́ tó kọjá.,18,12,1.5,False,False,False
+EP046,yor,C,politeness,A neighbour,nllb-200-3.3B,"Jọ̀wọ́ màmá, ṣé ẹ lè gbà mí láyè láti dúró níwájú ẹnubodè yín fúngbà díẹ̀?",Ṣé mo lè dúró síwájú ibodè yín fúngbà díẹ̀?,15,9,1.6666666666666667,False,False,False
+EP047,yor,C,politeness,A neighbour,nllb-200-3.3B,"Ọ̀gá, màá gbéra lọ lọ́la, ẹ jọ̀wọ́ ẹ máa ṣọ́ ilé náà.","Mo ń rin ìrìnàjò lọ́la, ṣójú ilé fún mi.",12,9,1.3333333333333333,False,False,False
+EP048,yor,C,politeness,A neighbour,nllb-200-3.3B,"Ẹ jọ̀wọ́, ẹ dín orin náà kù díẹ̀, àwọn kan ń sinmi.","Ẹ jọ̀wọ́ ẹ dín orin náà kù, àwọn èèyàn ń sùn.",12,11,1.0909090909090908,False,False,False
+EP049,yor,C,politeness,Traffic in town,nllb-200-3.3B,"Àárọ̀ ọ̀la, ọ̀gá mi, èrò pọ̀ gan-an lónìí, ẹ jọ̀wọ́ ẹ tètè lọ.","Ọ̀pọ̀lọpọ̀ èrò ló wà lóde òní, ẹ tètè máa lọ.",13,10,1.3,False,False,False
+EP050,yor,C,politeness,Traffic in town,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, mo ti há sínú ọkọ̀, màá pẹ́ díẹ̀.","Mo ti há sínú ọkọ̀, màá pẹ́, má ṣe dúró dè mí kí o tó bẹ̀rẹ̀.",11,16,1.4545454545454546,False,False,False
+EP051,yor,C,politeness,Traffic in town,nllb-200-3.3B,"Ọ̀gá, ṣé mo lè dábàá pé kí o gba ojú ọ̀nà kejì, ó mọ́lẹ̀ dáadáa.","Wọ ojú ọ̀nà kejì, ó mọ́lẹ̀ dáadáa, mo kọjá níbẹ̀ láàárọ̀ yìí.",15,12,1.25,False,False,False
+EP052,yor,C,politeness,Traffic in town,nllb-200-3.3B,"Ẹ jọ̀wọ́, ẹ sọ fún mi nígbà tí ẹ bá ń lọ kí n lè dúró.",Sọ fún mi nígbà tí o bá ń lọ kí n lè dúró.,16,13,1.2307692307692308,False,False,False
+EP053,yor,C,politeness,A phone you bought,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o, mo fẹ́ gba ìmọ̀ràn yín kí n tó ra tẹlifóònù yìí.",Kí ni èrò rẹ nípa fóònù yìí kí n tó rà á?,15,12,1.25,False,False,False
+EP054,yor,C,politeness,A phone you bought,nllb-200-3.3B,"Jọ̀wọ́ màmá, tẹlifóònù náà ń ṣiṣẹ́ dáadáa, o ṣeun fún ìrànlọ́wọ́ rẹ.","Tẹlifóònù náà ń ṣiṣẹ́ dáadáa, o ṣeun fún ìrànlọ́wọ́ rẹ.",12,10,1.2,False,False,False
+EP055,yor,C,politeness,A phone you bought,nllb-200-3.3B,"Ọ̀gá, ẹ jọ̀wọ́ ẹ lè ràn mí lọ́wọ́ láti wò ó bóyá owó yìí tọ́?",Ṣé iye tí mo sọ yìí bọ́gbọ́n mu?,15,8,1.875,False,False,False
+EP056,yor,C,politeness,A phone you bought,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, ẹ fi inú rere rán mi ní nọ́ńbà ilé ìtajà tí ẹ lò.",Fi nọ́ńbà ilé ìtajà yẹn ránṣẹ́ sí mi.,16,8,2.0,False,False,False
+EP057,yor,C,politeness,The rainy season,nllb-200-3.3B,"Àárọ̀ ọ̀la, ọ̀gá, òjò ti bẹ̀rẹ̀, ẹ jọ̀wọ́ ẹ ṣọ́ra lójú ọ̀nà.","Òjò ti bẹ̀rẹ̀, ẹ ṣọ́ra lójú ọ̀nà.",12,7,1.7142857142857142,False,False,False
+EP058,yor,C,politeness,The rainy season,nllb-200-3.3B,"Jọ̀wọ́ màmá, jọ̀wọ́ bo àwọn nǹkan tó wà níta kí òjò tó rọ̀.","Pa àwọn nǹkan tó wà níta mọ́, òjò ń rọ̀.",13,10,1.3,False,False,False
+EP059,yor,C,politeness,The rainy season,nllb-200-3.3B,"Ọ̀gá, mo lérò pé òjò náà kò dé apá ilé yín.",Mo lérò pé òjò náà kò wọ ẹ̀gbẹ́ rẹ.,11,9,1.2222222222222223,False,False,False
+EP060,yor,C,politeness,The rainy season,nllb-200-3.3B,"Ẹ jọ̀wọ́, ẹ jẹ́ kí n mú àwọn àga wọlé kí òjò tó rọ̀.",Ẹ jẹ́ kí n mú àwọn àga wọlé kí òjò tó rọ̀.,14,12,1.1666666666666667,False,False,False
+EP061,yor,C,politeness,A friend's visit,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o màmá, mo dúpẹ́ pé ẹ gbà mí sílé yín lónìí.","Mo dúpẹ́ pé ẹ gbà mí lálejò lónìí, mo gbádùn ara mi gan-an, oúnjẹ náà sì dùn ún jẹ.",14,19,1.3571428571428572,False,False,False
+EP062,yor,C,politeness,A friend's visit,nllb-200-3.3B,"Ẹ jọ̀wọ́, ṣé mo lè wá kí yín lópin ọ̀sẹ̀ yìí?",Ṣé mo lè wá rí ẹ lópin ọ̀sẹ̀ yìí?,11,9,1.2222222222222223,False,False,False
+EP063,yor,C,politeness,A friend's visit,nllb-200-3.3B,"Ọ̀gá, mo tọrọ àforíjì pé mi ò lè wá bí mo ṣe ṣèlérí.",Ó dùn mí pé mi ò lè wá bí mo ṣe sọ.,13,12,1.0833333333333333,False,False,False
+EP064,yor,C,politeness,A friend's visit,nllb-200-3.3B,"Jọ̀wọ́ màmá mi, jọ̀ọ́ jẹ́ kí n mọ àkókò tó bá rọrùn fún ẹ.",Àkókò wo ló máa bá ẹ lára mu? Ọ̀pọ̀lọpọ̀ òpin ọ̀sẹ̀ ni mo ní lómìnira lọ́nàkọnà.,14,16,1.1428571428571428,False,False,False
+EP065,yor,C,politeness,Your work or job,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o, mo ti parí iṣẹ́ tí ẹ yàn fún mi.",Mo ti parí iṣẹ́ tí o fún mi.,13,8,1.625,False,False,False
+EP066,yor,C,politeness,Your work or job,nllb-200-3.3B,"Jọ̀wọ́ màmá, ṣé mo lè béèrè fún ọjọ́ kan sí i láti parí èyí?",Ṣé ẹ lè fún mi ní ọjọ́ kan sí i fún èyí?,14,12,1.1666666666666667,False,False,False
+EP067,yor,C,politeness,Your work or job,nllb-200-3.3B,"Ọ̀gá, mo dúpẹ́ fún àǹfààní yìí, mo ti kẹ́kọ̀ọ́ gan-an.","Mo dúpẹ́ fún àǹfààní yìí, mo kẹ́kọ̀ọ́ gan-an.",10,8,1.25,False,False,False
+EP068,yor,C,politeness,Your work or job,nllb-200-3.3B,"Jọ̀wọ́ ọ̀gá, jọ̀wọ́ ṣàtúnyẹ̀wò èyí nígbà tí o bá ní àkókò díẹ̀.",Wo èyí nígbà tí o bá ráyè.,12,7,1.7142857142857142,False,False,False
+EP069,yor,C,politeness,A tailor's work,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ ọ̀gá, ẹ jọ̀wọ́ ìgbà wo ni aṣọ náà máa ṣe tán?",Ìgbà wo ni aṣọ náà máa ṣe tán?,14,8,1.75,False,False,False
+EP070,yor,C,politeness,A tailor's work,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, aṣọ náà lẹ́wà gan-an, ẹ ṣeun fún iṣẹ́ yín.","Aṣọ náà lẹ́wà gan-an, o ṣeun!",12,6,2.0,False,False,False
+EP071,yor,C,politeness,A tailor's work,nllb-200-3.3B,"Ọ̀gá, ṣé mo lè wá gba aṣọ náà lọ́la?",Ṣé mo lè wá gba aṣọ náà lọ́la?,9,8,1.125,False,False,False
+EP072,yor,C,politeness,A tailor's work,nllb-200-3.3B,"Ẹ jọ̀wọ́, ẹ kúkú ṣe àwọn ẹ̀wù náà kúrú díẹ̀.",Jẹ́ kí apá aṣọ náà kúrú díẹ̀.,10,7,1.4285714285714286,False,False,False
+EP073,yor,C,politeness,The cost of transport,nllb-200-3.3B,"Àárọ̀ ọ̀la o, ẹ jọ̀wọ́ ẹ jẹ́ kí n mọ iye owó ọkọ̀ tó ń lọ sí ìlú?",Èló ni owó ọkọ̀ tó máa gbé mi dé ìlú báyìí?,18,11,1.6363636363636365,False,False,False
+EP074,yor,C,politeness,The cost of transport,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, owó ọkọ̀ ti lọ sókè, mo fẹ́ sọ fún yín.","Owó ọkọ̀ ti lọ sókè, mo kàn fẹ́ kí ẹ mọ̀.",13,11,1.1818181818181819,False,False,False
+EP075,yor,C,politeness,The cost of transport,nllb-200-3.3B,"Ọ̀gá, èmi ni màá bójú tó ìrìn àjò náà, ẹ jọ̀wọ́ ẹ má ṣàníyàn nípa rẹ̀.","Ẹ má ṣe dààmú nípa ètò ìrìnnà, èmi ni màá bójú tó o.",16,13,1.2307692307692308,False,False,False
+EP076,yor,C,politeness,The cost of transport,nllb-200-3.3B,"Jọ̀wọ́ màmá, jọ̀wọ́ fi owó náà ránṣẹ́ fún ìrìnnà nígbà tóo bá lè ṣe é.",Fi owó ọkọ̀ náà ránṣẹ́ nígbà tó o bá lè ṣe é.,15,12,1.25,False,False,False
+EP077,yor,C,politeness,A family gathering,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o, mo dúpẹ́ pé ẹ gbà wá lálejò lálẹ́ àná.","A dúpẹ́ pé ẹ gbà wá lálejò lálẹ́ àná, gbogbo èèyàn ló sọ pé àwọn gbádùn ara àwọn.",13,18,1.3846153846153846,False,False,False
+EP078,yor,C,politeness,A family gathering,nllb-200-3.3B,"Jọ̀wọ́ màmá, ṣé wàá wá síbi àpèjẹ náà lópin ọ̀sẹ̀ yìí?",Ṣé wàá wá síbi àpéjọ náà lópin ọ̀sẹ̀ yìí?,11,9,1.2222222222222223,False,False,False
+EP079,yor,C,politeness,A family gathering,nllb-200-3.3B,"Ọ̀gá, ó dùn mí pé mi ò ní lè wá lọ́jọ́ Sátidé.","Ó dùn mí gan-an, mi ò lè wá lọ́jọ́ Sátidé.",12,10,1.2,False,False,False
+EP080,yor,C,politeness,A family gathering,nllb-200-3.3B,"Jọ̀wọ́, mo fẹ́ mọ ohun tó yẹ kí n gbé dání.",Kí ló yẹ kí n gbé dání? Ẹ sọ fún mi kíákíá kí n lè rà á nígbà tí mo bá ń lọ.,11,23,2.090909090909091,True,False,False
+EP081,yor,C,politeness,Music you heard,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o, mo gbọ́ orin kan lónìí tí mo rò pé ẹ máa gbádùn rẹ̀.","Mo gbọ́ orin kan lónìí tí wàá fẹ́ràn gan-an, jẹ́ kí n fi ránṣẹ́ sí ọ.",17,16,1.0625,False,False,False
+EP082,yor,C,politeness,Music you heard,nllb-200-3.3B,"Jọ̀wọ́ màmá, ṣé ẹ lè fi orin tí ẹ kọ ránṣẹ́ sí mi?",Fi orin tó o kọ ránṣẹ́ sí mi.,13,8,1.625,False,False,False
+EP083,yor,C,politeness,Music you heard,nllb-200-3.3B,"Ọ̀gá mi, ṣé ẹ̀yin náà á gbà kí n gbé orin kan dání nígbà tá a bá ń ṣiṣẹ́?",Ṣé mo lè máa gbé orin dání nígbà tá a bá ń ṣiṣẹ́?,19,13,1.4615384615384615,False,False,False
+EP084,yor,C,politeness,Music you heard,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, orin náà ti lọ sókè jù, ṣé mo lè dín in kù?","Orin ń dún gan-an, ẹ jẹ́ kí n dín in kù.",15,11,1.3636363636363635,False,False,False
+EP085,yor,C,politeness,Service at a shop,nllb-200-3.3B,"Ẹ kú òwúrọ̀ gan-an, ẹ jọ̀wọ́ ẹ lè ràn mí lọ́wọ́ láti wá nǹkan yìí?",Jọ̀wọ́ ràn mí lọ́wọ́ láti wá nǹkan yìí.,15,8,1.875,False,False,False
+EP086,yor,C,politeness,Service at a shop,nllb-200-3.3B,"Jọ̀wọ́ màmá mi, mo dúpẹ́ fún sùúrù rẹ, o ràn mí lọ́wọ́ gan-an.","Ẹ ṣeun fún sùúrù yín, ẹ ràn mí lọ́wọ́ gan-an.",13,10,1.3,False,False,False
+EP087,yor,C,politeness,Service at a shop,nllb-200-3.3B,"Ọ̀gá, ṣé mo lè fi nǹkan yìí ṣe pàṣípààrọ̀, mo ní kásẹ́ẹ̀tì rẹ̀ lọ́wọ́.",Ṣé mo lè fi èyí ṣe pàṣípààrọ̀?,14,7,2.0,False,False,False
+EP088,yor,C,politeness,Service at a shop,nllb-200-3.3B,"Jọ̀wọ́ màmá, fi inú rere sọ fún mi nígbà tí nǹkan náà bá ti wà ní ìsọ̀rí.",Ẹ sọ fún mi nígbà tí ẹ bá rí i pé ó ti wà ní ìsọ̀rí.,17,16,1.0625,False,False,False
+EP089,yor,C,politeness,Farming or the harvest,nllb-200-3.3B,"Àárọ̀ ọ̀la, ọ̀gá, mo nírètí pé ìkórè ti dára ní àsìkò yìí.",Mo lérò pé ìkórè náà yóò lọ dáadáa ní àsìkò yìí.,12,11,1.0909090909090908,False,False,False
+EP090,yor,C,politeness,Farming or the harvest,nllb-200-3.3B,"Jọ̀wọ́ màmá, ṣé mo lè wá ràn ẹ́ lọ́wọ́ nínú oko lópin ọ̀sẹ̀ yìí?",Ṣé mo lè wá ran oko yín lọ́wọ́ lópin ọ̀sẹ̀ yìí?,14,11,1.2727272727272727,False,False,False
+EP091,yor,C,politeness,Farming or the harvest,nllb-200-3.3B,"Ọ̀gá, àgbàdo náà ti ṣe tán, jọ̀wọ́ jẹ́ kí n mọ ìgbà tó yẹ kí n kórè.","Kòkòrò ti gbára dì, sọ fún mi ìgbà tó yẹ kí n kórè.",17,13,1.3076923076923077,False,False,False
+EP092,yor,C,politeness,Farming or the harvest,nllb-200-3.3B,"Ẹ jọ̀wọ́, ẹ bá mi sọ ìgbà tí màá gbìn ín lọ́dún yìí.",Ìgbà wo ló yẹ kí n gbìn ín lọ́dún yìí?,13,10,1.3,False,False,False
+EP093,yor,C,politeness,Travelling home for a holiday,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o, ọ̀sẹ̀ tó ń bọ̀ ni màá padà sílé, bí Ọlọ́run bá fẹ́.","Mo máa lọ sílé lọ́sẹ̀ tó ń bọ̀, màá sọ fún ẹ nígbà tí mo bá débẹ̀.",16,17,1.0625,False,False,False
+EP094,yor,C,politeness,Travelling home for a holiday,nllb-200-3.3B,"Ẹ jọ̀wọ́ màmá, mo ti délé láìséwu, mo dúpẹ́ fún ohun gbogbo.","Mo ti délé láìséwu, o ṣeun fún ohun gbogbo.",12,9,1.3333333333333333,False,False,False
+EP095,yor,C,politeness,Travelling home for a holiday,nllb-200-3.3B,"Ọ̀gá, ṣé mo lè béèrè fún àṣẹ láti rìnrìn àjò lọ́jọ́ kan ṣáájú àkókò tá a ṣètò?",Ṣé mo lè tètè rìnrìn àjò lọ́jọ́ kan?,17,8,2.125,True,False,False
+EP096,yor,C,politeness,Travelling home for a holiday,nllb-200-3.3B,"Jọ̀wọ́ màmá, kí gbogbo àwọn tó wà nílé fún mi.",Ẹ kí gbogbo àwọn tó wà nílé fún mi.,10,9,1.1111111111111112,False,False,False
+EP097,yor,C,politeness,Learning something new,nllb-200-3.3B,"Ẹ kú ìrọ̀lẹ́ o, mo dúpẹ́ pé ẹ kọ́ mi, mo ti wá lóye rẹ̀ báyìí.","Mo dúpẹ́ pé o kọ́ mi, mo ti lóye rẹ̀ báyìí.",16,11,1.4545454545454546,False,False,False
+EP098,yor,C,politeness,Learning something new,nllb-200-3.3B,"Jọ̀wọ́ màmá, ṣé o lè ṣàlàyé apá yẹn lẹ́ẹ̀kan sí i?",Ṣé o lè ṣàlàyé apá yẹn lẹ́ẹ̀kan sí i?,11,9,1.2222222222222223,False,False,False
+EP099,yor,C,politeness,Learning something new,nllb-200-3.3B,"Ọ̀gá, mo ti ń ṣe ìdánrawò bí ẹ ṣe gbà mí nímọ̀ràn, ó sì ń sunwọ̀n sí i.","Mo ti ń ṣe ìdánrawò bí o ti sọ, ó ń sunwọ̀n sí i.",18,14,1.2857142857142858,False,False,False
+EP100,yor,C,politeness,Learning something new,nllb-200-3.3B,"Ẹ jọ̀wọ́, ẹ jẹ́ kí n bi yín ní ìbéèrè kan nípa ohun tá a ṣe lálẹ́ àná?",Ṣé mo lè béèrè nípa ìdánilẹ́kọ̀ọ́ tó wáyé lálẹ́ àná?,18,10,1.8,False,False,False
+S001,yor,D,sentiment,Buying something at the market,nllb-200-3.3B,Mo rí ewébẹ̀ tí wọ́n ṣẹ̀ṣẹ̀ kórè ní ọjà,Wọ́n ta èso ápù tó bàjẹ́ fún mi,9,8,1.125,False,False,False
+S002,yor,D,sentiment,Buying something at the market,nllb-200-3.3B,Oníṣòwò ẹja náà tún fún mi ní ẹja púpọ̀ sí i,Oníṣòwò ẹja náà dín owó mi kù,11,7,1.5714285714285714,False,False,False
+S003,yor,D,sentiment,Buying something at the market,nllb-200-3.3B,Ó ṣeé ṣe fún mi láti rí owó gọbọi gbà lórí àwọn ohun èlò,Mi ò ní àǹfààní láti ṣe àdéhùn lórí owó tó yẹ fún oògùn,14,13,1.0769230769230769,False,False,False
+S004,yor,D,sentiment,Buying something at the market,nllb-200-3.3B,"Èso tí mo rà lónìí dára gan-an, ó kún fún omi, ó sì ti pọ́n dáadáa","Èso tí mo rà lónìí korò, ó gbẹ, kò sì tóbi",16,11,1.4545454545454546,False,False,False
+S005,yor,D,sentiment,The phone network today,nllb-200-3.3B,"Orí Íńtánẹ́ẹ̀tì máa ń yára, ó sì ṣeé gbára lé ní òwúrọ̀ kọ̀ọ̀kan.","Nẹtiwọọki náà lọ́ra jù, kò sì ṣeé gbára lé",13,9,1.4444444444444444,False,False,False
+S006,yor,D,sentiment,The phone network today,nllb-200-3.3B,Mo ṣe igbasilẹ faili nla kan ni awọn aaya diẹ laisi idilọwọ eyikeyi,Àkọsílẹ̀ náà gùn jù láti ṣe àtúnyẹ̀wò nítorí pé nẹtiwọọki náà kúrú.,13,12,1.0833333333333333,False,False,False
+S007,yor,D,sentiment,The phone network today,nllb-200-3.3B,Ìpàdé tá a ṣe lórí tẹlifóònù pẹ̀lú ìdílé mi lọ dáadáa,Ìpàdé orí ayélujára mi pẹ̀lú ìdílé mi ni wọ́n dá dúró nítorí ìṣòro lórí ẹ̀rọ alágbèéká,11,16,1.4545454545454546,False,False,False
+S008,yor,D,sentiment,The phone network today,nllb-200-3.3B,Olùpèsè iṣẹ́ ìpè náà yanjú ìṣòro náà láàárín ìṣẹ́jú mélòó kan lẹ́yìn tí wọ́n ròyìn rẹ̀.,Ilé iṣẹ́ ìbánisọ̀rọ̀ kò yanjú ìbínú mi,16,7,2.2857142857142856,True,False,False
+S009,yor,D,sentiment,A journey by bus,nllb-200-3.3B,"Kò pẹ́ tí bọ́ọ̀sì náà fi dé, ó sì kún fọ́fọ́.","Bọ́ọ̀sì náà ti pẹ́ dé, kò sì fi bẹ́ẹ̀ tóbi mọ́.",11,11,1.0,False,False,False
+S010,yor,D,sentiment,A journey by bus,nllb-200-3.3B,Kò sí jàǹbá kankan nínú ọkọ̀ ayọ́kẹ́lẹ́ náà.,Awakọ náà wakọ̀ láìronú jinlẹ̀,8,5,1.6,False,False,False
+S011,yor,D,sentiment,A journey by bus,nllb-200-3.3B,Ẹ̀rọ amúlétutù máa ń mú kí ìrìn àjò náà gbádùn mọ́ni,Ìrìn àjò tó gùn jù lọ nínú bọ́ọ̀sì,11,8,1.375,False,False,False
+S012,yor,D,sentiment,A journey by bus,nllb-200-3.3B,Inú mi yóò sì dùn láti tún rin ìrìn àjò náà padà,Ọkọ̀ náà lọ pẹ̀lú òkìtì erùpẹ̀.,12,6,2.0,False,False,False
+S013,yor,D,sentiment,School fees,nllb-200-3.3B,Ilé ẹ̀kọ́ náà kò wọ́nwó,Ilé-ìwé náà wọ́n jù,5,4,1.25,False,False,False
+S014,yor,D,sentiment,School fees,nllb-200-3.3B,Owó ẹ̀kọ́ náà tún jẹ́ ìdajì owó iléèwé.,Mo ti ná owó iléèwé mi,8,6,1.3333333333333333,False,False,False
+S015,yor,D,sentiment,School fees,nllb-200-3.3B,Ẹ̀rọ ìsanwó orí ayélujára sọ ìlànà ìwà híhù wa di ojú ẹsẹ̀ láìsí ìnáwó àfikún fún iṣẹ́ náà,Olùdarí ilé ìwé náà kò ní dárí ji àwọn tó jẹ gbèsè owó ilé ìwé,18,15,1.2,False,False,False
+S016,yor,D,sentiment,School fees,nllb-200-3.3B,Olùdarí iléèwé náà fún wọn ní àkókò tó pọ̀ sí i kí wọ́n lè parí sísan owó oṣù wọn,Olùdarí iléèwé náà kò fún wọn ní àkókò kankan láti parí sísan owó oṣù wọn,19,15,1.2666666666666666,False,False,False
+S017,yor,D,sentiment,A wedding you attended,nllb-200-3.3B,Ìgbéyàwó náà bẹ̀rẹ̀ lásìkò tó yẹ,Ọ̀pọ̀lọpọ̀ ọdún ti kọjá tí ìgbéyàwó náà ti bẹ̀rẹ̀.,6,9,1.5,False,False,False
+S018,yor,D,sentiment,A wedding you attended,nllb-200-3.3B,Oúnjẹ tí wọ́n jẹ níbi ìgbéyàwó náà dùn ún jẹ gan-an.,Oúnjẹ tí wọ́n sè níbi ìgbéyàwó náà kò dára,11,9,1.2222222222222223,False,False,False
+S019,yor,D,sentiment,A wedding you attended,nllb-200-3.3B,Ẹgbẹ́ akọrin tó wà níbi ìgbéyàwó náà wúni lórí gan - an,Mi ò láyọ̀ nínú ìgbéyàwó yìí,12,6,2.0,False,False,False
+S020,yor,D,sentiment,A wedding you attended,nllb-200-3.3B,Ọkọ náà di ìyàwó rẹ̀ lọ́wọ́ mú bí wọ́n ṣe ń rìn lọ,Ọkọ lu ìyàwó rẹ̀ lásìkò ìgbéyàwó,13,6,2.1666666666666665,True,False,False
+S021,yor,D,sentiment,The weather this week,nllb-200-3.3B,Afẹ́fẹ́ tó tutù yọ̀yọ̀ yìí mú kó rọrùn gan - an láti máa ṣiṣẹ́ lóde òní,Mi ò fẹ́ràn bí ojú ọjọ́ ṣe rí lọ́sẹ̀ yìí,16,10,1.6,False,False,False
+S022,yor,D,sentiment,The weather this week,nllb-200-3.3B,Òjò ọ̀sán yìí mú ìtura wá,Ojú ọjọ́ ò dáa rárá lọ́sẹ̀ yìí,6,7,1.1666666666666667,False,False,False
+S023,yor,D,sentiment,The weather this week,nllb-200-3.3B,Ojú ọjọ́ tó dára dára fún ìrìn àjò òpin ọ̀sẹ̀.,Ojú-ọjọ́ ò dáa lọ́sẹ̀ yìí,10,5,2.0,False,False,False
+S024,yor,D,sentiment,The weather this week,nllb-200-3.3B,Ẹ̀fúùfù òwúrọ̀ tó tutù yọ̀yọ̀ yìí máa ń fún mi lókun àti ìlera fún ìrìn àjò mi láàárọ̀,Ojú ọjọ́ ọ̀sẹ̀ yìí ba gbogbo ètò mi jẹ́.,18,9,2.0,False,False,False
+S025,yor,D,sentiment,Food at a restaurant,nllb-200-3.3B,Ẹni tó ń se oúnjẹ máa ń fi àwọn èròjà tó yẹ sínú ẹran náà,Oúnjẹ inú ilé oúnjẹ náà wọ́n gan-an,15,7,2.142857142857143,True,False,False
+S026,yor,D,sentiment,Food at a restaurant,nllb-200-3.3B,Olùpèsè oúnjẹ máa ń se oúnjẹ wa lọ́nà gbígbóná,Oúnjẹ tó wà ní ilé oúnjẹ ò tó nǹkan.,9,9,1.0,False,False,False
+S027,yor,D,sentiment,Food at a restaurant,nllb-200-3.3B,Oúnjẹ aládùn náà dùn ún jẹ gan - an.,Oúnjẹ inú ilé oúnjẹ náà kò dára,9,7,1.2857142857142858,False,False,False
+S028,yor,D,sentiment,Food at a restaurant,nllb-200-3.3B,Oúnjẹ olówó gọbọi ni ilé oúnjẹ náà ń tà.,Wọn ò se adìyẹ náà bó ṣe yẹ.,9,8,1.125,False,False,False
+S029,yor,D,sentiment,A visit to a clinic or hospital,nllb-200-3.3B,Dókítà náà fara balẹ̀ gbọ́ gbogbo ohun tó ń jẹ mí lọ́kàn,Dókítà tó wà nílé ìwòsàn ló burú jù,12,8,1.5,False,False,False
+S030,yor,D,sentiment,A visit to a clinic or hospital,nllb-200-3.3B,Dókítà náà mú sùúrù fún mi nígbà tí wọ́n ń ṣàyẹ̀wò ẹ̀jẹ̀ mi,Mo kórìíra lílọ sí ilé ìwòsàn yẹn,13,7,1.8571428571428572,False,False,False
+S031,yor,D,sentiment,A visit to a clinic or hospital,nllb-200-3.3B,Kíá ni ilé ìtajà náà pèsè oògùn,Àwọn aláìsàn tó wà nílé ìwòsàn náà kò ní inú dídùn sí dókítà náà,7,14,2.0,False,False,False
+S032,yor,D,sentiment,A visit to a clinic or hospital,nllb-200-3.3B,"Ilé iṣẹ́ náà mọ́ tónítóní, wọ́n sì ń tọ́jú rẹ̀ dáadáa",Dókítà náà kò ṣe iṣẹ́ rẹ̀ rárá,11,7,1.5714285714285714,False,False,False
+S033,yor,D,sentiment,A football match,nllb-200-3.3B,Ẹgbẹ́ wa gba àmì ẹ̀yẹ góòlù èyí tí ó fún wa ní ìṣẹ́gun ńlá,Àwọn tá a jọ ń gbá bọ́ọ̀lù gba àmì ẹ̀yẹ góòlù nínú ìdíje bọ́ọ̀lù alápẹ̀rẹ̀,14,15,1.0714285714285714,False,False,False
+S034,yor,D,sentiment,A football match,nllb-200-3.3B,Ìtara kún inú pápá ìṣeré náà,Ìdíje bọ́ọ̀lù alápẹ̀rẹ̀ náà yọrí sí ìjàkadì,6,7,1.1666666666666667,False,False,False
+S035,yor,D,sentiment,A football match,nllb-200-3.3B,Aláàbò wa kò jẹ́ kí ọ̀tá wọlé.,Mi ò nífẹ̀ẹ́ sí eré ìdárayá yìí.,7,7,1.0,False,False,False
+S036,yor,D,sentiment,A football match,nllb-200-3.3B,Ìfọwọ́sowọ́pọ̀ àwọn ẹgbẹ́ náà fún mi láyọ̀,Ìyàlẹ́nu gbáà ló jẹ́ fún mi pé àwọn òṣèré náà ò bọ̀wọ̀ fún ara wọn.,7,15,2.142857142857143,True,False,False
+S037,yor,D,sentiment,Electricity supply,nllb-200-3.3B,Agbara ti dúró digbí láìsí ìdádúró kankan láti ìbẹ̀rẹ̀ títí di òpin ọ̀sẹ̀ yìí,Kò sí iná mànàmáná láti ìbẹ̀rẹ̀ ọ̀sẹ̀ yìí,14,8,1.75,False,False,False
+S038,yor,D,sentiment,Electricity supply,nllb-200-3.3B,Kíá ni iléeṣẹ́ tó ń pèsè iná mànàmáná náà tún iná náà ṣe,Owó iná mànàmáná ti wọ́n gan-an báyìí.,13,7,1.8571428571428572,False,False,False
+S039,yor,D,sentiment,Electricity supply,nllb-200-3.3B,Ètò ìyípadà agbára oòrùn ti pàdánù ìgbẹ́kẹ̀lé rẹ̀ nínú ètò ìfúnni agbára tí kò dúró sán-ún.,Kò sí orísun iná mànàmáná kankan,16,6,2.6666666666666665,True,False,False
+S040,yor,D,sentiment,Electricity supply,nllb-200-3.3B,Owó iná mànàmáná wa ò fi bẹ́ẹ̀ pọ̀ lóṣù yìí,Owó iná mànàmáná ti ga jù.,10,6,1.6666666666666667,False,False,False
+S041,yor,D,sentiment,New clothes or shoes,nllb-200-3.3B,Àwọn bàtà eré ìdárayá yìí bá ẹsẹ̀ rẹ mu dáadáa,Aṣọ mi tuntun ti ya.,10,5,2.0,False,False,False
+S042,yor,D,sentiment,New clothes or shoes,nllb-200-3.3B,"Aṣọ náà ti gbó dáadáa, kò sì ní àbààwọ́n kankan",Aṣọ tuntun náà ní apá,10,5,2.0,False,False,False
+S043,yor,D,sentiment,New clothes or shoes,nllb-200-3.3B,Ọ̀pọ̀ ló gbóríyìn fún mi nítorí aṣọ tuntun tí mo wọ̀ ní àpéjọ náà,Ojú tì mí láti wọ̀ ọ́.,14,6,2.3333333333333335,True,False,False
+S044,yor,D,sentiment,New clothes or shoes,nllb-200-3.3B,"Àwọn apẹ̀rẹ̀ náà lágbára gan-an, wọ́n sì máa ń wà fún ọ̀pọ̀lọpọ̀ ọdún",Ojú máa ń tì mí láti wọ aṣọ tí mo rà,13,11,1.1818181818181819,False,False,False
+S045,yor,D,sentiment,A neighbour,nllb-200-3.3B,Mo nífẹ̀ẹ́ aládùúgbò mi,Aládùúgbò mi ò láàánú rárá.,4,5,1.25,False,False,False
+S046,yor,D,sentiment,A neighbour,nllb-200-3.3B,Aládùúgbò mi bá mi jẹ oúnjẹ aládùn tóun fúnra rẹ̀ sè,Aládùúgbò mi kò ní ìtìjú,11,5,2.2,True,False,False
+S047,yor,D,sentiment,A neighbour,nllb-200-3.3B,Aládùúgbò mi ràn mí lọ́wọ́ láti tún ọgbà mi tó bà jẹ́ ṣe,Aládùúgbò mi máa ń jí nǹkan nílé mi,13,8,1.625,False,False,False
+S048,yor,D,sentiment,A neighbour,nllb-200-3.3B,Ẹgbẹ́ kan tó wà ládùúgbò náà ṣètò ìgbòkègbodò ìmọ́tótó kan tó kẹ́sẹ járí,Aládùúgbò mi jẹ́ ògbóǹkangí èèyàn,13,5,2.6,True,False,False
+S049,yor,D,sentiment,Traffic in town,nllb-200-3.3B,Ọkọ ayọkẹlẹ naa n ṣiṣẹ ni rọọrun laisi idilọwọ ni akoko,Wọ́n ti gbẹ́sẹ̀ lé àwọn ọ̀nà tó wà nínú ìlú náà báyìí.,11,12,1.0909090909090908,False,False,False
+S050,yor,D,sentiment,Traffic in town,nllb-200-3.3B,kọ́ bó o ṣe lè gbádùn àyíká nígbà tó o bá wà ní ibi ìgbọ́kọ̀sí,Mi ò fẹ́ràn bí wọ́n ṣe ń wò mí nínú àga ọkọ̀,15,12,1.25,False,False,False
+S051,yor,D,sentiment,Traffic in town,nllb-200-3.3B,wá ilé ìtura tí mo wá sí nígbà tí mo wà nínú ọkọ̀,Emi yoo padanu ipade naa nitori ijabọ ijabọ,13,8,1.625,False,False,False
+S052,yor,D,sentiment,Traffic in town,nllb-200-3.3B,Mo rí ọ̀rẹ́ mi kan nínú ọkọ̀ rẹ̀ ní ọ̀sán,Mi ò lè bá ọ̀rẹ́ mi sọ̀rọ̀ nítorí kókó ọkọ̀,10,10,1.0,False,False,False
+S053,yor,D,sentiment,A phone you bought,nllb-200-3.3B,ní agbára láti ya àwòrán pẹ̀lú míkírófóònù tuntun mi,Nokia flash drive mi tí mo gbé kalẹ̀ láti ya àwòrán pẹ̀lú rẹ̀,9,13,1.4444444444444444,False,False,False
+S054,yor,D,sentiment,A phone you bought,nllb-200-3.3B,tẹlifóònù náà ti di olówó gọbọi,tẹlifóònù alágbèéká mi ò fi bẹ́ẹ̀ ṣiṣẹ́,6,7,1.1666666666666667,False,False,False
+S055,yor,D,sentiment,A phone you bought,nllb-200-3.3B,Mo lè fetí sí ilé iṣẹ́ rédíò tuntun náà lórí tẹlifóònù mi,mi ò lè fetí sí ìròyìn mọ́ lórí fóònù tuntun mi,12,11,1.0909090909090908,False,False,False
+S056,yor,D,sentiment,A phone you bought,nllb-200-3.3B,nẹtiwọọki airtel ti o ti fi sori ẹrọ kọnputa mi,nẹtiwọọki mtn ti wa ni itumọ lori olulana foonu mi,10,10,1.0,False,False,False
+S057,yor,D,sentiment,The rainy season,nllb-200-3.3B,Mo nírètí láti gbin àgbàdo nígbà tí òjò bá rọ̀.,"àwọn ẹwà ti rọ̀, wọ́n sì ti kú nítorí ìgbà òjò",10,11,1.1,False,False,False
+S058,yor,D,sentiment,The rainy season,nllb-200-3.3B,Mo ń gbádùn àsìkò òjò yìí báyìí tí mo ti ń gbin ìrẹsì,Ẹ gbádùn àsìkò òjò yìí,13,5,2.6,True,False,False
+S059,yor,D,sentiment,The rainy season,nllb-200-3.3B,àsìkò òjò bẹ̀rẹ̀ nígbà tí mo lọ sí ìsinmi,àsìkò òjò bẹ̀rẹ̀ nígbà tí mo bẹ̀rẹ̀ iṣẹ́,9,8,1.125,False,False,False
+S060,yor,D,sentiment,The rainy season,nllb-200-3.3B,Ìròyìn rere máa ń dé nígbà òjò,Inú mi bàjẹ́ nígbà tí mo gbọ́ pé àkókò òjò ti dé,7,12,1.7142857142857142,False,False,False
+S061,yor,D,sentiment,A friend's visit,nllb-200-3.3B,Inú mi dùn láti rí ọ̀rẹ́ mi nílé,ó bani nínú jẹ́ pé ọ̀rẹ́ mi lù mí nílé,8,10,1.25,False,False,False
+S062,yor,D,sentiment,A friend's visit,nllb-200-3.3B,Ọ̀rẹ́ mi àtijọ́ wá lónìí pẹ̀lú ẹ̀bùn kan,Ọ̀rẹ́ mi àtijọ́ máa ń wá bẹ̀ mí wò láti jẹ oúnjẹ mi,8,13,1.625,False,False,False
+S063,yor,D,sentiment,A friend's visit,nllb-200-3.3B,Mo lè láyọ̀ nígbà tí ọ̀rẹ́ mi bá dé,Mo ti padanu ere nla kan nitori pe ọrẹ mi wa,9,11,1.2222222222222223,False,False,False
+S064,yor,D,sentiment,A friend's visit,nllb-200-3.3B,mo ń se oúnjẹ ọ̀sán nígbà tí ọ̀rẹ́ mi dé,Ọ̀rẹ́ mi wá bá mi nígbà tí ó rẹ̀ mí gan-an,10,11,1.1,False,False,False
+S065,yor,D,sentiment,Your work or job,nllb-200-3.3B,Mo ṣẹ̀ṣẹ̀ parí iṣẹ́ mi níbi iṣẹ́,Iṣẹ́ kan pàtó wà tí mò ń ṣe níbi iṣẹ́.,7,10,1.4285714285714286,False,False,False
+S066,yor,D,sentiment,Your work or job,nllb-200-3.3B,Wọ́n ti gbé mi ga lẹ́nu iṣẹ́ tuntun tí mò ń ṣe.,Wọ́n lé mi kúrò lẹ́nu iṣẹ́ lóṣù yìí,12,8,1.5,False,False,False
+S067,yor,D,sentiment,Your work or job,nllb-200-3.3B,Ọ̀gá mi gbóríyìn fún iṣẹ́ mi,Ọ̀gá mi sọ pé iṣẹ́ mi ò dáa,6,8,1.3333333333333333,False,False,False
+S068,yor,D,sentiment,Your work or job,nllb-200-3.3B,àwọn iléeṣẹ́ àgbáyé ti gbóríyìn fún iṣẹ́ mi,Àwọn ilé-iṣẹ́ àgbáyé ti tako ètò mi.,8,7,1.1428571428571428,False,False,False
+S069,yor,D,sentiment,A tailor's work,nllb-200-3.3B,Ẹni tó ń ṣe irun fún mi wú bàbá ìyàwó mi lórí gan - an.,Ẹni tó ń se irun fún mi fi àwòrán kan tí mi ò fẹ́ sínú fóònù ọ̀gá mi,15,18,1.2,False,False,False
+S070,yor,D,sentiment,A tailor's work,nllb-200-3.3B,gbogbo ènìyàn ló gbóríyìn fún aṣọ tí telos ṣe,gbogbo èèyàn ló kórìíra aṣọ tí o gbà mí nímọ̀ràn,9,10,1.1111111111111112,False,False,False
+S071,yor,D,sentiment,A tailor's work,nllb-200-3.3B,Ó yà mí lẹ́nu gan-an pé oníṣọ tó wà lẹ́gbẹ̀ẹ́ mi ń yára ṣiṣẹ́,Inú bí mi gan-an torí pé olùṣọ́ irun mi ò ṣiṣẹ́ dáadáa,14,12,1.1666666666666667,False,False,False
+S072,yor,D,sentiment,A tailor's work,nllb-200-3.3B,àgbá yìí máa ń ṣe àgbá tó dára gan-an,ilé iṣẹ́ yìí máa ń ṣe ẹ̀wù tí kò fi bẹ́ẹ̀ dára,9,12,1.3333333333333333,False,False,False
+S073,yor,D,sentiment,The cost of transport,nllb-200-3.3B,lílo bọ́ọ̀sì ìlú ti wá lówó díẹ̀ báyìí ju wíwá takisí lọ,lílo ọkọ̀ èrò ti wá gbajúmọ̀ ju lílo takisí lọ,12,10,1.2,False,False,False
+S074,yor,D,sentiment,The cost of transport,nllb-200-3.3B,gígun kẹ̀kẹ́ yára ju rírìn lọ,kẹ̀kẹ́ kan tí wọ́n ṣe láti máa lò,6,8,1.3333333333333333,False,False,False
+S075,yor,D,sentiment,The cost of transport,nllb-200-3.3B,ìrìn àjò ọkọ̀ ojú irin rọrùn,ìrìn àjò ọkọ̀ òfúrufú kò dùn mọ́ni rárá,6,8,1.3333333333333333,False,False,False
+S076,yor,D,sentiment,The cost of transport,nllb-200-3.3B,Fífi kẹ̀kẹ́ lọ síbi iṣẹ́ máa ń dín owó tí mò ń ná kù,gbígbé ọkọ̀ mi lọ síbi iṣẹ́ ti di àṣà mi báyìí,14,11,1.2727272727272727,False,False,False
+S077,yor,D,sentiment,A family gathering,nllb-200-3.3B,Inú mi máa ń dùn tí mo bá rí ìdílé mi níbi àpèjẹ ìdílé kan,Mi ò wá síbi ìpàdé ìdílé wa mọ́,15,8,1.875,False,False,False
+S078,yor,D,sentiment,A family gathering,nllb-200-3.3B,Mo máa ń gbádùn oúnjẹ aládùn nígbà tí ìdílé wa bá kóra jọ pọ̀,oúnjẹ tí a kò bá sè níbi àpèjẹ ìdílé kò ní dára fún ìlera,14,14,1.0,False,False,False
+S079,yor,D,sentiment,A family gathering,nllb-200-3.3B,ayẹyẹ ayọ̀ ni ìgbéyàwó ìdílé mi,ó bani nínú jẹ́ pé a pàdé ara wa nítorí ikú àbúrò bàbá wa,6,14,2.3333333333333335,True,False,False
+S080,yor,D,sentiment,A family gathering,nllb-200-3.3B,a ní láti ṣe ayẹyẹ ọjọ́ ìbí ọgọ́rùn-ún ọdún ìyá àgbà,ṣé ọ̀nà kan wà tá a lè gbà yẹra fún ṣíṣe ayẹyẹ ọjọ́ ìbí àbúrò bàbá wa tí a kò fẹ́ràn,11,21,1.9090909090909092,False,False,False
+S081,yor,D,sentiment,Music you heard,nllb-200-3.3B,orin tí olórin náà kọ ni èyí tí o fẹ́ràn jùlọ,Mi ò fẹ́ràn orin tí akọrin yẹn ń kọ,11,9,1.2222222222222223,False,False,False
+S082,yor,D,sentiment,Music you heard,nllb-200-3.3B,Mò ń gbádùn orin lórí fóònù Nokia mi,Mi ò fẹ́ràn orin tí o fi sínú kọ̀ǹpútà mi,8,10,1.25,False,False,False
+S083,yor,D,sentiment,Music you heard,nllb-200-3.3B,orin tí mo gbọ́ lálẹ́ àná,orin tí mò ń gbọ́ ń kó ìdààmú bá mi,6,10,1.6666666666666667,False,False,False
+S084,yor,D,sentiment,Music you heard,nllb-200-3.3B,ṣé o ti gbọ́ orin dáradára láti ilé aládùúgbò,Ó ṣeé ṣe kó o ti gbọ́ orin burúkú táwọn ará abúlé náà ń kọ.,9,15,1.6666666666666667,False,False,False
+S085,yor,D,sentiment,Service at a shop,nllb-200-3.3B,ilé ìtajà fún mi ní àkọsílẹ̀ àwọn èso tí mo rà,Òṣìṣẹ́ ilé ìtajà kan gba díẹ̀ lára àwọn nǹkan mi lọ́wọ́ mi,11,12,1.0909090909090908,False,False,False
+S086,yor,D,sentiment,Service at a shop,nllb-200-3.3B,ẹni tó ni ilé ìtajà náà ṣe dáadáa lónìí,onílé ọjà náà kò hùwà dáadáa lónìí,9,7,1.2857142857142858,False,False,False
+S087,yor,D,sentiment,Service at a shop,nllb-200-3.3B,Owó tí mò ń rí nílé ìtajà tẹlifíṣọ̀n pọ̀ gan-an.,Mi ò fi bẹ́ẹ̀ lówó nínú ẹ̀ka tó ń bójú tó àwọn oníbàárà.,10,13,1.3,False,False,False
+S088,yor,D,sentiment,Service at a shop,nllb-200-3.3B,Mo gba àfikún apá kan lọ́fẹ̀ẹ́ lọ́dọ̀ oníṣẹ́ ọnà náà,Mi ò rí iṣẹ́ àfikún kankan ní ilé iṣẹ́ irun.,10,10,1.0,False,False,False
+S089,yor,D,sentiment,Farming or the harvest,nllb-200-3.3B,Mo kórè mùsókè tó pọ̀ ju bí mo ṣe rò lọ,Mo kórè àwọn òdòdó tí wọ́n máa ń hù lásìkò náà díẹ̀ ju bí mo ṣe rò lọ,11,18,1.6363636363636365,False,False,False
+S090,yor,D,sentiment,Farming or the harvest,nllb-200-3.3B,ọ̀gbìn tòmátì mi wúlò fún ọgbà mi,Ewéko tí mo gbìn kò dára fún oko mi ní oṣù yìí,7,12,1.7142857142857142,False,False,False
+S091,yor,D,sentiment,Farming or the harvest,nllb-200-3.3B,Mo kórè gbogbo ọkọ̀ tó kún fún àgbàdo lọ́dún yìí,Kò tíì ṣeé ṣe fún mi láti kórè àpò ẹ̀wà látìgbà tí mo ti bẹ̀rẹ̀ iṣẹ́ àgbẹ̀,10,17,1.7,False,False,False
+S092,yor,D,sentiment,Farming or the harvest,nllb-200-3.3B,ìrẹsì ni irúgbìn tó dára jù lọ láti gbìn ní abúlé yìí,àṣìṣe ló jẹ́ láti gbin ànàmó,12,6,2.0,False,False,False
+S093,yor,D,sentiment,Travelling home for a holiday,nllb-200-3.3B,Àyíká ibẹ̀ máa ń lẹ́wà gan - an nígbà tí mo bá pa dà sílé.,ó máa ń rùn nígbàkigbà tí mo bá délé,15,9,1.6666666666666667,False,False,False
+S094,yor,D,sentiment,Travelling home for a holiday,nllb-200-3.3B,ó máa ń dákẹ́ nígbà tí mo bá dé abúlé mi,àwọn ọ̀nà tó lọ sí abúlé mi ò dáa rárá,11,10,1.1,False,False,False
+S095,yor,D,sentiment,Travelling home for a holiday,nllb-200-3.3B,Ìrìn àjò kékeré ni láti padà sílé.,Ẹ̀gbọ́n mi sọ fún mi pé ọ̀nà tó jìn gan-an ló gbà kó tó délé.,7,15,2.142857142857143,True,False,False
+S096,yor,D,sentiment,Travelling home for a holiday,nllb-200-3.3B,Ilé náà máa ń lẹ́wà nígbà tí mo bá délé,Àwọn ilé náà ti bà jẹ́ gan - an nígbà tí mo dé abúlé náà,10,15,1.5,False,False,False
+S097,yor,D,sentiment,Learning something new,nllb-200-3.3B,Mo kọ́ ọ̀rọ̀ tuntun kan lónìí ní kíláàsì èdè Gẹ̀ẹ́sì.,Olùkọ́ èdè Gẹ̀ẹ́sì kò lè kọ́ wa ní orí tó tẹ̀ lé e.,10,13,1.3,False,False,False
+S098,yor,D,sentiment,Learning something new,nllb-200-3.3B,Mo ti kọ́ bí mo ṣe lè borí nínú eré orí kọ̀ǹpútà,Mi ò lè lóye àwọn ìtọ́ni tó wà nínú ìwé yìí,12,11,1.0909090909090908,False,False,False
+S099,yor,D,sentiment,Learning something new,nllb-200-3.3B,"Níkẹyìn, mo mọ bí mo ṣe lè lo àkáǹtì mi láti yanjú àdììtú náà.",Mi ò lè lo tábìlì alábápá láti yanjú ìṣòro ìṣirò,14,10,1.4,False,False,False
+S100,yor,D,sentiment,Learning something new,nllb-200-3.3B,Mo ti kọ́ bí mo ṣe lè máa fi owó ṣòwò kí n lè máa tọ́jú owó pa mọ́,Mi ò rí owó kankan nínú ètò ìṣúnná owó tí mo kọ́.,19,12,1.5833333333333333,False,False,False
