@@ -5,3 +5,5 @@ data/raw/*.xlsx
 data/activations/*.npz
 .DS_Store
 *.ipynb
+results_yor_12B/data/
+results_yor_12B/data/
