@@ -17,6 +17,12 @@ from prov import vectors as V  # noqa: E402
 cfg = Config.load()
 cfg.results_dir.mkdir(parents=True, exist_ok=True)
 
+import argparse
+ap = argparse.ArgumentParser()
+ap.add_argument("--tag", default="", help="suffix for output files, e.g. mean")
+args = ap.parse_args()
+suffix = f"_{args.tag}" if args.tag else ""
+
 floor_rows, cos_rows, probe_rows = [], [], []
 found_any = False
 
@@ -93,9 +99,9 @@ for lang in cfg.languages:
 if not found_any:
     sys.exit("no arm A activations found — run 01_extract.py first")
 
-pd.DataFrame(floor_rows).to_csv(cfg.results_dir / "noise_floor.csv", index=False)
+pd.DataFrame(floor_rows).to_csv(cfg.results_dir / f"noise_floor{suffix}.csv", index=False)
 if cos_rows:
-    pd.DataFrame(cos_rows).to_csv(cfg.results_dir / "arm_cosines.csv", index=False)
-    pd.DataFrame(probe_rows).to_csv(cfg.results_dir / "probe_transfer.csv",
+    pd.DataFrame(cos_rows).to_csv(cfg.results_dir / f"arm_cosines{suffix}.csv", index=False)
+    pd.DataFrame(probe_rows).to_csv(cfg.results_dir / f"probe_transfer{suffix}.csv",
                                     index=False)
 print(f"\nwrote results to {cfg.results_dir}")
