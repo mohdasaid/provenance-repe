@@ -63,6 +63,9 @@ for lang in cfg.languages:
             rep = D.validate(df)
             print(f"\n=== {lang} {arm} {concept} [pool={args.pool}] ==="
                   f"\n{D.summarise(rep)}")
+            if len(df) == 0:
+                print(f"skip {lang} {arm} {concept}: no rows")
+                continue
             reports.append(rep)
 
             pos, neg = E.extract_pairs(df, model, tok,

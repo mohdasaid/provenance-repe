@@ -15,21 +15,22 @@ from pathlib import Path
 import numpy as np
 
 
-def load_model(model_id: str, dtype: str = "float16"):
-    """Returns (model, tokenizer). Kept separate so scripts can be imported
-    without torch installed."""
+def load_model(model_id: str, dtype: str = "bfloat16", device: str = "auto"):
+    """Returns (model, tokenizer). Imports live inside so the module can be
+    imported without torch installed."""
     import torch
-    from transformers import AutoModelForCausalLM, AutoTokenizer
+    from transformers import AutoModel, AutoTokenizer
 
     tok = AutoTokenizer.from_pretrained(model_id)
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
     tok.padding_side = "right"          # we gather by mask, so right is fine
 
-    model = AutoModelForCausalLM.from_pretrained(
+    model = AutoModel.from_pretrained(
         model_id,
-        torch_dtype=getattr(torch, dtype),
-        device_map="auto",
+        dtype=getattr(torch, dtype),
+        low_cpu_mem_usage=True,
+        device_map=None if device == "cpu" else "auto",
     )
     model.eval()
     return model, tok

@@ -133,7 +133,10 @@ def main():
         for concept, (sheet, _, _) in SHEETS.items():
             try:
                 frames_src[concept] = load_sheet(src_path, args.lang, "A",
-                                                 sheet_name=sheet)
+                                                 concept=concept)
+                if len(frames_src[concept]) == 0:
+                    del frames_src[concept]
+                    print(f"skip {concept}: no rows")
             except Exception as e:
                 print(f"skip {concept}: {e}")
 
