@@ -28,10 +28,16 @@ def fertility(texts: list[str], tok) -> dict:
 
 
 def table(df: pd.DataFrame, tok) -> pd.DataFrame:
-    """Fertility by language and arm."""
+    """Fertility by language, arm and concept.
+
+    Grouping by concept matters: mixing sentiment and politeness makes the
+    figure move as a writer adds rows to one tab, which is not something you
+    want in a paper table.
+    """
     rows = []
-    for (lang, arm), g in df.groupby(["lang", "arm"]):
+    keys = ["lang", "arm"] + (["concept"] if "concept" in df.columns else [])
+    for key, g in df.groupby(keys):
+        entry = dict(zip(keys, key if isinstance(key, tuple) else (key,)))
         texts = g["positive"].tolist() + g["negative"].tolist()
-        f = fertility(texts, tok)
-        rows.append({"lang": lang, "arm": arm, **f})
+        rows.append({**entry, **fertility(texts, tok)})
     return pd.DataFrame(rows)

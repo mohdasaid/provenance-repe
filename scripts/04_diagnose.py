@@ -33,6 +33,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--cpu", action="store_true")
 ap.add_argument("--lang", default="yor")
 ap.add_argument("--concept", default="sentiment")
+ap.add_argument("--tag", default="", help="suffix for the output file")
 args = ap.parse_args()
 
 cfg = Config.load()
@@ -75,14 +76,19 @@ def extract_pooled(texts, pool):
     return np.concatenate(chunks, 0)
 
 
-def report(name, pos, neg):
+def report(name, pos, neg, pool=None):
     floor = V.split_half_floor(pos, neg, n_splits=20, seed=0)
     layer = V.best_layer(floor)
     print(f"{name:<28} floor {floor['mean'][layer]:.3f} "
           f"(layer {layer}, 95% {floor['lo'][layer]:.3f}-{floor['hi'][layer]:.3f})")
+    rows.append({"lang": args.lang, "concept": args.concept,
+                 "model": cfg.model_id, "measure": "floor", "pool": pool,
+                 "label": name, "layer": layer,
+                 "value": floor["mean"][layer],
+                 "lo": floor["lo"][layer], "hi": floor["hi"][layer]})
     return floor, layer
 
-
+rows = []
 results = {}
 for pool in ("last", "mean"):
     print(f"extracting [{pool}] ...")
@@ -92,7 +98,7 @@ for pool in ("last", "mean"):
 
 print("\n--- 1/2. read-out position, raw ---")
 for pool, (pos, neg) in results.items():
-    report(f"{pool}-token", pos, neg)
+    report(f"{pool}-token", pos, neg, pool=pool)
 
 print("\n--- 3. centred (per-layer mean removed) ---")
 centred = {}
@@ -101,7 +107,7 @@ for pool, (pos, neg) in results.items():
     mu = allx.mean(0, keepdims=True)
     cp, cn = pos - mu, neg - mu
     centred[pool] = (cp, cn)
-    report(f"{pool}-token centred", cp, cn)
+    report(f"{pool}-token centred", cp, cn, pool=pool)
 
 print("\n--- 1. is the concept linearly there at all? ---")
 print("(cross-validated probe accuracy; 0.5 = chance)")
@@ -116,17 +122,39 @@ for pool, (pos, neg) in results.items():
         if acc > best[0]:
             best = (acc, layer)
     print(f"  {pool}-token: best CV accuracy {best[0]:.3f} at layer {best[1]}")
+    rows.append({"lang": args.lang, "concept": args.concept,
+             "model": cfg.model_id, "measure": "probe", "pool": pool,
+             "layer": best[1], "value": best[0]})
 
 print("\n--- 4. is n the problem? ---")
 pos, neg = centred["mean"]
 for n in (25, 50, len(pos)):
     f = V.split_half_floor(pos[:n], neg[:n], n_splits=20, seed=0)
     print(f"  n={n:<4} floor {f['mean'][V.best_layer(f)]:.3f}")
+    rows.append({"lang": args.lang, "concept": args.concept,
+                 "model": cfg.model_id, "measure": "n_scaling",
+                 "pool": "mean", "n": n,
+                 "value": f["mean"][V.best_layer(f)]})
 
 print("\n--- sanity ---")
 pos, neg = results["last"]
 print(f"  activation norm (mean): {np.linalg.norm(pos, axis=-1).mean():.1f}")
 print(f"  any NaN: {bool(np.isnan(pos).any())}")
-tokens = [len(tok.encode(t, add_special_tokens=False)) for t in df['positive']]
-words = [len(t.split()) for t in df['positive']]
-print(f"  tokenizer fertility: {sum(tokens) / sum(words):.2f} tokens/word")
+
+texts = df["positive"].tolist() + df["negative"].tolist()
+tokens = sum(len(tok.encode(t, add_special_tokens=False)) for t in texts)
+words = sum(len(t.split()) for t in texts)
+fert = tokens / words
+print(f"  tokenizer fertility: {fert:.3f} tokens/word "
+      f"(both sides, {len(texts)} texts)")
+
+rows.append({"lang": args.lang, "concept": args.concept,
+             "model": cfg.model_id, "measure": "fertility",
+             "value": fert, "n": len(texts)})
+
+import pandas as pd
+suffix = f"_{args.tag}" if args.tag else ""
+cfg.results_dir.mkdir(parents=True, exist_ok=True)
+out = cfg.results_dir / f"diagnostic_{args.lang}_{args.concept}{suffix}.csv"
+pd.DataFrame(rows).to_csv(out, index=False)
+print(f"\nwrote {out}")
