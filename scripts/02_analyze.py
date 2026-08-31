@@ -29,19 +29,27 @@ found_any = False
 for lang in cfg.languages:
     for concept in D.CONCEPT_SHEETS:
         arms = {}
+        subjects = None
         for arm in cfg.arms:
             p = cfg.act_dir / f"{lang}_{arm}_{concept}.npz"
             if p.exists():
-                pos, neg, _, _ = E.load(p)
+                pos, neg, _, _, subj = E.load(p)
                 arms[arm] = (pos, neg)
+                if arm == "A":
+                    subjects = subj
 
         if "A" not in arms:
             continue
         found_any = True
 
         # --- noise floor, arm A against itself --------------------------
-        floor = V.split_half_floor(*arms["A"], n_splits=cfg.n_splits,
-                                   seed=cfg.seed)
+        if subjects is not None:
+            floor = V.split_half_floor_clustered(
+                *arms["A"], subjects=subjects,
+                n_splits=cfg.n_splits, seed=cfg.seed)
+        else:
+            floor = V.split_half_floor(*arms["A"], n_splits=cfg.n_splits,
+                                       seed=cfg.seed)
         L = len(floor["mean"])
         for l in range(L):
             floor_rows.append({

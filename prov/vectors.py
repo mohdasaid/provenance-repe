@@ -163,3 +163,22 @@ def split_half_floor_est(pos, neg, estimator="diff_in_means", n_splits=20,
     return {"cosines": c, "mean": c.mean(0),
             "lo": np.percentile(c, 2.5, axis=0),
             "hi": np.percentile(c, 97.5, axis=0)}
+
+def split_half_floor_clustered(pos, neg, subjects, n_splits=20, seed=0):
+    """Resample whole subjects. With 4 pairs per subject, resampling pairs
+    puts the same subject in both halves and inflates the floor."""
+    rng = np.random.default_rng(seed)
+    subs = np.unique(subjects)
+    cosines = []
+    for _ in range(n_splits):
+        perm = rng.permutation(subs)
+        s1 = set(perm[: len(perm) // 2])
+        m = np.array([s in s1 for s in subjects])
+        if m.sum() < 5 or (~m).sum() < 5:
+            continue
+        cosines.append(cosine(diff_in_means(pos[m], neg[m]),
+                              diff_in_means(pos[~m], neg[~m])))
+    c = np.stack(cosines)
+    return {"cosines": c, "mean": c.mean(0),
+            "lo": np.percentile(c, 2.5, axis=0),
+            "hi": np.percentile(c, 97.5, axis=0)}

@@ -66,12 +66,15 @@ def pair_lengths(arm):
 
 # ---------------------------------------------------------------- load arms
 arms, lengths = {}, {}
+subjects = None
 for arm in cfg.arms:
     p = cfg.act_dir / f"{args.lang}_{arm}_{args.concept}.npz"
     if not p.exists():
         continue
-    pos, neg, _, _ = E.load(p)
+    pos, neg, _, _, subj = E.load(p)
     arms[arm] = (pos, neg)
+    if arm == "A":
+        subjects = subj
     try:
         lengths[arm] = pair_lengths(arm)
     except Exception as exc:
@@ -116,7 +119,14 @@ pd.DataFrame({"layer": range(n_layers), "length_overlap": overlap,
     cfg.results_dir / f"length_encoding_{stem}.csv", index=False)
 
 # ------------------------------------------------------------- per layer
-floor = V.split_half_floor(posA, negA, n_splits=cfg.n_splits, seed=cfg.seed)
+floor_pair = V.split_half_floor(posA, negA, n_splits=cfg.n_splits,
+                                seed=cfg.seed)
+if subjects is not None:
+    floor = V.split_half_floor_clustered(posA, negA, subjects=subjects,
+                                         n_splits=cfg.n_splits, seed=cfg.seed)
+else:
+    floor = floor_pair
+    log("no subject data — falling back to pair-level resampling")
 rows = []
 for arm in arms:
     if arm == "A":
@@ -127,9 +137,11 @@ for arm in arms:
             "lang": args.lang, "concept": args.concept, "arm": arm, "layer": l,
             "cosine": c[l], "floor_mean": floor["mean"][l],
             "floor_lo": floor["lo"][l], "floor_hi": floor["hi"][l],
+            "floor_lo_pairwise": floor_pair["lo"][l],
             "length_overlap": overlap[l],
             "below_floor": bool(c[l] < floor["lo"][l]),
         })
+
 per_layer = pd.DataFrame(rows)
 per_layer.to_csv(cfg.results_dir / f"per_layer_{stem}.csv", index=False)
 
@@ -167,6 +179,9 @@ log(f"PREREGISTERED LAYER: L{L} "
     f"(max stability among layers with length overlap < {args.max_overlap})")
 log(f"  floor {floor['mean'][L]:.3f} [{floor['lo'][L]:.3f}-{floor['hi'][L]:.3f}]"
     f"  length overlap {overlap[L]:.3f}")
+log(f"  floor at L{L}: by-subject {floor['mean'][L]:.3f} "
+    f"[{floor['lo'][L]:.3f}] | by-pair {floor_pair['mean'][L]:.3f} "
+    f"[{floor_pair['lo'][L]:.3f}]")
 for arm in arms:
     if arm == "A":
         continue

@@ -92,16 +92,17 @@ def extract_pairs(df, model, tok, **kw) -> tuple[np.ndarray, np.ndarray]:
     return pos, neg
 
 
-def save(path: Path, pos: np.ndarray, neg: np.ndarray, df) -> None:
+def save(path: Path, pos, neg, df) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(path, pos=pos, neg=neg,
                         pair_id=df["pair_id"].to_numpy().astype(str),
-                        writer_id=df["writer_id"].to_numpy().astype(str))
-
+                        writer_id=df["writer_id"].to_numpy().astype(str),
+                        subject=df["subject"].to_numpy().astype(str))
 
 def load(path: Path):
     z = np.load(path, allow_pickle=False)
-    return z["pos"], z["neg"], z["pair_id"], z["writer_id"]
+    subj = z["subject"] if "subject" in z else None
+    return z["pos"], z["neg"], z["pair_id"], z["writer_id"], subj
 
 
 # ---------------------------------------------------------------- synthetic
