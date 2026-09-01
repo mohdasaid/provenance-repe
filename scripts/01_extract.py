@@ -55,6 +55,7 @@ model, tok = E.load_model(cfg.model_id, cfg.dtype,
 reports = []
 for lang in cfg.languages:
     for arm in cfg.arms:
+        path = cfg.raw_dir / f"{lang}_{arm}.xlsx"
         if not path.exists():
             continue
 
