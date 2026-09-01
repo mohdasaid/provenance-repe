@@ -185,9 +185,11 @@ log(f"  floor at L{L}: by-subject {floor['mean'][L]:.3f} "
 for arm in arms:
     if arm == "A":
         continue
-    sub = per_layer[(per_layer.arm == arm) & (per_layer.layer == L)].iloc[0]
-    log(f"  A vs {arm}: cos {sub['cosine']:.3f} -> "
-        f"{'BELOW FLOOR' if sub['below_floor'] else 'within noise'}")
+    sub = per_layer[(per_layer.arm == arm)
+                    & (per_layer.length_overlap < args.max_overlap)]
+    log(f"  A vs {arm}: cosine across clean layers "
+        f"min {sub.cosine.min():.3f} median {sub.cosine.median():.3f} "
+        f"max {sub.cosine.max():.3f}")
 log()
 
 log("FRACTION OF LAYERS BELOW FLOOR")

@@ -46,6 +46,7 @@ else:
     df = D.load_sheet(cfg.raw_dir / f"{args.lang}_A.xlsx", args.lang, "A",
                       concept=args.concept)
 print(f"{len(df)} pairs\n")
+subjects = df["subject"].to_numpy().astype(str) if "subject" in df.columns else None
 
 model, tok = E.load_model(cfg.model_id, cfg.dtype,
                           device="cpu" if args.cpu else "auto")
@@ -77,7 +78,11 @@ def extract_pooled(texts, pool):
 
 
 def report(name, pos, neg, pool=None):
-    floor = V.split_half_floor(pos, neg, n_splits=20, seed=0)
+    if subjects is not None:
+        floor = V.split_half_floor_clustered(pos, neg, subjects=subjects,
+                                             n_splits=20, seed=0)
+    else:
+        floor = V.split_half_floor(pos, neg, n_splits=20, seed=0)
     layer = V.best_layer(floor)
     print(f"{name:<28} floor {floor['mean'][layer]:.3f} "
           f"(layer {layer}, 95% {floor['lo'][layer]:.3f}-{floor['hi'][layer]:.3f})")
@@ -129,7 +134,12 @@ for pool, (pos, neg) in results.items():
 print("\n--- 4. is n the problem? ---")
 pos, neg = centred["mean"]
 for n in (25, 50, len(pos)):
-    f = V.split_half_floor(pos[:n], neg[:n], n_splits=20, seed=0)
+    if subjects is not None:
+        f = V.split_half_floor_clustered(pos[:n], neg[:n],
+                                         subjects=subjects[:n],
+                                         n_splits=20, seed=0)
+    else:
+        f = V.split_half_floor(pos[:n], neg[:n], n_splits=20, seed=0)
     print(f"  n={n:<4} floor {f['mean'][V.best_layer(f)]:.3f}")
     rows.append({"lang": args.lang, "concept": args.concept,
                  "model": cfg.model_id, "measure": "n_scaling",

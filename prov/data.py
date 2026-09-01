@@ -15,7 +15,6 @@ REQUIRED = ["pair_id", "subject", "positive", "negative"]
 # concept -> (sheet name, positive column header, negative column header)
 CONCEPT_SHEETS = {
     "sentiment":  ("Pairs - Sentiment",  "pleased message",    "annoyed message"),
-    "politeness": ("Pairs - Politeness", "respectful message", "casual message"),
 }
 
 

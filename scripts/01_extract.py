@@ -43,6 +43,7 @@ if args.synthetic:
                 df = pd.DataFrame({
                     "pair_id": [f"P{i:03d}" for i in range(len(pos))],
                     "writer_id": ["synthetic"] * len(pos),
+                    "subject": [f"subj{i % 25}" for i in range(len(pos))],
                 })
                 E.save(cfg.act_dir / f"{lang}_{arm}_{concept}.npz", pos, neg, df)
                 print(f"synthetic {lang} {arm} {concept}: {pos.shape}")
@@ -54,12 +55,15 @@ model, tok = E.load_model(cfg.model_id, cfg.dtype,
 reports = []
 for lang in cfg.languages:
     for arm in cfg.arms:
-        path = cfg.raw_dir / f"{lang}_{arm}.xlsx"
         if not path.exists():
             continue
 
         for concept in D.available_concepts(path):
-            df = D.load_sheet(path, lang=lang, arm=arm, concept=concept)
+            try:
+                df = D.load_sheet(path, lang=lang, arm=arm, concept=concept)
+            except Exception as exc:
+                print(f"skip {lang} {arm} {concept}: {exc}")
+                continue
             rep = D.validate(df)
             print(f"\n=== {lang} {arm} {concept} [pool={args.pool}] ==="
                   f"\n{D.summarise(rep)}")
