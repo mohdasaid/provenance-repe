@@ -1,6 +1,6 @@
 """Every check, in one reproducible run. Writes CSVs, not just stdout.
 
-    python scripts/08_audit.py --lang yor --concept sentiment
+    python scripts/08_audit.py --lang yor --concept sentiment --pool mean
 
 Consolidates the checks that were previously done in ad-hoc notebook cells:
 
@@ -10,11 +10,15 @@ Consolidates the checks that were previously done in ad-hoc notebook cells:
   layer_choice.csv   candidate best-layer rules and what each one gives you
   summary.txt        human-readable log of the whole run
 
+All outputs carry the pooling in their filename: activations are
+pooling-specific, and a --pool mean run would otherwise overwrite the
+--pool last results in place.
+
 Layer-selection rule, fixed in advance:
   choose the layer with the highest split-half stability AMONG layers whose
   length overlap is below --max-overlap. The last layer usually has the
   highest raw stability but also the worst length contamination, so picking
-  on stability alone selects the most confounded layer..
+  on stability alone selects the most confounded layer.
 """
 import argparse
 import sys
@@ -36,12 +40,14 @@ ap.add_argument("--lang", default="yor")
 ap.add_argument("--concept", default="sentiment")
 ap.add_argument("--max-overlap", type=float, default=0.15,
                 help="length-overlap ceiling for the layer-selection rule")
+ap.add_argument("--pool", default="mean", choices=["last", "mean"],
+                help="which pooled activations to analyse")
 ap.add_argument("--tag", default="")
 args = ap.parse_args()
 
 cfg = Config.load()
 cfg.results_dir.mkdir(parents=True, exist_ok=True)
-suffix = f"_{args.tag}" if args.tag else ""
+suffix = f"_{args.tag}_{args.pool}" if args.tag else f"_{args.pool}"
 stem = f"{args.lang}_{args.concept}{suffix}"
 
 log_lines = []
@@ -53,7 +59,8 @@ def log(s=""):
 
 
 log(f"audit run {datetime.now().isoformat(timespec='seconds')}")
-log(f"model {cfg.model_id}  |  {args.lang} / {args.concept}")
+log(f"model {cfg.model_id}  |  {args.lang} / {args.concept}  "
+    f"|  pool {args.pool}")
 log()
 
 
@@ -68,9 +75,11 @@ def pair_lengths(arm):
 arms, lengths = {}, {}
 subjects = None
 for arm in cfg.arms:
-    p = cfg.act_dir / f"{args.lang}_{arm}_{args.concept}.npz"
+    p = E.act_path(cfg.act_dir, args.lang, arm, args.concept, args.pool)
     if not p.exists():
         continue
+    # a pooling mismatch silently changes what is being measured
+    E.check_meta(p, expect_pool=args.pool, expect_model=cfg.model_id)
     pos, neg, _, _, subj = E.load(p)
     arms[arm] = (pos, neg)
     if arm == "A":
@@ -134,7 +143,8 @@ for arm in arms:
     c = V.compare_arms((posA, negA), arms[arm])
     for l in range(n_layers):
         rows.append({
-            "lang": args.lang, "concept": args.concept, "arm": arm, "layer": l,
+            "lang": args.lang, "concept": args.concept, "pool": args.pool,
+            "model": cfg.model_id, "arm": arm, "layer": l,
             "cosine": c[l], "floor_mean": floor["mean"][l],
             "floor_lo": floor["lo"][l], "floor_hi": floor["hi"][l],
             "floor_lo_pairwise": floor_pair["lo"][l],
@@ -157,8 +167,11 @@ choice_rows = []
 for name, l in rules.items():
     if l < 0:
         continue
-    entry = {"rule": name, "layer": l, "floor": floor["mean"][l],
-             "floor_lo": floor["lo"][l], "length_overlap": overlap[l]}
+    entry = {"rule": name, "lang": args.lang, "model": cfg.model_id,
+             "pool": args.pool, "layer": l, "floor": floor["mean"][l],
+             "floor_lo": floor["lo"][l],
+             "floor_lo_pairwise": floor_pair["lo"][l],
+             "length_overlap": overlap[l]}
     for arm in arms:
         if arm == "A":
             continue
@@ -181,15 +194,20 @@ log(f"  floor {floor['mean'][L]:.3f} [{floor['lo'][L]:.3f}-{floor['hi'][L]:.3f}]
     f"  length overlap {overlap[L]:.3f}")
 log(f"  floor at L{L}: by-subject {floor['mean'][L]:.3f} "
     f"[{floor['lo'][L]:.3f}] | by-pair {floor_pair['mean'][L]:.3f} "
-    f"[{floor_pair['lo'][L]:.3f}]")
+    f"[{floor_pair['lo'][L]:.3f}]  "
+    f"(pair-level resampling inflates floor_lo by "
+    f"{floor_pair['lo'][L] - floor['lo'][L]:+.3f})")
 for arm in arms:
     if arm == "A":
         continue
     sub = per_layer[(per_layer.arm == arm)
                     & (per_layer.length_overlap < args.max_overlap)]
+    if len(sub) < 3:
+        log(f"  A vs {arm}: only {len(sub)} clean layers — spread not reported")
+        continue
     log(f"  A vs {arm}: cosine across clean layers "
         f"min {sub.cosine.min():.3f} median {sub.cosine.median():.3f} "
-        f"max {sub.cosine.max():.3f}")
+        f"max {sub.cosine.max():.3f}  (n={len(sub)})")
 log()
 
 log("FRACTION OF LAYERS BELOW FLOOR")
@@ -198,6 +216,11 @@ for arm in arms:
         continue
     sub = per_layer[per_layer.arm == arm]
     lowovl = sub[sub.length_overlap < args.max_overlap]
+    if len(lowovl) < 5:
+        log(f"  A vs {arm}: {sub['below_floor'].mean():.0%} of all layers; "
+            f"only {len(lowovl)} clean layers, so the clean-layer fraction "
+            f"is not reportable")
+        continue
     log(f"  A vs {arm}: {sub['below_floor'].mean():.0%} of all layers, "
         f"{lowovl['below_floor'].mean():.0%} of low-length-overlap layers "
         f"(n={len(lowovl)})")
@@ -258,6 +281,8 @@ if "C" in arms and "C" in lengths:
     match = pd.DataFrame(m_rows)
     match.to_csv(cfg.results_dir / f"matching_audit_{stem}.csv", index=False)
     log("LENGTH-MATCHING AUDIT (what the matched subsample actually selects)")
+    log("  subsetting by length breaks the subject balance, so these floors")
+    log("  are less well estimated than the full-sample one above")
     log(match.to_string(index=False))
     log()
     if len(match) and (match["pctile_within_A"].mean() > 0.65

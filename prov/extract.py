@@ -1,4 +1,4 @@
-"""Extract last-token hidden states, one vector per layer per sentence.
+"""Extract pooled hidden states, one vector per layer per sentence.
 
 Output shape: (n_sentences, n_layers + 1, d_model), float32 on disk.
 
@@ -43,10 +43,10 @@ def extract(texts: list[str], model, tok, batch_size: int = 16,
     pool="last"  gather at the true final token (attention_mask.sum(1) - 1).
     pool="mean"  average over all real (non-pad) tokens.
 
-    Which is better is language-dependent: last-token wins for low-fertility
-    languages like English, mean-pooling wins where words fragment into many
-    subword tokens. Pooling is done per layer so peak memory is one layer
-    rather than the whole stack.
+    Which is better is language-dependent: the last-token advantage narrows
+    as tokenizer fertility rises, and reverses in some cells. It is not a
+    settled rule -- measure it per language and model. Pooling is done per
+    layer so peak memory is one layer rather than the whole stack.
     """
     import torch
 
@@ -92,17 +92,72 @@ def extract_pairs(df, model, tok, **kw) -> tuple[np.ndarray, np.ndarray]:
     return pos, neg
 
 
-def save(path: Path, pos, neg, df) -> None:
+def act_path(act_dir: Path, lang: str, arm: str, concept: str,
+             pool: str) -> Path:
+    """Where a set of activations lives.
+
+    The pooling belongs in the filename. Activations are pooling-specific, so
+    without it a --pool mean run overwrites the --pool last output in place
+    and whatever ran last is what every downstream script reads, with no
+    record of which.
+    """
+    return act_dir / f"{lang}_{arm}_{concept}_{pool}.npz"
+
+
+def save(path: Path, pos, neg, df, model_id: str = "", pool: str = "") -> None:
+    """Write activations plus enough provenance to identify them later.
+
+    model_id and pool are stored inside the file as well as in its name, so a
+    renamed or relocated file can still say what produced it.
+    """
     path.parent.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(path, pos=pos, neg=neg,
                         pair_id=df["pair_id"].to_numpy().astype(str),
                         writer_id=df["writer_id"].to_numpy().astype(str),
-                        subject=df["subject"].to_numpy().astype(str))
+                        subject=df["subject"].to_numpy().astype(str),
+                        model_id=np.array(model_id),
+                        pool=np.array(pool))
+
 
 def load(path: Path):
+    """Returns (pos, neg, pair_id, writer_id, subject)."""
     z = np.load(path, allow_pickle=False)
     subj = z["subject"] if "subject" in z else None
     return z["pos"], z["neg"], z["pair_id"], z["writer_id"], subj
+
+
+def load_meta(path: Path) -> dict:
+    """What produced this file. Empty strings for files written before the
+    metadata was recorded, so callers should treat "" as unknown rather than
+    as a mismatch."""
+    z = np.load(path, allow_pickle=False)
+    return {"model_id": str(z["model_id"]) if "model_id" in z else "",
+            "pool": str(z["pool"]) if "pool" in z else "",
+            "n_pairs": int(z["pos"].shape[0]),
+            "n_layers": int(z["pos"].shape[1]),
+            "d_model": int(z["pos"].shape[2])}
+
+
+def check_meta(path: Path, expect_pool: str = "", expect_model: str = "",
+               strict: bool = True) -> dict:
+    """Guard against analysing activations from the wrong run.
+
+    Returns the metadata. Raises on a pooling mismatch when strict, since
+    that silently changes what is being measured; a model mismatch only
+    warns, because the config is reset often enough that the file is usually
+    the more reliable record.
+    """
+    meta = load_meta(path)
+    if expect_pool and meta["pool"] and meta["pool"] != expect_pool:
+        msg = (f"{path.name} was written with pool={meta['pool']!r}, "
+               f"analysis expects {expect_pool!r}")
+        if strict:
+            raise ValueError(msg)
+        print(f"  WARNING: {msg}")
+    if expect_model and meta["model_id"] and meta["model_id"] != expect_model:
+        print(f"  WARNING: {path.name} came from {meta['model_id']}, "
+              f"config says {expect_model}")
+    return meta
 
 
 # ---------------------------------------------------------------- synthetic

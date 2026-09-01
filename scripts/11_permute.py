@@ -49,6 +49,8 @@ ap.add_argument("--trials", type=int, default=10000)
 ap.add_argument("--max-overlap", type=float, default=0.15)
 ap.add_argument("--unit", default="subject", choices=["subject", "item"],
                 help="shuffle whole subjects (default) or individual pairs")
+ap.add_argument("--pool", default="mean", choices=["last", "mean"],
+                help="which pooled activations to analyse")
 ap.add_argument("--layer-window", type=int, default=1,
                 help="also test L+-k around the chosen layer")
 args = ap.parse_args()
@@ -91,15 +93,17 @@ def pvals(null, obs, trials):
 
 
 for lang in cfg.languages:
-    pA = cfg.act_dir / f"{lang}_A_sentiment.npz"
+    pA = E.act_path(cfg.act_dir, lang, "A", "sentiment", args.pool)
     if not pA.exists():
         continue
+    E.check_meta(pA, expect_pool=args.pool, expect_model=cfg.model_id)
     posA, negA, _, _, subj = E.load(pA)
 
     arms = {}
     for a in ("B", "C", "D"):
-        p = cfg.act_dir / f"{lang}_{a}_sentiment.npz"
+        p = E.act_path(cfg.act_dir, lang, a, "sentiment", args.pool)
         if p.exists():
+            E.check_meta(p, expect_pool=args.pool, expect_model=cfg.model_id)
             pos, neg = E.load(p)[:2]
             if len(pos) == len(posA):
                 arms[a] = (pos, neg)
@@ -132,6 +136,7 @@ for lang in cfg.languages:
     print(f"{lang}  model {cfg.model_id}  arms {sorted(arms)}")
     print(f"  chosen layer L{L0} (floor {floor['mean'][L0]:.3f}, "
           f"overlap {overlap[L0]:.3f}); also testing {layers}")
+    print(f"  pooling {args.pool}")
     print(f"  shuffling by {args.unit}, {args.trials} trials, "
           f"{len(np.unique(subj))} subjects")
     print("=" * 78)
@@ -180,14 +185,15 @@ for lang in cfg.languages:
                     "null_mean": null.mean(), "null_lo": lo, "null_hi": hi,
                     "p_closer": pc, "p_further": pf,
                     "margin_to_null_hi": obs[a] - hi,
-                    "unit": args.unit, "trials": args.trials,
+                    "pool": args.pool, "unit": args.unit,
+                    "trials": args.trials,
                 })
 
 if not rows:
     sys.exit("nothing to test — need arm A plus two row-matched arms")
 
 suffix = f"_{args.tag}" if args.tag else ""
-out = cfg.results_dir / f"permutation{suffix}_{args.unit}.csv"
+out = cfg.results_dir / f"permutation{suffix}_{args.pool}_{args.unit}.csv"
 pd.DataFrame(rows).to_csv(out, index=False)
 print(f"\nwrote {out}")
 print("\nReport the loo_ and bc_only rows. The full rows keep each arm inside")

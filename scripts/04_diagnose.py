@@ -79,11 +79,15 @@ def extract_pooled(texts, pool):
     return np.concatenate(chunks, 0)
 
 
-def length_overlap(pos, neg):
-    """|cos(concept direction, long-vs-short direction)| per layer."""
+def length_overlap(pos, neg, lengths):
+    """|cos(concept direction, long-vs-short direction)| per layer.
+
+    lengths must align with pos/neg row-for-row. Passing it in rather than
+    closing over the full-sample vector matters for subsampled calls.
+    """
     both = np.concatenate([pos, neg])
-    ml = np.concatenate([lens, lens])
-    med = np.median(lens)
+    ml = np.concatenate([lengths, lengths])
+    med = np.median(lengths)
     ldir = both[ml > med].mean(0) - both[ml <= med].mean(0)
     ldir /= np.clip(np.linalg.norm(ldir, axis=-1, keepdims=True), 1e-9, None)
     return np.abs(V.cosine(V.diff_in_means(pos, neg), ldir))
@@ -99,7 +103,7 @@ def report(name, pos, neg, pool=None):
     # A bare argmax picks the most STABLE layer, and length-contaminated
     # layers are highly stable because length is a strong, reproducible
     # signal. Restrict to layers where the direction is not mostly length.
-    ov = length_overlap(pos, neg)
+    ov = length_overlap(pos, neg, lens)
     clean = ov < args.max_overlap
     if clean.any():
         layer = int(np.argmax(np.where(clean, floor["mean"], -np.inf)))
@@ -128,6 +132,19 @@ def report(name, pos, neg, pool=None):
                  "bare_argmax_overlap": float(ov[bare])})
     return floor, layer
 
+def clean_argmax_floor(pos, neg, lengths, subjects_sub):
+    """Floor at the most stable layer that is not length-contaminated."""
+    f = (V.split_half_floor_clustered(pos, neg, subjects=subjects_sub,
+                                      n_splits=20, seed=0)
+         if subjects_sub is not None else
+         V.split_half_floor(pos, neg, n_splits=20, seed=0))
+    ov = length_overlap(pos, neg, lengths)
+    cl = ov < args.max_overlap
+    L = (int(np.argmax(np.where(cl, f["mean"], -np.inf))) if cl.any()
+         else V.best_layer(f))
+    return f["mean"][L], L, int(cl.sum())
+
+
 rows = []
 results = {}
 for pool in ("last", "mean"):
@@ -140,19 +157,15 @@ print("\n--- 1/2. read-out position, raw ---")
 for pool, (pos, neg) in results.items():
     report(f"{pool}-token", pos, neg, pool=pool)
 
-# Centring is not reported: diff_in_means subtracts one class mean from the
-# other, so any constant removed from both cancels exactly. Kept only to
-# build the arrays the n-scaling block reuses.
-centred = {}
-for pool, (pos, neg) in results.items():
-    mu = np.concatenate([pos, neg], 0).mean(0, keepdims=True)
-    centred[pool] = (pos - mu, neg - mu)
+# Centring is not reported and not computed: diff_in_means subtracts one
+# class mean from the other, so any constant removed from both cancels
+# exactly. It was a no-op that read as if it mattered.
 
 print("\n--- 1. is the concept linearly there at all? ---")
 print("(cross-validated probe accuracy; 0.5 = chance)")
 for pool, (pos, neg) in results.items():
     best = (0, -1)
-    for layer in range(0, pos.shape[1], 4):
+    for layer in range(pos.shape[1]):
         X = np.concatenate([pos[:, layer, :], neg[:, layer, :]])
         y = np.concatenate([np.ones(len(pos)), np.zeros(len(neg))])
         clf = make_pipeline(StandardScaler(),
@@ -165,24 +178,45 @@ for pool, (pos, neg) in results.items():
              "model": cfg.model_id, "measure": "probe", "pool": pool,
              "layer": best[1], "value": best[0]})
 
-print("\n--- 4. is n the problem? ---")
-pos, neg = centred["mean"]
-for n in (25, 50, len(pos)):
-    if subjects is not None:
-        f = V.split_half_floor_clustered(pos[:n], neg[:n],
-                                         subjects=subjects[:n],
-                                         n_splits=20, seed=0)
+print("\n--- 3. is n the problem? ---")
+print("  subjects sampled at random, 10 draws per size; spread across draws")
+pos, neg = results["mean"]
+rng = np.random.default_rng(0)
+uniq = np.unique(subjects) if subjects is not None else None
+sizes = [25, 50, len(pos)]
+
+for n in sizes:
+    if subjects is None or n >= len(pos):
+        val, L, _ = clean_argmax_floor(pos, neg, lens, subjects)
+        vals, npairs = [val], [len(pos)]
     else:
-        f = V.split_half_floor(pos[:n], neg[:n], n_splits=20, seed=0)
-    ovn = length_overlap(pos[:n], neg[:n])
-    cln = ovn < args.max_overlap
-    Ln = (int(np.argmax(np.where(cln, f["mean"], -np.inf))) if cln.any()
-          else V.best_layer(f))
-    print(f"  n={n:<4} floor {f['mean'][Ln]:.3f} (L{Ln})")
+        # take whole subjects, not the first n rows: the sheet is ordered by
+        # subject with several pairs each, so pos[:25] is ~6 subjects and
+        # confounds sample size with subject count
+        k = max(2, round(n / len(pos) * len(uniq)))
+        vals, npairs = [], []
+        for _ in range(10):
+            keep = rng.choice(uniq, k, replace=False)
+            idx = np.flatnonzero(np.isin(subjects, keep))
+            if len(idx) < 10:
+                continue
+            v, _, _ = clean_argmax_floor(pos[idx], neg[idx], lens[idx],
+                                         subjects[idx])
+            vals.append(v)
+            npairs.append(len(idx))
+    if not vals:
+        continue
+    vals = np.array(vals)
+    print(f"  n~{n:<4} floor {vals.mean():.3f} "
+          f"(sd {vals.std():.3f}, range {vals.min():.3f}-{vals.max():.3f}, "
+          f"{len(vals)} draws, {int(np.mean(npairs))} pairs)")
     rows.append({"lang": args.lang, "concept": args.concept,
                  "model": cfg.model_id, "measure": "n_scaling",
-                 "pool": "mean", "n": n, "layer": Ln,
-                 "value": f["mean"][Ln]})
+                 "pool": "mean", "n": n,
+                 "n_pairs_actual": float(np.mean(npairs)),
+                 "value": float(vals.mean()), "sd": float(vals.std()),
+                 "lo": float(vals.min()), "hi": float(vals.max()),
+                 "n_draws": len(vals)})
 
 print("\n--- sanity ---")
 pos, neg = results["last"]
