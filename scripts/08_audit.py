@@ -220,13 +220,32 @@ if "C" in arms and "C" in lengths:
         if len(kA) < 25:
             continue
         kA, kC = np.array(kA), np.array(kC)
+
+        # a length-matched subset can leave too few subjects to split
+        if subjects is not None and len(np.unique(subjects[kA])) < 6:
+            continue
+
         pctA = float((lenA < lenA[kA].mean()).mean())
         pctC = float((lenC < lenC[kC].mean()).mean())
-        f2 = V.split_half_floor(posA[kA], negA[kA], n_splits=cfg.n_splits,
-                                seed=cfg.seed)
+
+        # same resampling scheme as the main table
+        if subjects is not None:
+            f2 = V.split_half_floor_clustered(
+                posA[kA], negA[kA], subjects=subjects[kA],
+                n_splits=cfg.n_splits, seed=cfg.seed)
+        else:
+            f2 = V.split_half_floor(posA[kA], negA[kA],
+                                    n_splits=cfg.n_splits, seed=cfg.seed)
+
         c2 = V.compare_arms((posA[kA], negA[kA]),
                             (arms["C"][0][kC], arms["C"][1][kC]))
-        l2 = int(np.argmax(f2["mean"]))
+
+        # same layer rule as the main table: exclude length-contaminated layers
+        clean_idx = np.where(overlap < args.max_overlap)[0]
+        if len(clean_idx) == 0:
+            continue
+        l2 = int(clean_idx[np.argmax(f2["mean"][clean_idx])])
+        
         m_rows.append({
             "tolerance": tol, "n": len(kA),
             "matched_len_A": lenA[kA].mean(), "matched_len_C": lenC[kC].mean(),
