@@ -8,9 +8,7 @@
 2. Is last-token the wrong read-out position? -> compare against mean pooling
    over real (non-pad) tokens. Short natural sentences with no prompt template
    often have an uninformative final token.
-3. Are outlier dimensions swamping the difference? -> centre the activations
-   (subtract the per-layer mean across all examples) before differencing.
-4. Is n too small? -> floor at n=25, 50, 100 to see whether it is climbing.
+3. Is n too small? -> floor at n=25, 50, 100 to see whether it is climbing.
 """
 import argparse
 import sys
@@ -34,6 +32,8 @@ ap.add_argument("--cpu", action="store_true")
 ap.add_argument("--lang", default="yor")
 ap.add_argument("--concept", default="sentiment")
 ap.add_argument("--tag", default="", help="suffix for the output file")
+ap.add_argument("--max-overlap", type=float, default=0.15,
+                help="length-overlap ceiling for layer selection")
 args = ap.parse_args()
 
 cfg = Config.load()
@@ -47,6 +47,8 @@ else:
                       concept=args.concept)
 print(f"{len(df)} pairs\n")
 subjects = df["subject"].to_numpy().astype(str) if "subject" in df.columns else None
+lens = ((df["positive"].str.split().str.len()
+         + df["negative"].str.split().str.len()) / 2).to_numpy(float)
 
 model, tok = E.load_model(cfg.model_id, cfg.dtype,
                           device="cpu" if args.cpu else "auto")
@@ -77,20 +79,53 @@ def extract_pooled(texts, pool):
     return np.concatenate(chunks, 0)
 
 
+def length_overlap(pos, neg):
+    """|cos(concept direction, long-vs-short direction)| per layer."""
+    both = np.concatenate([pos, neg])
+    ml = np.concatenate([lens, lens])
+    med = np.median(lens)
+    ldir = both[ml > med].mean(0) - both[ml <= med].mean(0)
+    ldir /= np.clip(np.linalg.norm(ldir, axis=-1, keepdims=True), 1e-9, None)
+    return np.abs(V.cosine(V.diff_in_means(pos, neg), ldir))
+
+
 def report(name, pos, neg, pool=None):
     if subjects is not None:
         floor = V.split_half_floor_clustered(pos, neg, subjects=subjects,
                                              n_splits=20, seed=0)
     else:
         floor = V.split_half_floor(pos, neg, n_splits=20, seed=0)
-    layer = V.best_layer(floor)
+
+    # A bare argmax picks the most STABLE layer, and length-contaminated
+    # layers are highly stable because length is a strong, reproducible
+    # signal. Restrict to layers where the direction is not mostly length.
+    ov = length_overlap(pos, neg)
+    clean = ov < args.max_overlap
+    if clean.any():
+        layer = int(np.argmax(np.where(clean, floor["mean"], -np.inf)))
+    else:
+        layer = V.best_layer(floor)
+        print(f"  [{name}] no layer under overlap {args.max_overlap}")
+
+    bare = int(np.argmax(floor["mean"]))
     print(f"{name:<28} floor {floor['mean'][layer]:.3f} "
-          f"(layer {layer}, 95% {floor['lo'][layer]:.3f}-{floor['hi'][layer]:.3f})")
+          f"(L{layer}, 95% {floor['lo'][layer]:.3f}-{floor['hi'][layer]:.3f}, "
+          f"overlap {ov[layer]:.3f}, {int(clean.sum())}/{len(clean)} clean)")
+    if bare != layer:
+        print(f"{'':<28} bare argmax would take L{bare}: "
+              f"floor {floor['mean'][bare]:.3f}, overlap {ov[bare]:.3f}")
+
     rows.append({"lang": args.lang, "concept": args.concept,
                  "model": cfg.model_id, "measure": "floor", "pool": pool,
                  "label": name, "layer": layer,
                  "value": floor["mean"][layer],
-                 "lo": floor["lo"][layer], "hi": floor["hi"][layer]})
+                 "lo": floor["lo"][layer], "hi": floor["hi"][layer],
+                 "length_overlap": float(ov[layer]),
+                 "n_clean_layers": int(clean.sum()),
+                 "n_layers": int(len(clean)),
+                 "bare_argmax_layer": bare,
+                 "bare_argmax_floor": float(floor["mean"][bare]),
+                 "bare_argmax_overlap": float(ov[bare])})
     return floor, layer
 
 rows = []
@@ -105,14 +140,13 @@ print("\n--- 1/2. read-out position, raw ---")
 for pool, (pos, neg) in results.items():
     report(f"{pool}-token", pos, neg, pool=pool)
 
-print("\n--- 3. centred (per-layer mean removed) ---")
+# Centring is not reported: diff_in_means subtracts one class mean from the
+# other, so any constant removed from both cancels exactly. Kept only to
+# build the arrays the n-scaling block reuses.
 centred = {}
 for pool, (pos, neg) in results.items():
-    allx = np.concatenate([pos, neg], 0)
-    mu = allx.mean(0, keepdims=True)
-    cp, cn = pos - mu, neg - mu
-    centred[pool] = (cp, cn)
-    report(f"{pool}-token centred", cp, cn, pool=pool)
+    mu = np.concatenate([pos, neg], 0).mean(0, keepdims=True)
+    centred[pool] = (pos - mu, neg - mu)
 
 print("\n--- 1. is the concept linearly there at all? ---")
 print("(cross-validated probe accuracy; 0.5 = chance)")
@@ -140,11 +174,15 @@ for n in (25, 50, len(pos)):
                                          n_splits=20, seed=0)
     else:
         f = V.split_half_floor(pos[:n], neg[:n], n_splits=20, seed=0)
-    print(f"  n={n:<4} floor {f['mean'][V.best_layer(f)]:.3f}")
+    ovn = length_overlap(pos[:n], neg[:n])
+    cln = ovn < args.max_overlap
+    Ln = (int(np.argmax(np.where(cln, f["mean"], -np.inf))) if cln.any()
+          else V.best_layer(f))
+    print(f"  n={n:<4} floor {f['mean'][Ln]:.3f} (L{Ln})")
     rows.append({"lang": args.lang, "concept": args.concept,
                  "model": cfg.model_id, "measure": "n_scaling",
-                 "pool": "mean", "n": n,
-                 "value": f["mean"][V.best_layer(f)]})
+                 "pool": "mean", "n": n, "layer": Ln,
+                 "value": f["mean"][Ln]})
 
 print("\n--- sanity ---")
 pos, neg = results["last"]
