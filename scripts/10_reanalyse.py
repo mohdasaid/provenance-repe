@@ -61,7 +61,23 @@ def verdict(cosine, floor_mean, floor_lo, min_floor):
 
 
 # ------------------------------------------------------------ gather cells
-files = sorted(glob.glob(str(ROOT / "**" / "per_layer_*.csv"), recursive=True))
+files = [f for f in sorted(glob.glob(str(ROOT / "**" / "per_layer_*.csv"),
+                                     recursive=True))
+         if "results_archive" not in Path(f).parts]
+
+# files from earlier pipeline versions lack the columns the patched audit
+# writes; mixing them in averages two different methods
+_kept = []
+for f in files:
+    try:
+        head = pd.read_csv(f, nrows=1)
+    except Exception:
+        continue
+    if {"pool", "model"} <= set(head.columns):
+        _kept.append(f)
+    else:
+        print(f"  skipping stale {Path(f).name} (no pool/model column)")
+files = _kept
 if not files:
     sys.exit("no per_layer_*.csv found — run 08_audit.py first")
 

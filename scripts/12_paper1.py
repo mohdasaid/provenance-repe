@@ -54,6 +54,8 @@ def dedup(pattern):
     """Every match in the tree, once per distinct content."""
     seen, out = set(), []
     for f in glob.glob(str(ROOT / "**" / pattern), recursive=True):
+        if "results_archive" in Path(f).parts:
+            continue
         h = hashlib.md5(Path(f).read_bytes()).hexdigest()
         if h not in seen:
             seen.add(h)
