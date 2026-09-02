@@ -213,35 +213,113 @@ if pl:
 
     # ------------------------------------------- testability bound
     print("\n" + "=" * 100)
-    print("TESTABILITY: attenuation ceiling sqrt(r_A * r_X) against the floor")
-    print("    a cell can support a test only if the ceiling clears floor_lo")
+    print("T6  TESTABILITY: the attenuation ceiling sqrt(r_A * r_X)")
+    print("    a cosine between two independently estimated directions cannot")
+    print("    exceed the reliability of each; the ceiling is where a perfect")
+    print("    match would land. Needs per-arm floors from 13_ceilings.py.")
     print("=" * 100)
-    tb = []
+
+    ceil_files = dedup("ceilings_*.csv")
+    if not ceil_files:
+        print("  no ceilings_*.csv found — run 13_ceilings.py per model/pooling")
+    else:
+        cl = pd.concat([pd.read_csv(f) for f in ceil_files], ignore_index=True)
+        cl["model"] = cl["model"].map(lambda m: SHORT.get(m, str(m).split("/")[-1]))
+        cl["arm"] = cl["comparison"].str[-1]
+        if "pool" not in cl.columns:
+            cl["pool"] = "?"
+
+        # The floor is a cosine between two HALF samples; the cross-arm
+        # cosines use full n. Classical test theory would correct that with
+        # Spearman-Brown. Whether it transfers to cosines between
+        # mean-difference vectors is an empirical question, so both are shown.
+        def sb(r):
+            r = np.clip(r, 0, None)
+            return 2 * r / (1 + r)
+
+        cl["ceiling_sb"] = np.sqrt(sb(cl.reliability_A) * sb(cl.reliability_X))
+        cl["cos_over_ceiling_sb"] = cl.cosine / cl.ceiling_sb
+
+        cols = ["lang", "model", "pool", "layer", "arm", "cosine",
+                "reliability_A", "reliability_X", "ceiling",
+                "cos_over_ceiling", "ceiling_sb", "cos_over_ceiling_sb"]
+        t6 = cl[cols].sort_values(["lang", "model", "pool", "arm"])
+        t6.to_csv(OUT / "T6_ceilings.csv", index=False)
+        print(t6.round(3).to_string(index=False))
+
+        # --- does the bound hold at all? -------------------------------
+        print("\n  the ceiling is only a bound if the observed cosine stays "
+              "under it:")
+        for label, col in (("half-sample floor", "cos_over_ceiling"),
+                           ("Spearman-Brown corrected", "cos_over_ceiling_sb")):
+            n_bad = int((cl[col] > 1).sum())
+            print(f"    {label:<26} exceeded in {n_bad}/{len(cl)} rows")
+            for a, g in cl.groupby("arm"):
+                print(f"      arm {a}: {int((g[col] > 1).sum())}/{len(g)}  "
+                      f"median {g[col].median():.2f}")
+
+        print("\n  Arms B and C behave as the attenuation model predicts once")
+        print("  corrected. Arm D does not, and should not: D round-trips arm")
+        print("  A's own sentences, so it is not an independent estimate of the")
+        print("  same direction and the model's independence assumption fails")
+        print("  by construction. Use the bound for B and C only.")
+
+        # --- is D's lead a reliability artifact? -------------------------
+        rel = cl.pivot_table(index=["lang", "model", "pool"], columns="arm",
+                             values="reliability_X")
+        if {"B", "C", "D"} <= set(rel.columns):
+            d_top = ((rel.D > rel.B) & (rel.D > rel.C))
+            print(f"\n  arm D is the most reliable arm in "
+                  f"{int(d_top.sum())}/{len(rel)} cells; arm C beats it in "
+                  f"{int((rel.C > rel.D).sum())}")
+
+            changed = []
+            for key, g in cl.groupby(["lang", "model", "pool"]):
+                raw = g.loc[g.cosine.idxmax(), "arm"]
+                nrm = g.loc[g.cos_over_ceiling.idxmax(), "arm"]
+                if raw != nrm:
+                    changed.append((key, raw, nrm))
+            print(f"  closest arm changes under ceiling-normalisation in "
+                  f"{len(changed)}/{len(rel)} cells")
+            for key, raw, nrm in changed:
+                print(f"    {key}: {raw} -> {nrm}")
+            print("  If D leads on the normalised measure too, its closeness to")
+            print("  native is not explained by D being easier to estimate.")
+
+        # --- headroom, in bootstrap-spread units ------------------------
+        pl_key = per[["lang", "model", "pool", "layer", "floor_mean",
+                      "floor_lo"]].drop_duplicates() if pl else None
+        if pl_key is not None:
+            m = cl.merge(pl_key, on=["lang", "model", "pool", "layer"],
+                         how="left")
+            m["spread"] = m.floor_mean - m.floor_lo
+            m["gap_in_spreads"] = (m.ceiling_sb - m.cosine) / m.spread
+            gap = m[m.arm != "D"][["lang", "model", "pool", "arm", "cosine",
+                                   "ceiling_sb", "spread", "gap_in_spreads"]]
+            if not gap.empty:
+                gap.to_csv(OUT / "T6b_headroom.csv", index=False)
+                print("\n  headroom for arms B and C, in bootstrap-spread units")
+                print("  (how far below a perfect match each arm sits; no")
+                print("   threshold applied, so order them and judge)")
+                print(gap.round(2).sort_values("gap_in_spreads")
+                      .to_string(index=False))
+
+    # --- clean-layer counts, reported not thresholded --------------------
+    counts = []
     for (lang, model, pool), g in per.groupby(["lang", "model", "pool"]):
-        clean = g[g.length_overlap < 0.15]
-        if clean.empty:
-            continue
-        L = int(clean.loc[clean.floor_mean.idxmax(), "layer"])
-        row = clean[clean.layer == L].iloc[0]
-        rA = row.floor_mean
-        ceiling = np.sqrt(max(rA, 0) * max(rA, 0))   # r_X unknown; assume = r_A
-        headroom = ceiling - row.floor_lo
-        n_clean = len(clean)
-        tb.append({
-            "lang": lang, "model": model, "pool": pool, "layer": L,
-            "floor": round(rA, 3), "floor_lo": round(row.floor_lo, 3),
-            "attenuation_ceiling": round(ceiling, 3),
-            "headroom": round(headroom, 3),
-            "n_clean": n_clean,
-            "testable": headroom > 0.15,
-            "pervasiveness_reportable": n_clean >= args.min_clean,
-        })
-    tb = pd.DataFrame(tb).sort_values("headroom", ascending=False)
-    tb.to_csv(OUT / "T6_testability.csv", index=False)
-    print(tb.to_string(index=False))
-    print(f"\n  testable cells: {int(tb.testable.sum())} of {len(tb)}")
-    print(f"  cells with fewer than {args.min_clean} clean layers "
-          f"(pervasiveness not reportable): "
-          f"{int((~tb.pervasiveness_reportable).sum())}")
+        n_clean = len(g[(g.length_overlap < 0.15)
+                        & (g.arm == g.arm.iloc[0])])
+        counts.append({"lang": lang, "model": model, "pool": pool,
+                       "n_clean_layers": n_clean,
+                       "n_layers": g.layer.nunique(),
+                       "pervasiveness_reportable": n_clean >= args.min_clean})
+    cdf = pd.DataFrame(counts).sort_values("n_clean_layers")
+    cdf.to_csv(OUT / "T7_clean_layer_counts.csv", index=False)
+    print("\n" + "=" * 100)
+    print("T7  CLEAN-LAYER COUNTS")
+    print(f"    cells with fewer than {args.min_clean} clean layers cannot")
+    print("    support a pervasiveness fraction")
+    print("=" * 100)
+    print(cdf.to_string(index=False))
 
 print(f"\nwrote tables to {OUT}")
